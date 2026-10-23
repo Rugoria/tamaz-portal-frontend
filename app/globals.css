@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* Design tokens from the Claude Design project "Tamaz shared screens" (light theme, Figtree). */
+:root {
+  --bg: #F3F7FC;
+  --surface: #FFFFFF;
+  --surface-2: #E6EEF8;
+  --ink: #0B1F3A;
+  --muted: #52657E;
+  --line: #D3DFEC;
+  --accent: #1D6FE8;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #E3EDFC;
+  --accent-deep: #1456B8;
+  --aqua: #0E8FB3;
+  --aqua-soft: #D6F0F7;
+  --aqua-deep: #0B5F78;
+  --amber: #8A5A00;
+  --amber-soft: #FBF0D6;
+  --amber-line: #E8CF92;
+  --red: #B3261E;
+  --red-soft: #FCE8E6;
+  --red-line: #F0C4C0;
+  --green: #1B6B3F;
+  --green-soft: #DDF3E6;
+  --deep: #0B1F3A;
+  --deep-ink: #EAF1FA;
+  --deep-2: #1C2F48;
+  --deep-line: #304158;
+  --deep-muted: #95A1B1;
+  --deep-aqua: #43A8C4;
+  --pending-bg: #FFF3C4;
+  --pending-ink: #6B4B00;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-deep: var(--accent-deep);
+  --color-aqua: var(--aqua);
+  --color-aqua-soft: var(--aqua-soft);
+  --color-aqua-deep: var(--aqua-deep);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-amber-line: var(--amber-line);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --color-red-line: var(--red-line);
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+  --color-deep: var(--deep);
+  --color-deep-ink: var(--deep-ink);
+  --color-deep-2: var(--deep-2);
+  --color-deep-line: var(--deep-line);
+  --color-deep-muted: var(--deep-muted);
+  --color-deep-aqua: var(--deep-aqua);
+  --color-pending-bg: var(--pending-bg);
+  --color-pending-ink: var(--pending-ink);
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* In the base layer so Tailwind utility classes (text-ink, text-deep-ink...) can override the default link colour. */
+@layer base {
+  html {
+    background: var(--bg);
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    margin: 0;
+  }
+
+  a {
+    color: var(--accent);
+  }
+  a:hover {
+    color: var(--ink);
+  }
+
+  /* Visible keyboard focus everywhere. */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes tz-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+.tz-pulse {
+  animation: tz-pulse 1.4s infinite;
+}
+
+@keyframes tz-dot {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 1; }
+}
+.tz-dot {
+  animation: tz-dot 1s infinite;
+}
+
+html[dir="rtl"] { --font-figtree: Tahoma, Arial, sans-serif; }
+input[type="email"], input[type="tel"], input[type="url"] { direction: ltr; text-align: start; }
+html[dir="rtl"] .directional-icon { transform: scaleX(-1); }

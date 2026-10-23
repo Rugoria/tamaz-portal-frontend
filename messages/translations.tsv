@@ -1,0 +1,1060 @@
+Language|اللغة|Langue|Idioma
+Remember my language on this device|تذكر لغتي على هذا الجهاز|Mémoriser ma langue sur cet appareil|Recordar mi idioma en este dispositivo
+Apply|تطبيق|Appliquer|Aplicar
+Applying…|جارٍ التطبيق…|Application…|Aplicando…
+Could not change language. Please try again.|تعذر تغيير اللغة. يرجى المحاولة مرة أخرى.|Impossible de changer la langue. Veuillez réessayer.|No se pudo cambiar el idioma. Inténtelo de nuevo.
+Sign in|تسجيل الدخول|Se connecter|Iniciar sesión
+Sign out|تسجيل الخروج|Se déconnecter|Cerrar sesión
+Email|البريد الإلكتروني|E-mail|Correo electrónico
+Password|كلمة المرور|Mot de passe|Contraseña
+Home|الرئيسية|Accueil|Inicio
+Overview|نظرة عامة|Vue d’ensemble|Resumen
+Patients|المرضى|Patients|Pacientes
+Patient|المريض|Patient|Paciente
+patient|مريض|patient|paciente
+patients|مرضى|patients|pacientes
+Doctor|الطبيب|Médecin|Doctor
+Doctors|الأطباء|Médecins|Doctores
+Clinic|العيادة|Clinique|Clínica
+Clinics|العيادات|Cliniques|Clínicas
+Admin|المسؤول|Administrateur|Administrador
+Account|الحساب|Compte|Cuenta
+account|حساب|compte|cuenta
+Accounts|الحسابات|Comptes|Cuentas
+Case|الحالة|Dossier|Caso
+case|حالة|dossier|caso
+Cases|الحالات|Dossiers|Casos
+Case ID|معرّف الحالة|Identifiant du dossier|ID del caso
+Case status|حالة الملف|État du dossier|Estado del caso
+Case progress|تقدم الحالة|Progression du dossier|Progreso del caso
+Your case|حالتك|Votre dossier|Su caso
+Case chat|محادثة الحالة|Discussion du dossier|Chat del caso
+New case|حالة جديدة|Nouveau dossier|Nuevo caso
+First case|الحالة الأولى|Premier dossier|Primer caso
+Latest case|أحدث حالة|Dernier dossier|Último caso
+Messages|الرسائل|Messages|Mensajes
+Message|رسالة|Message|Mensaje
+New message|رسالة جديدة|Nouveau message|Nuevo mensaje
+Message clinic|مراسلة العيادة|Contacter la clinique|Contactar con la clínica
+Message patient|مراسلة المريض|Contacter le patient|Contactar con el paciente
+Message sender|مراسلة المرسل|Contacter l’expéditeur|Contactar con el remitente
+Sender|المرسل|Expéditeur|Remitente
+Sent by|أرسلت بواسطة|Envoyé par|Enviado por
+Unread messages|الرسائل غير المقروءة|Messages non lus|Mensajes sin leer
+Unread|غير مقروء|Non lu|Sin leer
+unread|غير مقروء|non lus|sin leer
+new messages|رسائل جديدة|nouveaux messages|mensajes nuevos
+Notifications|الإشعارات|Notifications|Notificaciones
+Latest notifications|أحدث الإشعارات|Dernières notifications|Últimas notificaciones
+Alerts|التنبيهات|Alertes|Avisos
+Mark all as read|تحديد الكل كمقروء|Tout marquer comme lu|Marcar todo como leído
+Mark as read|تحديد كمقروء|Marquer comme lu|Marcar como leído
+Appointments|المواعيد|Rendez-vous|Citas
+appointment|موعد|rendez-vous|cita
+appointments|مواعيد|rendez-vous|citas
+My appointments|مواعيدي|Mes rendez-vous|Mis citas
+Book an appointment|حجز موعد|Prendre rendez-vous|Reservar una cita
+Book appointment|حجز موعد|Prendre rendez-vous|Reservar cita
+Book|حجز|Réserver|Reservar
+Bookings|الحجوزات|Réservations|Reservas
+Booked by|حجز بواسطة|Réservé par|Reservado por
+Booked|محجوز|Réservé|Reservado
+booked|محجوز|réservés|reservados
+Slots|الفترات الزمنية|Créneaux|Franjas horarias
+slot|فترة زمنية|créneau|franja horaria
+slots|فترات زمنية|créneaux|franjas horarias
+Open times|الأوقات المتاحة|Créneaux disponibles|Horarios disponibles
+Open|متاح|Disponible|Disponible
+open|متاح|disponibles|disponibles
+Add slots|إضافة فترات زمنية|Ajouter des créneaux|Añadir franjas horarias
+Edit slot|تعديل الفترة الزمنية|Modifier le créneau|Editar franja horaria
+Remove slot|حذف الفترة الزمنية|Supprimer le créneau|Eliminar franja horaria
+Slot length (minutes)|مدة الفترة بالدقائق|Durée du créneau (minutes)|Duración de la franja (minutos)
+Repeat weekly for|تكرار أسبوعي لمدة|Répéter chaque semaine pendant|Repetir semanalmente durante
+Day|اليوم|Jour|Día
+Time|الوقت|Heure|Hora
+From|من|De|Desde
+To|إلى|À|Hasta
+to|إلى|à|a
+at|في|à|a las
+or|أو|ou|o
+of|من|sur|de
+of 24|من 24|sur 24|de 24
+selected|محدد|sélectionnés|seleccionados
+Past|السابقة|Passés|Anteriores
+Upcoming|القادمة|À venir|Próximas
+Today’s appointments|مواعيد اليوم|Rendez-vous du jour|Citas de hoy
+Today's appointments|مواعيد اليوم|Rendez-vous du jour|Citas de hoy
+Next month|الشهر التالي|Mois suivant|Mes siguiente
+Previous month|الشهر السابق|Mois précédent|Mes anterior
+Next|التالي|Suivant|Siguiente
+Previous|السابق|Précédent|Anterior
+Review booking|مراجعة الحجز|Vérifier la réservation|Revisar reserva
+Review your booking|مراجعة حجزك|Vérifiez votre réservation|Revise su reserva
+Confirm booking|تأكيد الحجز|Confirmer la réservation|Confirmar reserva
+Keep booking|الاحتفاظ بالحجز|Conserver la réservation|Mantener reserva
+Cancel booking|إلغاء الحجز|Annuler la réservation|Cancelar reserva
+Cancel appointment|إلغاء الموعد|Annuler le rendez-vous|Cancelar cita
+Cancel this appointment?|هل تريد إلغاء هذا الموعد؟|Annuler ce rendez-vous ?|¿Cancelar esta cita?
+Cancel this booking?|هل تريد إلغاء هذا الحجز؟|Annuler cette réservation ?|¿Cancelar esta reserva?
+Appointment cancelled.|تم إلغاء الموعد.|Rendez-vous annulé.|Cita cancelada.
+Booking cancelled. The patient has been told.|تم إلغاء الحجز وإبلاغ المريض.|Réservation annulée. Le patient a été informé.|Reserva cancelada. Se ha informado al paciente.
+Cancelled by clinic|ألغته العيادة|Annulé par la clinique|Cancelada por la clínica
+You cancelled|ألغيت الموعد|Vous avez annulé|Usted canceló
+Move your appointment|تغيير موعدك|Déplacer votre rendez-vous|Cambiar su cita
+Reschedule|تغيير الموعد|Reprogrammer|Reprogramar
+Review new time|مراجعة الوقت الجديد|Vérifier le nouvel horaire|Revisar nuevo horario
+Review the new time|مراجعة الوقت الجديد|Vérifiez le nouvel horaire|Revise el nuevo horario
+Confirm new time|تأكيد الوقت الجديد|Confirmer le nouvel horaire|Confirmar nuevo horario
+Book another time|حجز وقت آخر|Réserver un autre horaire|Reservar otro horario
+View my appointments|عرض مواعيدي|Voir mes rendez-vous|Ver mis citas
+You're booked|تم تأكيد حجزك|Votre réservation est confirmée|Su reserva está confirmada
+Your appointment was moved|تم تغيير موعدك|Votre rendez-vous a été déplacé|Su cita se ha cambiado
+Profile|الملف الشخصي|Profil|Perfil
+Edit profile|تعديل الملف الشخصي|Modifier le profil|Editar perfil
+Complete your profile|أكمل ملفك الشخصي|Complétez votre profil|Complete su perfil
+Profile saved.|تم حفظ الملف الشخصي.|Profil enregistré.|Perfil guardado.
+About you|معلوماتك|À propos de vous|Sobre usted
+Full name|الاسم الكامل|Nom complet|Nombre completo
+Name|الاسم|Nom|Nombre
+First name|الاسم الأول|Prénom|Nombre
+Middle name|الاسم الأوسط|Deuxième prénom|Segundo nombre
+Last name|اسم العائلة|Nom de famille|Apellido
+Clinic name|اسم العيادة|Nom de la clinique|Nombre de la clínica
+Contact number|رقم الاتصال|Numéro de téléphone|Número de contacto
+Phone|الهاتف|Téléphone|Teléfono
+Address|العنوان|Adresse|Dirección
+Address line|العنوان|Adresse|Dirección
+City|المدينة|Ville|Ciudad
+Postcode|الرمز البريدي|Code postal|Código postal
+State|الولاية|Région|Provincia
+Country|الدولة|Pays|País
+Date|التاريخ|Date|Fecha
+Date of birth|تاريخ الميلاد|Date de naissance|Fecha de nacimiento
+Gender|الجنس|Sexe|Sexo
+Office|المكتب|Cabinet|Consultorio
+Office ID|معرّف المكتب|Identifiant du cabinet|ID del consultorio
+Responsible doctor|الطبيب المسؤول|Médecin responsable|Doctor responsable
+New patient|مريض جديد|Nouveau patient|Nuevo paciente
+Patient account|حساب المريض|Compte du patient|Cuenta del paciente
+Patient's email|البريد الإلكتروني للمريض|E-mail du patient|Correo del paciente
+Link patient account|ربط حساب المريض|Associer le compte du patient|Vincular cuenta del paciente
+Patient account linked.|تم ربط حساب المريض.|Compte du patient associé.|Cuenta del paciente vinculada.
+Linked|مرتبط|Associé|Vinculado
+Not linked|غير مرتبط|Non associé|Sin vincular
+Linked cases|الحالات المرتبطة|Dossiers associés|Casos vinculados
+My aligners|مقوماتي الشفافة|Mes gouttières|Mis alineadores
+Your aligners|مقوماتك الشفافة|Vos gouttières|Sus alineadores
+Aligners|المقومات الشفافة|Gouttières|Alineadores
+Treated by|يعالج بواسطة|Suivi par|Tratado por
+View progress|عرض التقدم|Voir la progression|Ver progreso
+Records|السجلات|Documents|Registros
+Activity|النشاط|Activité|Actividad
+History|السجل|Historique|Historial
+Treatment plan|خطة العلاج|Plan de traitement|Plan de tratamiento
+Treatment status|حالة العلاج|État du traitement|Estado del tratamiento
+Treatment step|مرحلة العلاج|Étape du traitement|Etapa del tratamiento
+Step|المرحلة|Étape|Etapa
+Details|التفاصيل|Détails|Detalles
+Notes|الملاحظات|Notes|Notas
+Add note|إضافة ملاحظة|Ajouter une note|Añadir nota
+Write a note|كتابة ملاحظة|Écrire une note|Escribir una nota
+Photos|الصور|Photos|Fotos
+Add photos|إضافة صور|Ajouter des photos|Añadir fotos
+3D|ثلاثي الأبعاد|3D|3D
+3D models|النماذج ثلاثية الأبعاد|Modèles 3D|Modelos 3D
+Digital model|النموذج الرقمي|Modèle numérique|Modelo digital
+Upload|رفع|Importer|Subir
+Uploading|جارٍ الرفع|Importation|Subiendo
+Upload progress|تقدم الرفع|Progression de l’importation|Progreso de subida
+Download|تنزيل|Télécharger|Descargar
+Select a file|اختر ملفاً|Sélectionner un fichier|Seleccionar archivo
+Choose an STL file|اختر ملف STL|Choisir un fichier STL|Elegir archivo STL
+Only STL files (.stl) are accepted.|تُقبل ملفات STL (.stl) فقط.|Seuls les fichiers STL (.stl) sont acceptés.|Solo se aceptan archivos STL (.stl).
+Supported format: STL|الصيغة المدعومة: STL|Format accepté : STL|Formato admitido: STL
+Bonding date|تاريخ التثبيت|Date de collage|Fecha de adhesión
+Extraction|خلع الأسنان|Extraction|Extracción
+Final class desired|التصنيف النهائي المطلوب|Classe finale souhaitée|Clase final deseada
+Tooth eruption, bridge or implant|بزوغ سن أو جسر أو زرعة|Éruption dentaire, bridge ou implant|Erupción dental, puente o implante
+Layers|الطبقات|Couches|Capas
+Version|الإصدار|Version|Versión
+Versions|الإصدارات|Versions|Versiones
+Version 1|الإصدار 1|Version 1|Versión 1
+Version 2|الإصدار 2|Version 2|Versión 2
+Acceptance of the design|قبول التصميم|Acceptation du modèle|Aceptación del diseño
+Approve|اعتماد|Approuver|Aprobar
+Approved|معتمد|Approuvé|Aprobado
+Approve this design?|هل تريد اعتماد هذا التصميم؟|Approuver ce modèle ?|¿Aprobar este diseño?
+Ask for a revision|طلب تعديل|Demander une modification|Solicitar revisión
+Revise|تعديل|Modifier|Revisar
+What should change?|ما المطلوب تغييره؟|Que faut-il modifier ?|¿Qué debe cambiar?
+Send revision request|إرسال طلب التعديل|Envoyer la demande de modification|Enviar solicitud de revisión
+Manufacturer feedback|ملاحظات المصنع|Retour du fabricant|Comentarios del fabricante
+Tamaz feedback|ملاحظات Tamaz|Retour de Tamaz|Comentarios de Tamaz
+Tamaz asked for changes|طلب Tamaz تعديلات|Tamaz a demandé des modifications|Tamaz solicitó cambios
+Draft|مسودة|Brouillon|Borrador
+Drafts|المسودات|Brouillons|Borradores
+Drafts and ready to send|المسودات والجاهزة للإرسال|Brouillons et prêts à envoyer|Borradores y listos para enviar
+Ready to submit|جاهز للتقديم|Prêt à soumettre|Listo para enviar
+Preparing|قيد التحضير|Préparation|Preparando
+Under review|قيد المراجعة|En cours d’examen|En revisión
+Submitting|جارٍ التقديم|Soumission|Enviando
+Changes requested|التعديلات مطلوبة|Modifications demandées|Cambios solicitados
+Design approved|التصميم معتمد|Modèle approuvé|Diseño aprobado
+Design ready for review|التصميم جاهز للمراجعة|Modèle prêt à examiner|Diseño listo para revisión
+In production|قيد التصنيع|En fabrication|En fabricación
+Shipped|تم الشحن|Expédié|Enviado
+Completed|مكتمل|Terminé|Completado
+Action required|يلزم اتخاذ إجراء|Action requise|Acción requerida
+Needs action|يلزم اتخاذ إجراء|Action nécessaire|Requiere acción
+Needs attention|يحتاج إلى اهتمام|À vérifier|Requiere atención
+Needs your attention|يحتاج إلى اهتمامك|Votre attention est requise|Requiere su atención
+In progress|قيد التنفيذ|En cours|En curso
+Finished|منتهية|Terminés|Finalizados
+Queued|في قائمة الانتظار|En attente|En cola
+Failed|فشل|Échec|Fallido
+Succeeded|نجح|Réussi|Correcto
+Active|نشط|Actif|Activo
+Disabled|معطل|Désactivé|Desactivado
+Status|الحالة|État|Estado
+Not assigned yet|لم يتم التعيين بعد|Pas encore attribué|Aún sin asignar
+Not sent.|لم يُرسل.|Non envoyé.|Sin enviar.
+Sending|جارٍ الإرسال|Envoi|Enviando
+Sent|تم الإرسال|Envoyé|Enviado
+Send|إرسال|Envoyer|Enviar
+Send again|إرسال مجدداً|Renvoyer|Volver a enviar
+Send to Tamaz|إرسال إلى Tamaz|Envoyer à Tamaz|Enviar a Tamaz
+Send this case to Tamaz?|هل تريد إرسال هذه الحالة إلى Tamaz؟|Envoyer ce dossier à Tamaz ?|¿Enviar este caso a Tamaz?
+Submissions|الطلبات المرسلة|Envois|Envíos
+Latest submissions|أحدث الطلبات المرسلة|Derniers envois|Últimos envíos
+See all submissions|عرض جميع الطلبات|Voir tous les envois|Ver todos los envíos
+Attempts|المحاولات|Tentatives|Intentos
+attempt|محاولة|tentative|intento
+attempts|محاولات|tentatives|intentos
+Last error|آخر خطأ|Dernière erreur|Último error
+Retry|إعادة المحاولة|Réessayer|Reintentar
+Try again|حاول مرة أخرى|Réessayer|Intentar de nuevo
+Try sending again|حاول الإرسال مجدداً|Réessayer l’envoi|Intentar enviar de nuevo
+Tracking|التتبع|Suivi|Seguimiento
+Tracking number|رقم التتبع|Numéro de suivi|Número de seguimiento
+Delivery|التسليم|Livraison|Entrega
+Delivery address|عنوان التسليم|Adresse de livraison|Dirección de entrega
+Company shipping address|عنوان شحن الشركة|Adresse d’expédition de l’entreprise|Dirección de envío de la empresa
+Payment|الدفع|Paiement|Pago
+Payment due|الدفع مستحق|Paiement dû|Pago pendiente
+Payment received|تم استلام الدفع|Paiement reçu|Pago recibido
+Paid|مدفوع|Payé|Pagado
+Not due|غير مستحق|Non dû|No pendiente
+Amount to be confirmed|المبلغ قيد التأكيد|Montant à confirmer|Importe por confirmar
+Pay now|ادفع الآن|Payer maintenant|Pagar ahora
+Receipt|الإيصال|Reçu|Recibo
+Method|الطريقة|Méthode|Método
+Reference|المرجع|Référence|Referencia
+Integration settings|إعدادات التكامل|Paramètres d’intégration|Configuración de integración
+Settings saved.|تم حفظ الإعدادات.|Paramètres enregistrés.|Configuración guardada.
+Save settings|حفظ الإعدادات|Enregistrer les paramètres|Guardar configuración
+API address|عنوان API|Adresse de l’API|Dirección de API
+Credential reference|مرجع بيانات الاعتماد|Référence des identifiants|Referencia de credenciales
+Webhook secret|سر Webhook|Secret du webhook|Secreto del webhook
+System|النظام|Système|Sistema
+Oversight|الإشراف|Supervision|Supervisión
+People|الأشخاص|Personnes|Personas
+Audit log|سجل التدقيق|Journal d’audit|Registro de auditoría
+Action|الإجراء|Action|Acción
+All actions|جميع الإجراءات|Toutes les actions|Todas las acciones
+Item|العنصر|Élément|Elemento
+Who|من|Qui|Quién
+What is happening|ما الذي يحدث|Ce qui se passe|Qué está pasando
+Type|النوع|Type|Tipo
+Created|تاريخ الإنشاء|Créé|Creado
+Started|بدأ|Début|Inicio
+Updated|تم التحديث|Mis à jour|Actualizado
+Last updated|آخر تحديث|Dernière mise à jour|Última actualización
+Showing|عرض|Affichage|Mostrando
+Showing 1 to|عرض من 1 إلى|Affichage de 1 à|Mostrando de 1 a
+Showing {from} to {to} of {total}|عرض {from} إلى {to} من {total}|Affichage de {from} à {to} sur {total}|Mostrando de {from} a {to} de {total}
+Search|بحث|Rechercher|Buscar
+Search by name or email|البحث بالاسم أو البريد الإلكتروني|Rechercher par nom ou e-mail|Buscar por nombre o correo
+Search by tracking number|البحث برقم التتبع|Rechercher par numéro de suivi|Buscar por número de seguimiento
+Search clinics|البحث عن العيادات|Rechercher des cliniques|Buscar clínicas
+Search clinics by name|البحث عن العيادات بالاسم|Rechercher des cliniques par nom|Buscar clínicas por nombre
+Search clinics, doctors and patients|البحث عن العيادات والأطباء والمرضى|Rechercher des cliniques, médecins et patients|Buscar clínicas, doctores y pacientes
+Search patients|البحث عن المرضى|Rechercher des patients|Buscar pacientes
+Search people|البحث عن الأشخاص|Rechercher des personnes|Buscar personas
+Reset filter|إعادة ضبط التصفية|Réinitialiser le filtre|Restablecer filtro
+Clear|مسح|Effacer|Borrar
+All|الكل|Tous|Todos
+View|عرض|Voir|Ver
+Preview|معاينة|Aperçu|Vista previa
+Preview only|معاينة فقط|Aperçu uniquement|Solo vista previa
+Pending client decision|بانتظار قرار العميل|Décision du client en attente|Pendiente de decisión del cliente
+Set|محدد|Défini|Definido
+Set by Tamaz|محدد بواسطة Tamaz|Défini par Tamaz|Definido por Tamaz
+Continue|متابعة|Continuer|Continuar
+Back|رجوع|Retour|Volver
+Back to accounts|العودة إلى الحسابات|Retour aux comptes|Volver a cuentas
+Back to cases|العودة إلى الحالات|Retour aux dossiers|Volver a casos
+Back to conversations|العودة إلى المحادثات|Retour aux conversations|Volver a conversaciones
+Back to my aligners|العودة إلى مقوماتي الشفافة|Retour à mes gouttières|Volver a mis alineadores
+Back to patients|العودة إلى المرضى|Retour aux patients|Volver a pacientes
+← Back to the case|→ العودة إلى الحالة|← Retour au dossier|← Volver al caso
+← Cases|→ الحالات|← Dossiers|← Casos
+← My aligners|→ مقوماتي الشفافة|← Mes gouttières|← Mis alineadores
+Add|إضافة|Ajouter|Añadir
+Remove|حذف|Supprimer|Eliminar
+Cancel|إلغاء|Annuler|Cancelar
+Save|حفظ|Enregistrer|Guardar
+Save changes|حفظ التغييرات|Enregistrer les modifications|Guardar cambios
+Create|إنشاء|Créer|Crear
+Create account|إنشاء حساب|Créer un compte|Crear cuenta
+Create your account|إنشاء حسابك|Créez votre compte|Cree su cuenta
+Create a patient account|إنشاء حساب مريض|Créer un compte patient|Crear cuenta de paciente
+Register as a doctor|التسجيل كطبيب|S’inscrire comme médecin|Registrarse como doctor
+I'm a doctor, register|أنا طبيب، أريد التسجيل|Je suis médecin, m’inscrire|Soy doctor, registrarme
+Already have an account?|هل لديك حساب؟|Vous avez déjà un compte ?|¿Ya tiene una cuenta?
+Account created.|تم إنشاء الحساب.|Compte créé.|Cuenta creada.
+Close|إغلاق|Fermer|Cerrar
+Keep it|الاحتفاظ به|Conserver|Mantener
+Show details|عرض التفاصيل|Afficher les détails|Mostrar detalles
+Hide details|إخفاء التفاصيل|Masquer les détails|Ocultar detalles
+More ˅|المزيد ˅|Plus ˅|Más ˅
+Less ˄|أقل ˄|Moins ˄|Menos ˄
+Menu|القائمة|Menu|Menú
+Open menu|فتح القائمة|Ouvrir le menu|Abrir menú
+Main|الرئيسية|Navigation principale|Navegación principal
+Loading|جارٍ التحميل|Chargement|Cargando
+Loading cases|جارٍ تحميل الحالات|Chargement des dossiers|Cargando casos
+Loading patients|جارٍ تحميل المرضى|Chargement des patients|Cargando pacientes
+Please wait|يرجى الانتظار|Veuillez patienter|Espere, por favor
+You|أنت|Vous|Usted
+You · Just now|أنت · الآن|Vous · À l’instant|Usted · Ahora
+Unknown|غير معروف|Inconnu|Desconocido
+None|لا يوجد|Aucun|Ninguno
+Required|مطلوب|Obligatoire|Obligatorio
+tamaz|tamaz|tamaz|tamaz
+tamaz team|فريق tamaz|Équipe tamaz|Equipo tamaz
+Your own number for this patient|رقمك الخاص لهذا المريض|Votre référence pour ce patient|Su referencia para este paciente
+Describe the plan|وصف الخطة|Décrire le plan|Describir el plan
+Now:|الآن:|Maintenant :|Ahora:
+message the clinic|مراسلة العيادة|contactez la clinique|contacte con la clínica
+Load older messages|تحميل الرسائل الأقدم|Charger les anciens messages|Cargar mensajes anteriores
+Write a message|كتابة رسالة|Écrire un message|Escribir mensaje
+Start conversation|بدء محادثة|Démarrer une conversation|Iniciar conversación
+). Patients see them in theirs.|). يراها المرضى بتوقيتهم المحلي.|). Les patients les voient dans le leur.|). Los pacientes los ven en su propia zona horaria.
+. If you change the time they are told by email. A booked slot can't be removed: cancel the booking first.|. عند تغيير الوقت يُبلَّغ المريض بالبريد الإلكتروني. لا يمكن حذف فترة محجوزة؛ ألغِ الحجز أولاً.|. Le patient sera informé par e-mail si vous modifiez l’horaire. Pour supprimer un créneau réservé, annulez d’abord la réservation.|. Si cambia el horario, se avisa al paciente por correo. Para eliminar una franja reservada, cancele primero la reserva.
+. Pick a new time.|. اختر وقتاً جديداً.|. Choisissez un nouvel horaire.|. Elija un nuevo horario.
+. The clinic will be told, and the time becomes available to others.|. سيتم إبلاغ العيادة وإتاحة الوقت للآخرين.|. La clinique sera informée et le créneau sera disponible pour d’autres personnes.|. Se avisará a la clínica y el horario quedará disponible para otras personas.
+. They will be told by email and in the portal, and the slot becomes open again.|. سيتم إبلاغ المريض بالبريد الإلكتروني وفي البوابة، وستصبح الفترة متاحة مجدداً.|. Le patient sera informé par e-mail et dans le portail, et le créneau sera de nouveau disponible.|. Se avisará al paciente por correo y en el portal, y la franja volverá a estar disponible.
+3D viewport: teeth model placeholder (|عرض ثلاثي الأبعاد: نموذج أسنان توضيحي (|Vue 3D : modèle dentaire de démonstration (|Vista 3D: modelo dental de ejemplo (
+A chat for one case isn't built. Whether chats belong to cases is waiting on the client. Use Messages for now.|محادثة خاصة بكل حالة غير متاحة بعد. ارتباط المحادثات بالحالات ينتظر قرار العميل. استخدم الرسائل حالياً.|La discussion par dossier n’est pas encore disponible. Le client doit confirmer ce fonctionnement. Utilisez Messages pour le moment.|El chat por caso aún no está disponible. El cliente debe confirmar ese funcionamiento. Utilice Mensajes por ahora.
+Add your first patient.|أضف مريضك الأول.|Ajoutez votre premier patient.|Añada su primer paciente.
+Add your open times so patients can book them.|أضف أوقاتك المتاحة ليتمكن المرضى من حجزها.|Ajoutez vos créneaux disponibles pour que les patients puissent les réserver.|Añada sus horarios disponibles para que los pacientes puedan reservarlos.
+Address line, city, postcode, country|العنوان، المدينة، الرمز البريدي، الدولة|Adresse, ville, code postal, pays|Dirección, ciudad, código postal, país
+All fields are required.|جميع الحقول مطلوبة.|Tous les champs sont obligatoires.|Todos los campos son obligatorios.
+An appointment can be moved up to 24 hours before it starts. Please message the clinic.|يمكن تغيير الموعد حتى 24 ساعة قبل بدايته. يرجى مراسلة العيادة.|Un rendez-vous peut être déplacé jusqu’à 24 heures avant son début. Contactez la clinique.|Puede cambiar una cita hasta 24 horas antes de su inicio. Contacte con la clínica.
+Approving lets the aligners be made. This preview does not save anything.|الاعتماد يسمح بتصنيع المقومات الشفافة. هذه المعاينة لا تحفظ أي شيء.|L’approbation permet de fabriquer les gouttières. Cet aperçu n’enregistre rien.|La aprobación permite fabricar los alineadores. Esta vista previa no guarda nada.
+Book a time at one of our clinics.|احجز وقتاً في إحدى عياداتنا.|Réservez un créneau dans l’une de nos cliniques.|Reserve un horario en una de nuestras clínicas.
+Booked slots can't be removed. Cancel their booking first. Only the open ones will be removed.|لا يمكن حذف الفترات المحجوزة. ألغِ حجوزاتها أولاً. ستُحذف الفترات المتاحة فقط.|Les créneaux réservés ne peuvent pas être supprimés. Annulez d’abord leurs réservations. Seuls les créneaux disponibles seront supprimés.|No se pueden eliminar franjas reservadas. Cancele primero sus reservas. Solo se eliminarán las disponibles.
+Booked · {v0}|محجوز · {v0}|Réservé · {v0}|Reservado · {v0}
+Bookings appear here when patients book your open times.|تظهر الحجوزات هنا عندما يحجز المرضى أوقاتك المتاحة.|Les réservations apparaîtront ici lorsque les patients réserveront vos créneaux.|Las reservas aparecerán aquí cuando los pacientes reserven sus horarios.
+Cases appear here once a clinic or doctor creates one.|تظهر الحالات هنا عندما تنشئ العيادة أو الطبيب حالة.|Les dossiers apparaîtront ici dès qu’une clinique ou un médecin en créera un.|Los casos aparecerán aquí cuando una clínica o un doctor cree uno.
+Cases can't be sent until the company shipping address is set.|لا يمكن إرسال الحالات قبل تحديد عنوان شحن الشركة.|Les dossiers ne peuvent pas être envoyés avant de définir l’adresse d’expédition de l’entreprise.|No se pueden enviar casos hasta configurar la dirección de envío de la empresa.
+Check everything, then send it to Tamaz.|راجع كل شيء ثم أرسله إلى Tamaz.|Vérifiez tout, puis envoyez le dossier à Tamaz.|Revise todo y envíelo a Tamaz.
+Check the number and try again.|تحقق من الرقم وحاول مرة أخرى.|Vérifiez le numéro et réessayez.|Compruebe el número e inténtelo de nuevo.
+Check your connection and try again.|تحقق من اتصالك وحاول مرة أخرى.|Vérifiez votre connexion et réessayez.|Compruebe su conexión e inténtelo de nuevo.
+Choose the day and the times.|اختر اليوم والأوقات.|Choisissez le jour et les horaires.|Elija el día y los horarios.
+Clinics will appear here once they join tamaz.|تظهر العيادات هنا عندما تنضم إلى tamaz.|Les cliniques apparaîtront ici lorsqu’elles rejoindront tamaz.|Las clínicas aparecerán aquí cuando se unan a tamaz.
+Clinics: your account is created by the tamaz team.|للعيادات: يُنشئ فريق tamaz حسابكم.|Cliniques : votre compte est créé par l’équipe tamaz.|Clínicas: el equipo tamaz crea su cuenta.
+Completed.|مكتمل.|Terminé.|Completado.
+Conversations between clinics and patients are private and not shown here.|المحادثات بين العيادات والمرضى خاصة ولا تظهر هنا.|Les conversations entre cliniques et patients sont privées et ne sont pas affichées ici.|Las conversaciones entre clínicas y pacientes son privadas y no se muestran aquí.
+Create the first {v0} account.|إنشاء أول حساب من نوع {v0}.|Créer le premier compte {v0}.|Crear la primera cuenta de {v0}.
+Delivery details aren't stored yet.|لا تُحفظ تفاصيل التسليم بعد.|Les détails de livraison ne sont pas encore enregistrés.|Los detalles de entrega aún no se guardan.
+Delivery details aren't stored yet. Aligners are shipped to the company address set in Integration settings.|لا تُحفظ تفاصيل التسليم بعد. تُشحن المقومات إلى عنوان الشركة المحدد في إعدادات التكامل.|Les détails de livraison ne sont pas encore enregistrés. Les gouttières sont expédiées à l’adresse de l’entreprise définie dans les paramètres d’intégration.|Los detalles de entrega aún no se guardan. Los alineadores se envían a la dirección de la empresa indicada en la configuración de integración.
+Delivery problem|مشكلة في التسليم|Problème de livraison|Problema de entrega
+Enter a case ID|أدخل معرّف الحالة|Saisissez un identifiant de dossier|Introduzca un ID de caso
+Enter a new secret to replace it|أدخل سراً جديداً لاستبداله|Saisissez un nouveau secret pour le remplacer|Introduzca un secreto nuevo para sustituirlo
+Enter patient name|أدخل اسم المريض|Saisissez le nom du patient|Introduzca el nombre del paciente
+Finished and cancelled appointments will show here.|تظهر المواعيد المنتهية والملغاة هنا.|Les rendez-vous terminés et annulés apparaîtront ici.|Las citas finalizadas y canceladas aparecerán aquí.
+It may have been removed, or the link is wrong.|قد يكون قد حُذف، أو الرابط غير صحيح.|Il a peut-être été supprimé ou le lien est incorrect.|Puede que se haya eliminado o que el enlace sea incorrecto.
+It's too late to move this online|فات وقت تغيير الموعد عبر الإنترنت|Il est trop tard pour déplacer ce rendez-vous en ligne|Ya es tarde para cambiar esta cita en línea
+New updates about your aligners will show here.|تظهر تحديثات مقوماتك الشفافة هنا.|Les nouvelles informations sur vos gouttières apparaîtront ici.|Las novedades sobre sus alineadores aparecerán aquí.
+New updates will show here.|تظهر التحديثات الجديدة هنا.|Les nouvelles informations apparaîtront ici.|Las novedades aparecerán aquí.
+No aligner case yet.|لا توجد حالة مقومات شفافة بعد.|Aucun dossier de gouttières pour le moment.|Aún no hay ningún caso de alineadores.
+No appointments today.|لا توجد مواعيد اليوم.|Aucun rendez-vous aujourd’hui.|No hay citas hoy.
+No bookings yet.|لا توجد حجوزات بعد.|Aucune réservation pour le moment.|Aún no hay reservas.
+No case has been linked to this patient.|لم تُربط أي حالة بهذا المريض.|Aucun dossier n’a été associé à ce patient.|No se ha vinculado ningún caso a este paciente.
+No case has that tracking number.|لا توجد حالة برقم التتبع هذا.|Aucun dossier ne possède ce numéro de suivi.|Ningún caso tiene ese número de seguimiento.
+No cases yet.|لا توجد حالات بعد.|Aucun dossier pour le moment.|Aún no hay casos.
+No clinics match.|لا توجد عيادات مطابقة.|Aucune clinique correspondante.|No hay clínicas que coincidan.
+No clinics yet.|لا توجد عيادات بعد.|Aucune clinique pour le moment.|Aún no hay clínicas.
+No conversations yet.|لا توجد محادثات بعد.|Aucune conversation pour le moment.|Aún no hay conversaciones.
+No conversations yet. Start one with the tamaz team.|لا توجد محادثات بعد. ابدأ محادثة مع فريق tamaz.|Aucune conversation pour le moment. Contactez l’équipe tamaz.|Aún no hay conversaciones. Inicie una con el equipo tamaz.
+No drafts.|لا توجد مسودات.|Aucun brouillon.|No hay borradores.
+No entries match.|لا توجد نتائج مطابقة.|Aucune entrée correspondante.|No hay registros que coincidan.
+No failed deliveries.|لا توجد عمليات تسليم فاشلة.|Aucune livraison échouée.|No hay entregas fallidas.
+No feedback yet.|لا توجد ملاحظات بعد.|Aucun retour pour le moment.|Aún no hay comentarios.
+No files yet.|لا توجد ملفات بعد.|Aucun fichier pour le moment.|Aún no hay archivos.
+No messages yet|لا توجد رسائل بعد|Aucun message pour le moment|Aún no hay mensajes
+No messages yet. Write the first one.|لا توجد رسائل بعد. اكتب الرسالة الأولى.|Aucun message pour le moment. Écrivez le premier.|Aún no hay mensajes. Escriba el primero.
+No notes yet.|لا توجد ملاحظات بعد.|Aucune note pour le moment.|Aún no hay notas.
+No notes.|لا توجد ملاحظات.|Aucune note.|No hay notas.
+No notifications yet.|لا توجد إشعارات بعد.|Aucune notification pour le moment.|Aún no hay notificaciones.
+No one found.|لم يُعثر على أحد.|Aucune personne trouvée.|No se ha encontrado a nadie.
+No past appointments.|لا توجد مواعيد سابقة.|Aucun rendez-vous passé.|No hay citas anteriores.
+No past bookings.|لا توجد حجوزات سابقة.|Aucune réservation passée.|No hay reservas anteriores.
+No patients match.|لا توجد نتائج مرضى مطابقة.|Aucun patient correspondant.|No hay pacientes que coincidan.
+No patients yet.|لا يوجد مرضى بعد.|Aucun patient pour le moment.|Aún no hay pacientes.
+No photos yet.|لا توجد صور بعد.|Aucune photo pour le moment.|Aún no hay fotos.
+No submissions yet.|لا توجد طلبات مرسلة بعد.|Aucun envoi pour le moment.|Aún no hay envíos.
+No tracking numbers yet.|لا توجد أرقام تتبع بعد.|Aucun numéro de suivi pour le moment.|Aún no hay números de seguimiento.
+No unread messages.|لا توجد رسائل غير مقروءة.|Aucun message non lu.|No hay mensajes sin leer.
+No upcoming appointments.|لا توجد مواعيد قادمة.|Aucun rendez-vous à venir.|No hay próximas citas.
+No {v0}s yet.|لا توجد حسابات {v0} بعد.|Aucun compte {v0} pour le moment.|Aún no hay cuentas de {v0}.
+Not sent yet.|لم يُرسل بعد.|Pas encore envoyé.|Aún sin enviar.
+Nothing has been sent yet.|لم يُرسل شيء بعد.|Rien n’a encore été envoyé.|Aún no se ha enviado nada.
+Nothing needs your attention.|لا شيء يحتاج إلى اهتمامك.|Rien ne nécessite votre attention.|Nada requiere su atención.
+Nothing to do for now.|لا يلزم أي إجراء حالياً.|Aucune action pour le moment.|No hay nada que hacer por ahora.
+Notifications, {v0} unread|الإشعارات، {v0} غير مقروء|Notifications, {v0} non lues|Notificaciones, {v0} sin leer
+Number of weeks, 1 to 12.|عدد الأسابيع، من 1 إلى 12.|Nombre de semaines, de 1 à 12.|Número de semanas, de 1 a 12.
+Patients can't book you yet|لا يستطيع المرضى الحجز لديك بعد|Les patients ne peuvent pas encore réserver|Los pacientes aún no pueden reservar
+Paused at {stage}|متوقف عند {stage}|En pause à l’étape {stage}|En pausa en {stage}
+Paused until the case is delivered.|متوقف حتى تسليم الحالة.|En pause jusqu’à la livraison du dossier.|En pausa hasta la entrega del caso.
+Paused until you upload corrected files and send again.|متوقف حتى ترفع الملفات المصححة وترسلها مجدداً.|En pause jusqu’à l’importation des fichiers corrigés et leur renvoi.|En pausa hasta que suba los archivos corregidos y los envíe de nuevo.
+Pay to start making your aligners|ادفع لبدء تصنيع مقوماتك الشفافة|Payez pour lancer la fabrication de vos gouttières|Pague para iniciar la fabricación de sus alineadores
+Payments aren't set up yet. The provider, prices and when production starts are still to be decided.|لم يُعدّ الدفع بعد. مزود الخدمة والأسعار وموعد بدء التصنيع لم تُحدد بعد.|Les paiements ne sont pas encore configurés. Le prestataire, les prix et le début de fabrication restent à définir.|Los pagos aún no están configurados. Faltan por definir el proveedor, los precios y cuándo empieza la fabricación.
+Pick a day to see open times.|اختر يوماً لعرض الأوقات المتاحة.|Choisissez un jour pour voir les créneaux disponibles.|Elija un día para ver los horarios disponibles.
+Placing a new case|إنشاء حالة جديدة|Création d’un nouveau dossier|Creando nuevo caso
+Please wait for the check results.|يرجى انتظار نتائج الفحص.|Veuillez attendre les résultats du contrôle.|Espere los resultados de la comprobación.
+Preparing the case|تحضير الحالة|Préparation du dossier|Preparando el caso
+Profile not completed. This doctor hasn't added their details yet.|الملف الشخصي غير مكتمل. لم يضف هذا الطبيب بياناته بعد.|Profil incomplet. Ce médecin n’a pas encore ajouté ses coordonnées.|Perfil incompleto. Este doctor aún no ha añadido sus datos.
+Read their comments in Activity, upload corrected files, then send again.|اقرأ ملاحظاتهم في النشاط، وارفع الملفات المصححة، ثم أرسل مجدداً.|Lisez leurs commentaires dans Activité, importez les fichiers corrigés, puis renvoyez-les.|Lea sus comentarios en Actividad, suba los archivos corregidos y envíelos de nuevo.
+Ready to send|جاهز للإرسال|Prêt à envoyer|Listo para enviar
+Records review|مراجعة السجلات|Examen des documents|Revisión de registros
+Remove this slot?|هل تريد حذف هذه الفترة؟|Supprimer ce créneau ?|¿Eliminar esta franja?
+Remove {v0} slots?|هل تريد حذف {v0} فترات؟|Supprimer {v0} créneaux ?|¿Eliminar {v0} franjas?
+Repeat for 1 to 12 weeks.|كرر لمدة من 1 إلى 12 أسبوعاً.|Répéter pendant 1 à 12 semaines.|Repetir durante 1 a 12 semanas.
+See the design review screen (approve or revise a virtual setup)|عرض شاشة مراجعة التصميم (اعتماد أو تعديل التصميم الافتراضي)|Voir l’écran d’examen du modèle (approuver ou modifier une simulation)|Ver pantalla de revisión del diseño (aprobar o revisar una simulación)
+Select a conversation.|اختر محادثة.|Sélectionnez une conversation.|Seleccione una conversación.
+Select a patient to see their details.|اختر مريضاً لعرض بياناته.|Sélectionnez un patient pour voir ses détails.|Seleccione un paciente para ver sus datos.
+Select {v0}|اختر {v0}|Sélectionner {v0}|Seleccionar {v0}
+Shipped.|تم الشحن.|Expédié.|Enviado.
+Slot length must be between 5 and 720 minutes.|يجب أن تكون مدة الفترة بين 5 و720 دقيقة.|La durée doit être comprise entre 5 et 720 minutes.|La duración debe estar entre 5 y 720 minutos.
+Slot removed.|تم حذف الفترة.|Créneau supprimé.|Franja eliminada.
+Something went wrong. Try again.|حدث خطأ. حاول مرة أخرى.|Une erreur s’est produite. Réessayez.|Se ha producido un error. Inténtelo de nuevo.
+Start a conversation with New message.|ابدأ محادثة باستخدام رسالة جديدة.|Démarrez une conversation avec Nouveau message.|Inicie una conversación con Nuevo mensaje.
+Submissions appear here when a clinic or doctor sends a case.|تظهر الطلبات هنا عندما ترسل عيادة أو طبيب حالة.|Les envois apparaîtront ici lorsqu’une clinique ou un médecin enverra un dossier.|Los envíos aparecerán aquí cuando una clínica o un doctor envíe un caso.
+Surnames starting with {v0}|أسماء العائلة التي تبدأ بـ {v0}|Noms commençant par {v0}|Apellidos que empiezan por {v0}
+Tamaz approved the design.|اعتمد Tamaz التصميم.|Tamaz a approuvé le modèle.|Tamaz ha aprobado el diseño.
+Tamaz asked for changes.|طلب Tamaz تعديلات.|Tamaz a demandé des modifications.|Tamaz solicitó cambios.
+Tamaz is reviewing your design.|يراجع Tamaz تصميمك.|Tamaz examine votre modèle.|Tamaz está revisando su diseño.
+That time window is shorter than one slot.|هذه المدة أقصر من فترة واحدة.|Cette plage horaire est plus courte qu’un créneau.|Ese intervalo es más corto que una franja.
+That would make {v0} slots. Add at most 200 at a time.|سينتج عن ذلك {v0} فترات. أضف 200 فترة كحد أقصى في المرة الواحدة.|Cela créerait {v0} créneaux. Ajoutez-en au maximum 200 à la fois.|Se crearían {v0} franjas. Añada como máximo 200 cada vez.
+The case is under review|الحالة قيد المراجعة|Le dossier est en cours d’examen|El caso está en revisión
+The clinic cancelled this appointment.|ألغت العيادة هذا الموعد.|La clinique a annulé ce rendez-vous.|La clínica ha cancelado esta cita.
+The end time must be after the start time.|يجب أن يكون وقت النهاية بعد وقت البداية.|L’heure de fin doit être après l’heure de début.|La hora de fin debe ser posterior a la de inicio.
+The secret is never shown. Leave this empty to keep the current one.|لا يُعرض السر أبداً. اترك الحقل فارغاً للاحتفاظ بالسر الحالي.|Le secret n’est jamais affiché. Laissez ce champ vide pour conserver le secret actuel.|El secreto nunca se muestra. Deje el campo vacío para mantener el actual.
+The tamaz team has been told. You can try sending it again.|تم إبلاغ فريق tamaz. يمكنك محاولة الإرسال مجدداً.|L’équipe tamaz a été informée. Vous pouvez réessayer l’envoi.|Se ha informado al equipo tamaz. Puede intentar enviarlo de nuevo.
+The upload didn't finish. Try again.|لم يكتمل الرفع. حاول مرة أخرى.|L’importation n’a pas abouti. Réessayez.|La subida no se ha completado. Inténtelo de nuevo.
+The window is split into slots this long.|تُقسم المدة إلى فترات بهذا الطول.|La plage horaire est divisée en créneaux de cette durée.|El intervalo se divide en franjas de esta duración.
+There's a delay with your case. The team has been told.|يوجد تأخير في حالتك. تم إبلاغ الفريق.|Votre dossier a pris du retard. L’équipe a été informée.|Hay un retraso en su caso. Se ha informado al equipo.
+These fields may change when the manufacturer's API details arrive.|قد تتغير هذه الحقول عند استلام تفاصيل API المصنع.|Ces champs peuvent changer après réception des détails de l’API du fabricant.|Estos campos pueden cambiar cuando lleguen los detalles de la API del fabricante.
+This account hasn't created a case.|لم ينشئ هذا الحساب أي حالة.|Ce compte n’a créé aucun dossier.|Esta cuenta no ha creado ningún caso.
+This only takes a moment.|يستغرق ذلك لحظات فقط.|Cela ne prend qu’un instant.|Esto solo tarda un momento.
+This replaces your appointment on|يستبدل هذا موعدك في|Ceci remplace votre rendez-vous du|Esto sustituye su cita del
+This screen is a preview of an approval step that may not apply. Approving or revising here saves nothing.|هذه الشاشة معاينة لمرحلة اعتماد قد لا تُطبق. الاعتماد أو التعديل هنا لا يحفظ شيئاً.|Cet écran présente une étape d’approbation qui pourrait ne pas s’appliquer. Aucune approbation ou modification n’est enregistrée ici.|Esta pantalla muestra una etapa de aprobación que podría no aplicarse. Aquí no se guarda ninguna aprobación ni revisión.
+This slot has already started, so it can't be changed.|بدأت هذه الفترة بالفعل، لذلك لا يمكن تغييرها.|Ce créneau a déjà commencé et ne peut plus être modifié.|Esta franja ya ha empezado y no se puede cambiar.
+This {v0} doesn't exist or you can't open it.|عنصر {v0} غير موجود أو لا يمكنك فتحه.|Cet élément ({v0}) n’existe pas ou vous ne pouvez pas l’ouvrir.|Este elemento ({v0}) no existe o no puede abrirlo.
+Times are in your time zone (|الأوقات حسب منطقتك الزمنية (|Les horaires sont dans votre fuseau horaire (|Los horarios están en su zona horaria (
+Times are shown in your time zone (|تُعرض الأوقات حسب منطقتك الزمنية (|Les horaires sont affichés dans votre fuseau horaire (|Los horarios se muestran en su zona horaria (
+Too late to cancel or move online (the limit is 24 hours before). Please|فات وقت الإلغاء أو التغيير عبر الإنترنت (المهلة 24 ساعة قبل الموعد). يرجى|Il est trop tard pour annuler ou déplacer en ligne (limite : 24 heures avant). Veuillez|Ya es tarde para cancelar o cambiar en línea (límite: 24 horas antes). Por favor,
+Tracking numbers appear here once cases are numbered.|تظهر أرقام التتبع هنا بعد ترقيم الحالات.|Les numéros de suivi apparaîtront ici après la numérotation des dossiers.|Los números de seguimiento aparecerán aquí cuando se numeren los casos.
+Tracking numbers aren't created yet. Their format is waiting on the client.|لا تُنشأ أرقام التتبع بعد. تنسيقها ينتظر قرار العميل.|Les numéros de suivi ne sont pas encore créés. Leur format attend la décision du client.|Los números de seguimiento aún no se crean. Su formato espera la decisión del cliente.
+Treatment plans aren't stored yet.|لا تُحفظ خطط العلاج بعد.|Les plans de traitement ne sont pas encore enregistrés.|Los planes de tratamiento aún no se guardan.
+Try a different name.|جرب اسماً آخر.|Essayez un autre nom.|Pruebe otro nombre.
+Try another action or case ID.|جرب إجراءً أو معرّف حالة آخر.|Essayez une autre action ou un autre identifiant de dossier.|Pruebe otra acción u otro ID de caso.
+Try another month, pick another clinic, or send them a message.|جرب شهراً آخر، أو اختر عيادة أخرى، أو أرسل لها رسالة.|Essayez un autre mois, choisissez une autre clinique ou envoyez-lui un message.|Pruebe otro mes, elija otra clínica o envíele un mensaje.
+Try another name or reset the filter.|جرب اسماً آخر أو أعد ضبط التصفية.|Essayez un autre nom ou réinitialisez le filtre.|Pruebe otro nombre o restablezca el filtro.
+Try sending again.|حاول الإرسال مجدداً.|Réessayez l’envoi.|Intente enviarlo de nuevo.
+Upload a corrected design file first.|ارفع ملف تصميم مصححاً أولاً.|Importez d’abord un fichier de modèle corrigé.|Suba primero un archivo de diseño corregido.
+Upload a corrected scan|رفع مسح مصحح|Importer un scan corrigé|Subir escaneo corregido
+Use at least 8 characters.|استخدم 8 أحرف على الأقل.|Utilisez au moins 8 caractères.|Utilice al menos 8 caracteres.
+Waiting for you to send it.|بانتظار إرسالك.|En attente de votre envoi.|Esperando a que lo envíe.
+We couldn't deliver this case to Tamaz.|تعذر تسليم هذه الحالة إلى Tamaz.|Impossible de transmettre ce dossier à Tamaz.|No se pudo entregar este caso a Tamaz.
+We couldn't deliver this case to Tamaz. Our team has been told.|تعذر تسليم هذه الحالة إلى Tamaz. تم إبلاغ فريقنا.|Impossible de transmettre ce dossier à Tamaz. Notre équipe a été informée.|No se pudo entregar este caso a Tamaz. Se ha informado a nuestro equipo.
+We couldn't load the audit log.|تعذر تحميل سجل التدقيق.|Impossible de charger le journal d’audit.|No se pudo cargar el registro de auditoría.
+We couldn't load the cases.|تعذر تحميل الحالات.|Impossible de charger les dossiers.|No se pudieron cargar los casos.
+We couldn't load the clinics.|تعذر تحميل العيادات.|Impossible de charger les cliniques.|No se pudieron cargar las clínicas.
+We couldn't load the files.|تعذر تحميل الملفات.|Impossible de charger les fichiers.|No se pudieron cargar los archivos.
+We couldn't load the open times.|تعذر تحميل الأوقات المتاحة.|Impossible de charger les créneaux disponibles.|No se pudieron cargar los horarios disponibles.
+We couldn't load the overview.|تعذر تحميل النظرة العامة.|Impossible de charger la vue d’ensemble.|No se pudo cargar el resumen.
+We couldn't load the settings.|تعذر تحميل الإعدادات.|Impossible de charger les paramètres.|No se pudo cargar la configuración.
+We couldn't load this conversation.|تعذر تحميل هذه المحادثة.|Impossible de charger cette conversation.|No se pudo cargar esta conversación.
+We couldn't load this patient's cases.|تعذر تحميل حالات هذا المريض.|Impossible de charger les dossiers de ce patient.|No se pudieron cargar los casos de este paciente.
+We couldn't load this {v0}.|تعذر تحميل {v0}.|Impossible de charger cet élément ({v0}).|No se pudo cargar este elemento ({v0}).
+We couldn't load today's appointments.|تعذر تحميل مواعيد اليوم.|Impossible de charger les rendez-vous du jour.|No se pudieron cargar las citas de hoy.
+We couldn't load your appointments.|تعذر تحميل مواعيدك.|Impossible de charger vos rendez-vous.|No se pudieron cargar sus citas.
+We couldn't load your bookings.|تعذر تحميل حجوزاتك.|Impossible de charger vos réservations.|No se pudieron cargar sus reservas.
+We couldn't load your cases.|تعذر تحميل حالاتك.|Impossible de charger vos dossiers.|No se pudieron cargar sus casos.
+We couldn't load your messages.|تعذر تحميل رسائلك.|Impossible de charger vos messages.|No se pudieron cargar sus mensajes.
+We couldn't load your notifications.|تعذر تحميل إشعاراتك.|Impossible de charger vos notifications.|No se pudieron cargar sus notificaciones.
+We couldn't load your patients.|تعذر تحميل مرضاك.|Impossible de charger vos patients.|No se pudieron cargar sus pacientes.
+We couldn't load your profile.|تعذر تحميل ملفك الشخصي.|Impossible de charger votre profil.|No se pudo cargar su perfil.
+We couldn't load your slots.|تعذر تحميل فتراتك الزمنية.|Impossible de charger vos créneaux.|No se pudieron cargar sus franjas horarias.
+When your clinic adds you to a case, it appears here.|عندما تضيفك عيادتك إلى حالة، تظهر هنا.|Votre dossier apparaîtra ici lorsque votre clinique vous y ajoutera.|Su caso aparecerá aquí cuando su clínica le añada.
+Where the API key is stored. Never type the key here.|مكان تخزين مفتاح API. لا تكتب المفتاح هنا أبداً.|Emplacement de la clé API. Ne saisissez jamais la clé ici.|Lugar donde se guarda la clave API. Nunca introduzca la clave aquí.
+You can cancel or move an appointment up to 24 hours before it starts. After that, message the clinic.|يمكنك إلغاء الموعد أو تغييره حتى 24 ساعة قبل بدايته. بعد ذلك، راسل العيادة.|Vous pouvez annuler ou déplacer un rendez-vous jusqu’à 24 heures avant son début. Ensuite, contactez la clinique.|Puede cancelar o cambiar una cita hasta 24 horas antes de su inicio. Después, contacte con la clínica.
+You have no appointment slots in the next two months. Patients only see times you add.|ليس لديك فترات مواعيد في الشهرين القادمين. يرى المرضى فقط الأوقات التي تضيفها.|Vous n’avez aucun créneau dans les deux prochains mois. Les patients ne voient que les horaires que vous ajoutez.|No tiene franjas de citas en los próximos dos meses. Los pacientes solo ven los horarios que usted añade.
+You haven't added any slots here yet.|لم تضف أي فترات هنا بعد.|Vous n’avez pas encore ajouté de créneaux ici.|Aún no ha añadido franjas aquí.
+You're all caught up.|اطلعت على جميع التحديثات.|Vous êtes à jour.|Está al día.
+Your aligners are being made.|يجري تصنيع مقوماتك الشفافة.|Vos gouttières sont en cours de fabrication.|Sus alineadores se están fabricando.
+Your case is being delivered to Tamaz.|يجري تسليم حالتك إلى Tamaz.|Votre dossier est en cours de transmission à Tamaz.|Su caso se está entregando a Tamaz.
+Your case is being processed. A quality check of the provided data is in progress.|يجري معالجة حالتك وفحص جودة البيانات المقدمة.|Votre dossier est en cours de traitement. La qualité des données fournies est en cours de vérification.|Su caso se está procesando. Se está comprobando la calidad de los datos proporcionados.
+Your clinic is about to send your design.|عيادتك على وشك إرسال تصميمك.|Votre clinique va envoyer votre modèle.|Su clínica está a punto de enviar su diseño.
+Your clinic is preparing your case.|تجهز عيادتك حالتك.|Votre clinique prépare votre dossier.|Su clínica está preparando su caso.
+Your design is approved, so your payment is now due.|تم اعتماد تصميمك، وأصبح الدفع مستحقاً الآن.|Votre modèle est approuvé ; votre paiement est maintenant dû.|Su diseño está aprobado y el pago ya está pendiente.
+Your design is approved.|تم اعتماد تصميمك.|Votre modèle est approuvé.|Su diseño está aprobado.
+Your design is being sent for review.|يجري إرسال تصميمك للمراجعة.|Votre modèle est en cours d’envoi pour examen.|Su diseño se está enviando para revisión.
+Your design needs a few changes. Your clinic is working on it.|يحتاج تصميمك إلى بعض التعديلات. تعمل عيادتك عليها.|Votre modèle nécessite quelques modifications. Votre clinique s’en occupe.|Su diseño necesita algunos cambios. Su clínica está trabajando en ello.
+Your email can't be changed.|لا يمكن تغيير بريدك الإلكتروني.|Votre e-mail ne peut pas être modifié.|No se puede cambiar su correo electrónico.
+Your notes are sent to Tamaz with the design.|تُرسل ملاحظاتك إلى Tamaz مع التصميم.|Vos notes sont envoyées à Tamaz avec le modèle.|Sus notas se envían a Tamaz junto con el diseño.
+has no open times this month.|لا توجد لديها أوقات متاحة هذا الشهر.|n’a aucun créneau disponible ce mois-ci.|no tiene horarios disponibles este mes.
+slot was|فترة|créneau|franja
+slots were|فترات|créneaux|franjas
+{v0} booked {v1} not removed. Cancel the booking first.|لم يتم حذف {v0} {v1} محجوزة. ألغِ الحجز أولاً.|Non supprimés : {v0} {v1} réservés. Annulez d’abord la réservation.|Sin eliminar: {v0} {v1} reservadas. Cancele primero la reserva.
+{v0} failed deliveries|{v0} عمليات تسليم فاشلة|{v0} livraisons échouées|{v0} entregas fallidas
+{v0} slots removed.|تم حذف {v0} فترات.|{v0} créneaux supprimés.|Se han eliminado {v0} franjas.
+{v0} {v1} found|نتائج البحث: {v0} {v1}|Résultats : {v0} {v1}|Resultados: {v0} {v1}
+{v0} {v1} to {v2} {v3} {v4}|{v0} {v1} إلى {v2} {v3} {v4}|Du {v0} {v1} au {v2} {v3} {v4}|Del {v0} {v1} al {v2} {v3} {v4}
+{v0}: {v1} open, {v2} booked|{v0}: {v1} متاح، {v2} محجوز|{v0} : {v1} disponibles, {v2} réservés|{v0}: {v1} disponibles, {v2} reservados
+· Created|· تاريخ الإنشاء|· Créé|· Creado
++44 20 7946 0123|+44 20 7946 0123|+44 20 7946 0123|+44 20 7946 0123
+https://api.example.com/v1|https://api.example.com/v1|https://api.example.com/v1|https://api.example.com/v1
+Create clinic|إنشاء عيادة|Créer une clinique|Crear clínica
+Create doctor|إنشاء طبيب|Créer un médecin|Crear doctor
+Create patient|إنشاء مريض|Créer un patient|Crear paciente
+clinic|عيادة|clinique|clínica
+doctor|طبيب|médecin|doctor
+Enter a full name.|أدخل الاسم الكامل.|Saisissez un nom complet.|Introduzca un nombre completo.
+Enter an email.|أدخل بريداً إلكترونياً.|Saisissez un e-mail.|Introduzca un correo electrónico.
+Enter your email.|أدخل بريدك الإلكتروني.|Saisissez votre e-mail.|Introduzca su correo electrónico.
+Enter your full name.|أدخل اسمك الكامل.|Saisissez votre nom complet.|Introduzca su nombre completo.
+Enter your clinic name.|أدخل اسم عيادتك.|Saisissez le nom de votre clinique.|Introduzca el nombre de su clínica.
+Enter a contact number.|أدخل رقم اتصال.|Saisissez un numéro de téléphone.|Introduzca un número de contacto.
+Enter your address line.|أدخل عنوانك.|Saisissez votre adresse.|Introduzca su dirección.
+Enter your city.|أدخل مدينتك.|Saisissez votre ville.|Introduzca su ciudad.
+Enter your postcode.|أدخل رمزك البريدي.|Saisissez votre code postal.|Introduzca su código postal.
+Enter your state.|أدخل ولايتك.|Saisissez votre région.|Introduzca su provincia.
+Enter your country.|أدخل دولتك.|Saisissez votre pays.|Introduzca su país.
+That email's already in use.|هذا البريد الإلكتروني مستخدم بالفعل.|Cet e-mail est déjà utilisé.|Ese correo ya está en uso.
+Your note wasn't saved. Try again.|لم تُحفظ ملاحظتك. حاول مرة أخرى.|Votre note n’a pas été enregistrée. Réessayez.|Su nota no se ha guardado. Inténtelo de nuevo.
+No patient account found with that email.|لم يُعثر على حساب مريض بهذا البريد الإلكتروني.|Aucun compte patient trouvé avec cet e-mail.|No se encontró una cuenta de paciente con ese correo.
+No comments.|لا توجد تعليقات.|Aucun commentaire.|No hay comentarios.
+We couldn't prepare that download. Try again.|تعذر تجهيز التنزيل. حاول مرة أخرى.|Impossible de préparer le téléchargement. Réessayez.|No se pudo preparar la descarga. Inténtelo de nuevo.
+The company shipping address isn't set yet. Ask the tamaz team to add it.|لم يُحدد عنوان شحن الشركة بعد. اطلب من فريق tamaz إضافته.|L’adresse d’expédition de l’entreprise n’est pas encore définie. Demandez à l’équipe tamaz de l’ajouter.|Aún no se ha configurado la dirección de envío de la empresa. Pida al equipo tamaz que la añada.
+Paused while your clinic updates the design.|متوقف بينما تحدّث عيادتك التصميم.|En pause pendant la mise à jour du modèle par votre clinique.|En pausa mientras su clínica actualiza el diseño.
+Paused while the team looks into the delay.|متوقف بينما يبحث الفريق سبب التأخير.|En pause pendant que l’équipe examine le retard.|En pausa mientras el equipo investiga el retraso.
+Male|ذكر|Homme|Hombre
+Female|أنثى|Femme|Mujer
+In treatment|قيد العلاج|En traitement|En tratamiento
+Treatment completed|اكتمل العلاج|Traitement terminé|Tratamiento completado
+Week|الأسبوع|Semaine|Semana
+Month|الشهر|Mois|Mes
+Account created|تم إنشاء الحساب|Compte créé|Cuenta creada
+Appointment|الموعد|Rendez-vous|Cita
+Appointment booked|تم حجز الموعد|Rendez-vous réservé|Cita reservada
+Appointment moved by patient|المريض غيّر الموعد|Rendez-vous déplacé par le patient|Cita cambiada por el paciente
+Appointment cancelled by patient|المريض ألغى الموعد|Rendez-vous annulé par le patient|Cita cancelada por el paciente
+Appointment cancelled by clinic|العيادة ألغت الموعد|Rendez-vous annulé par la clinique|Cita cancelada por la clínica
+Appointment time changed by clinic|العيادة غيّرت وقت الموعد|Horaire modifié par la clinique|Horario cambiado por la clínica
+Case sent|تم إرسال الحالة|Dossier envoyé|Caso enviado
+Integration settings changed|تم تغيير إعدادات التكامل|Paramètres d’intégration modifiés|Configuración de integración modificada
+Patient account linked|تم ربط حساب المريض|Compte patient associé|Cuenta de paciente vinculada
+Design changes requested|تعديلات التصميم مطلوبة|Modifications du modèle demandées|Cambios del diseño solicitados
+Production started|بدأ التصنيع|Fabrication démarrée|Fabricación iniciada
+Delivery failed|فشل التسليم|Échec de livraison|Entrega fallida
+Invalid email or password|البريد الإلكتروني أو كلمة المرور غير صحيحة|E-mail ou mot de passe incorrect|Correo o contraseña incorrectos
+Case created|تم إنشاء الحالة|Dossier créé|Caso creado
+Marked ready to submit|تم تحديده كجاهز للتقديم|Marqué prêt à soumettre|Marcado como listo para enviar
+Sent to Tamaz|تم الإرسال إلى Tamaz|Envoyé à Tamaz|Enviado a Tamaz
+Delivered to Tamaz|تم التسليم إلى Tamaz|Transmis à Tamaz|Entregado a Tamaz
+No error recorded.|لا يوجد خطأ مسجل.|Aucune erreur enregistrée.|No hay ningún error registrado.
+Time zone|المنطقة الزمنية|Fuseau horaire|Zona horaria
+This clinic|هذه العيادة|Cette clinique|Esta clínica
+Slot added.|تمت إضافة الفترة.|Créneau ajouté.|Franja añadida.
+{count} slots added.|تمت إضافة {count} فترات.|{count} créneaux ajoutés.|Se han añadido {count} franjas.
+Slot changed. The patient has been told.|تم تغيير الفترة وإبلاغ المريض.|Créneau modifié. Le patient a été informé.|Franja modificada. Se ha informado al paciente.
+Slot changed.|تم تغيير الفترة.|Créneau modifié.|Franja modificada.
+We couldn't open the conversation.|تعذر فتح المحادثة.|Impossible d’ouvrir la conversation.|No se pudo abrir la conversación.
+Sent to|أرسل إلى|Envoyé à|Enviado a
+Add a comment so Tamaz knows what to change.|أضف تعليقاً ليعرف Tamaz ما المطلوب تغييره.|Ajoutez un commentaire pour indiquer à Tamaz ce qu’il faut modifier.|Añada un comentario para indicar a Tamaz qué debe cambiar.
+Read Tamaz's comments and upload a corrected scan.|اقرأ تعليقات Tamaz وارفع مسحاً مصححاً.|Lisez les commentaires de Tamaz et importez un scan corrigé.|Lea los comentarios de Tamaz y suba un escaneo corregido.
+Fix design|تصحيح التصميم|Corriger le modèle|Corregir diseño
+We couldn't deliver this case. Try sending again.|تعذر تسليم هذه الحالة. حاول الإرسال مجدداً.|Impossible de transmettre ce dossier. Réessayez l’envoi.|No se pudo entregar este caso. Intente enviarlo de nuevo.
+Not set|غير محدد|Non défini|Sin configurar
+Right molars|الأضراس اليمنى|Molaires droites|Molares derechos
+Right canine|الناب الأيمن|Canine droite|Canino derecho
+Left molars|الأضراس اليسرى|Molaires gauches|Molares izquierdos
+Left canine|الناب الأيسر|Canine gauche|Canino izquierdo
+Class I|الصنف I|Classe I|Clase I
+The upload could not reach storage.|تعذر اتصال الرفع بالتخزين.|L’importation n’a pas pu atteindre le stockage.|La subida no pudo conectar con el almacenamiento.
+Your message wasn't sent.|لم تُرسل رسالتك.|Votre message n’a pas été envoyé.|Su mensaje no se ha enviado.
+A template is a saved layout for a grid: columns, sorting, filters and grouping. It only changes the layout. Everyone still sees only their own records.|القالب هو تخطيط محفوظ للجدول: الأعمدة والفرز والمرشحات والتجميع. إنه يغيّر التخطيط فقط. ويظل كل شخص يرى سجلاته فقط.|Un modèle est une disposition enregistrée pour une grille : colonnes, tri, filtres et regroupement. Il ne change que la disposition. Chacun ne voit toujours que ses propres dossiers.|Una plantilla es un diseño guardado para una cuadrícula: columnas, orden, filtros y agrupación. Solo cambia el diseño. Cada persona sigue viendo únicamente sus propios registros.
+A template only changes the layout. Everyone still sees only their own records.|القالب يغيّر التخطيط فقط. ويظل كل شخص يرى سجلاته فقط.|Un modèle ne change que la disposition. Chacun ne voit toujours que ses propres dossiers.|Una plantilla solo cambia el diseño. Cada persona sigue viendo únicamente sus propios registros.
+Active filters|المرشحات النشطة|Filtres actifs|Filtros activos
+Add a sort|إضافة فرز|Ajouter un tri|Añadir un orden
+Add as next sort|إضافة كفرز تالٍ|Ajouter comme tri suivant|Añadir como siguiente orden
+Add filter|إضافة مرشح|Ajouter un filtre|Añadir filtro
+All cases right now|كل الحالات الآن|Tous les dossiers actuellement|Todos los casos ahora
+All grids|كل الجداول|Toutes les grilles|Todas las cuadrículas
+An account's own default beats its user type's default, which beats the built-in Default view.|الإعداد الافتراضي للحساب نفسه يتقدّم على الإعداد الافتراضي لنوع المستخدم، وهو بدوره يتقدّم على العرض الافتراضي المدمج.|Le modèle par défaut d'un compte l'emporte sur celui de son type d'utilisateur, qui l'emporte sur la vue par défaut intégrée.|El valor predeterminado de una cuenta prevalece sobre el de su tipo de usuario, que prevalece sobre la vista predeterminada integrada.
+Any|أي|Tous|Cualquiera
+Ascending|تصاعدي|Croissant|Ascendente
+Available fields|الحقول المتاحة|Champs disponibles|Campos disponibles
+Available to all {who}|متاح لجميع {who}|Disponible pour tous : {who}|Disponible para todos: {who}
+Back to the list|العودة إلى القائمة|Retour à la liste|Volver a la lista
+Built-in|مدمج|Intégrée|Integrada
+Busiest clinics and doctors|أكثر العيادات والأطباء نشاطًا|Cliniques et médecins les plus actifs|Clínicas y médicos más activos
+Cases by status|الحالات حسب الحالة|Dossiers par statut|Casos por estado
+Cases per day|الحالات يوميًا|Dossiers par jour|Casos por día
+Changed|تم التغيير|Modifiée|Cambiada
+Charts appear once cases have been created on at least 3 different days.|تظهر المخططات بعد إنشاء حالات في 3 أيام مختلفة على الأقل.|Les graphiques apparaissent une fois que des dossiers ont été créés sur au moins 3 jours différents.|Los gráficos aparecen cuando se han creado casos en al menos 3 días distintos.
+Choose a view|اختيار عرض|Choisir une vue|Elegir una vista
+Clear filters|مسح المرشحات|Effacer les filtres|Borrar filtros
+Click to sort. Shift-click adds a second sort.|انقر للفرز. النقر مع Shift يضيف فرزًا ثانيًا.|Cliquez pour trier. Maj + clic ajoute un second tri.|Haz clic para ordenar. Mayús + clic añade un segundo orden.
+Column options|خيارات العمود|Options de la colonne|Opciones de la columna
+Columns|الأعمدة|Colonnes|Columnas
+Comfortable|مريح|Confortable|Cómoda
+Compact|مضغوط|Compacte|Compacta
+Confirm|تأكيد|Confirmer|Confirmar
+Contains…|يحتوي على…|Contient…|Contiene…
+Create a patient to start the first case.|أنشئ مريضًا لبدء أول حالة.|Créez un patient pour commencer le premier dossier.|Crea un paciente para empezar el primer caso.
+Custom range|نطاق مخصص|Période personnalisée|Rango personalizado
+Date range|النطاق الزمني|Période|Rango de fechas
+Days shown in your time zone|الأيام بحسب منطقتك الزمنية|Jours affichés dans votre fuseau horaire|Días mostrados en tu zona horaria
+Default|افتراضي|Par défaut|Predeterminada
+Default filters. People can still change them for themselves.|مرشحات افتراضية. يمكن للناس تغييرها لأنفسهم.|Filtres par défaut. Chacun peut quand même les modifier pour lui-même.|Filtros predeterminados. Cada persona puede cambiarlos para sí misma.
+Default view|العرض الافتراضي|Vue par défaut|Vista predeterminada
+Delete|حذف|Supprimer|Eliminar
+Delete “{name}”?|حذف “{name}”؟|Supprimer « {name} » ?|¿Eliminar “{name}”?
+Descending|تنازلي|Décroissant|Descendente
+Desktop|سطح المكتب|Ordinateur|Escritorio
+Direction|الاتجاه|Sens|Dirección
+Discard|تجاهل|Abandonner|Descartar
+Display|العرض|Affichage|Visualización
+Duplicate|تكرار|Dupliquer|Duplicar
+Edit|تعديل|Modifier|Editar
+Edit filter|تعديل المرشح|Modifier le filtre|Editar filtro
+Every field is already in the layout.|كل الحقول موجودة بالفعل في التخطيط.|Tous les champs sont déjà dans la disposition.|Todos los campos ya están en el diseño.
+Every grid has a built-in Default view. Make a template to give clinics, doctors, patients or admins a different layout.|لكل جدول عرض افتراضي مدمج. أنشئ قالبًا لتمنح العيادات أو الأطباء أو المرضى أو المشرفين تخطيطًا مختلفًا.|Chaque grille a une vue par défaut intégrée. Créez un modèle pour offrir une autre disposition aux cliniques, médecins, patients ou administrateurs.|Cada cuadrícula tiene una vista predeterminada integrada. Crea una plantilla para dar un diseño distinto a clínicas, médicos, pacientes o administradores.
+Everyone with this grid|كل من لديه هذا الجدول|Tous ceux qui ont cette grille|Todos los que tienen esta cuadrícula
+Filter by|التصفية حسب|Filtrer par|Filtrar por
+Filter by grid|التصفية حسب الجدول|Filtrer par grille|Filtrar por cuadrícula
+Filters|المرشحات|Filtres|Filtros
+Give the template a name.|أعطِ القالب اسمًا.|Donnez un nom au modèle.|Ponle un nombre a la plantilla.
+Group by|التجميع حسب|Regrouper par|Agrupar por
+Group by this column|التجميع حسب هذا العمود|Regrouper par cette colonne|Agrupar por esta columna
+Group rows by one field. Group headers show how many rows are in each group.|جمّع الصفوف حسب حقل واحد. تُظهر رؤوس المجموعات عدد الصفوف في كل مجموعة.|Regroupez les lignes selon un champ. Les en-têtes de groupe indiquent le nombre de lignes de chaque groupe.|Agrupa las filas por un campo. Los encabezados de grupo muestran cuántas filas hay en cada grupo.
+Grouping|التجميع|Regroupement|Agrupación
+Growth|النمو|Croissance|Crecimiento
+Hide column|إخفاء العمود|Masquer la colonne|Ocultar columna
+Individual accounts|حسابات فردية|Comptes individuels|Cuentas individuales
+Keep editing|متابعة التعديل|Continuer à modifier|Seguir editando
+Last {n} days|آخر {n} يومًا|{n} derniers jours|Últimos {n} días
+Last changed|آخر تغيير|Dernière modification|Último cambio
+Latest status|أحدث حالة|Dernier statut|Último estado
+Leave|مغادرة|Quitter|Salir
+Leave without saving?|المغادرة دون حفظ؟|Quitter sans enregistrer ?|¿Salir sin guardar?
+Less|أقل|Moins|Menos
+Make this their default view|اجعله عرضهم الافتراضي|En faire leur vue par défaut|Hacerla su vista predeterminada
+Max|الحد الأقصى|Max|Máx.
+Metrics|المقاييس|Indicateurs|Métricas
+Min|الحد الأدنى|Min|Mín.
+More|المزيد|Plus|Más
+Move down|تحريك للأسفل|Descendre|Mover abajo
+Move up|تحريك للأعلى|Monter|Mover arriba
+New cases|حالات جديدة|Nouveaux dossiers|Casos nuevos
+New cases this week|حالات جديدة هذا الأسبوع|Nouveaux dossiers cette semaine|Casos nuevos esta semana
+New cases today|حالات جديدة اليوم|Nouveaux dossiers aujourd'hui|Casos nuevos hoy
+New template|قالب جديد|Nouveau modèle|Nueva plantilla
+No|لا|Non|No
+No cases in this range.|لا توجد حالات في هذا النطاق.|Aucun dossier sur cette période.|No hay casos en este rango.
+No earlier data to compare|لا توجد بيانات سابقة للمقارنة|Aucune donnée antérieure à comparer|No hay datos anteriores para comparar
+No grouping|بدون تجميع|Aucun regroupement|Sin agrupación
+No templates match.|لا توجد قوالب مطابقة.|Aucun modèle ne correspond.|Ninguna plantilla coincide.
+No templates yet.|لا توجد قوالب بعد.|Aucun modèle pour l'instant.|Aún no hay plantillas.
+Not enough data yet|لا توجد بيانات كافية بعد|Pas encore assez de données|Aún no hay suficientes datos
+Not enough data yet.|لا توجد بيانات كافية بعد.|Pas encore assez de données.|Aún no hay suficientes datos.
+Not shared|غير مشارك|Non partagé|No compartida
+Not shared with anyone yet.|لم تتم مشاركته مع أحد بعد.|Pas encore partagé avec personne.|Aún no se ha compartido con nadie.
+Nothing matches these filters.|لا شيء يطابق هذه المرشحات.|Rien ne correspond à ces filtres.|Nada coincide con estos filtros.
+Nothing to preview.|لا شيء للمعاينة.|Rien à prévisualiser.|Nada que previsualizar.
+Open full grid|فتح الجدول الكامل|Ouvrir la grille complète|Abrir la cuadrícula completa
+Open this on a larger screen to edit templates.|افتح هذا على شاشة أكبر لتعديل القوالب.|Ouvrez ceci sur un écran plus grand pour modifier les modèles.|Abre esto en una pantalla más grande para editar plantillas.
+Owner|المالك|Propriétaire|Propietario
+Pages|الصفحات|Pages|Páginas
+Patient accounts|حسابات المرضى|Comptes patients|Cuentas de pacientes
+Patient name|اسم المريض|Nom du patient|Nombre del paciente
+Patients (clinics and doctors)|المرضى (العيادات والأطباء)|Patients (cliniques et médecins)|Pacientes (clínicas y médicos)
+Patients appear here once a clinic or doctor creates a case.|يظهر المرضى هنا بعد أن تنشئ عيادة أو طبيب حالة.|Les patients apparaissent ici dès qu'une clinique ou un médecin crée un dossier.|Los pacientes aparecen aquí cuando una clínica o un médico crea un caso.
+Cases (clinics and doctors)|الحالات (العيادات والأطباء)|Dossiers (cliniques et médecins)|Casos (clínicas y médicos)
+Pin|تثبيت|Épingler|Fijar
+Pin left|تثبيت لليسار|Épingler à gauche|Fijar a la izquierda
+Unpin|إلغاء التثبيت|Désépingler|Desfijar
+Preview width|عرض المعاينة|Largeur de l'aperçu|Ancho de la vista previa
+Read-only|للقراءة فقط|Lecture seule|Solo lectura
+Refresh|تحديث|Actualiser|Actualizar
+Remove filter|إزالة المرشح|Retirer le filtre|Quitar filtro
+Remove sort|إزالة الفرز|Retirer le tri|Quitar orden
+Reset|إعادة تعيين|Réinitialiser|Restablecer
+Reset to my default|إعادة إلى الافتراضي الخاص بي|Revenir à ma vue par défaut|Volver a mi vista predeterminada
+Row density|كثافة الصفوف|Densité des lignes|Densidad de filas
+Rows per page|الصفوف في الصفحة|Lignes par page|Filas por página
+Save as copy|حفظ كنسخة|Enregistrer comme copie|Guardar como copia
+Search fields|بحث في الحقول|Rechercher des champs|Buscar campos
+Search templates|بحث في القوالب|Rechercher des modèles|Buscar plantillas
+See needs attention|عرض ما يحتاج إلى انتباه|Voir ce qui demande de l'attention|Ver lo que necesita atención
+Sent date|تاريخ الإرسال|Date d'envoi|Fecha de envío
+Share|مشاركة|Partager|Compartir
+Share “{name}”|مشاركة “{name}”|Partager « {name} »|Compartir “{name}”
+Sort|الفرز|Tri|Orden
+Sort ascending|فرز تصاعدي|Tri croissant|Orden ascendente
+Sort descending|فرز تنازلي|Tri décroissant|Orden descendente
+Tablet|جهاز لوحي|Tablette|Tableta
+Template deleted.|تم حذف القالب.|Modèle supprimé.|Plantilla eliminada.
+Template duplicated.|تم تكرار القالب.|Modèle dupliqué.|Plantilla duplicada.
+Template name|اسم القالب|Nom du modèle|Nombre de la plantilla
+Template saved.|تم حفظ القالب.|Modèle enregistré.|Plantilla guardada.
+Template shared.|تمت مشاركة القالب.|Modèle partagé.|Plantilla compartida.
+That grid does not exist.|هذا الجدول غير موجود.|Cette grille n'existe pas.|Esa cuadrícula no existe.
+The grid decides who can receive the template.|الجدول هو الذي يحدد من يمكنه استلام القالب.|La grille détermine qui peut recevoir le modèle.|La cuadrícula decide quién puede recibir la plantilla.
+This cannot be undone.|لا يمكن التراجع عن هذا.|Cette action est irréversible.|Esto no se puede deshacer.
+This grid is not available to {who}.|هذا الجدول غير متاح لـ {who}.|Cette grille n'est pas disponible pour : {who}.|Esta cuadrícula no está disponible para {who}.
+This replaces “{name}” as the default for {who}.|هذا يحل محل “{name}” كافتراضي لـ {who}.|Cela remplace « {name} » comme vue par défaut pour : {who}.|Esto reemplaza a “{name}” como predeterminada para {who}.
+This template used fields that no longer exist: {fields}. They were removed from the layout. Save to keep the change.|استخدم هذا القالب حقولًا لم تعد موجودة: {fields}. تمت إزالتها من التخطيط. احفظ للإبقاء على التغيير.|Ce modèle utilisait des champs qui n'existent plus : {fields}. Ils ont été retirés de la disposition. Enregistrez pour conserver la modification.|Esta plantilla usaba campos que ya no existen: {fields}. Se quitaron del diseño. Guarda para conservar el cambio.
+Total cases|إجمالي الحالات|Total des dossiers|Total de casos
+Try removing a filter or changing your search.|جرّب إزالة مرشح أو تغيير البحث.|Essayez de retirer un filtre ou de modifier votre recherche.|Prueba a quitar un filtro o a cambiar la búsqueda.
+Unsaved changes|تغييرات غير محفوظة|Modifications non enregistrées|Cambios sin guardar
+Up to 3 levels. The first one sorts first.|حتى 3 مستويات. الأول يُفرز أولًا.|Jusqu'à 3 niveaux. Le premier trie en premier.|Hasta 3 niveles. El primero ordena primero.
+Updated {when}|آخر تحديث {when}|Mis à jour {when}|Actualizado {when}
+Used as the default for all {who}|مستخدم كافتراضي لجميع {who}|Utilisé par défaut pour tous : {who}|Usada como predeterminada para todos: {who}
+Used as the default for {who}. They will go back to the Default view.|مستخدم كافتراضي لـ {who}. سيعودون إلى العرض الافتراضي.|Utilisé par défaut pour : {who}. Ils reviendront à la vue par défaut.|Usada como predeterminada para {who}. Volverán a la vista predeterminada.
+User types|أنواع المستخدمين|Types d'utilisateurs|Tipos de usuario
+View all|عرض الكل|Tout voir|Ver todo
+View as chart|عرض كمخطط|Voir en graphique|Ver como gráfico
+View as table|عرض كجدول|Voir en tableau|Ver como tabla
+View:|العرض:|Vue :|Vista:
+Views|العروض|Vues|Vistas
+We couldn't load the templates.|تعذّر تحميل القوالب.|Impossible de charger les modèles.|No pudimos cargar las plantillas.
+We couldn't load this list.|تعذّر تحميل هذه القائمة.|Impossible de charger cette liste.|No pudimos cargar esta lista.
+We couldn't load this template.|تعذّر تحميل هذا القالب.|Impossible de charger ce modèle.|No pudimos cargar esta plantilla.
+Which grid is it for?|لأي جدول هذا القالب؟|Pour quelle grille ?|¿Para qué cuadrícula es?
+Yes|نعم|Oui|Sí
+You have changes that are not saved.|لديك تغييرات غير محفوظة.|Vous avez des modifications non enregistrées.|Tienes cambios sin guardar.
+sample data|بيانات تجريبية|données d'exemple|datos de ejemplo
+vs last week|مقارنة بالأسبوع الماضي|par rapport à la semaine dernière|frente a la semana pasada
+vs yesterday|مقارنة بالأمس|par rapport à hier|frente a ayer
+vs {n} days ago|مقارنة بقبل {n} يومًا|par rapport à il y a {n} jours|frente a hace {n} días
+{n} cases in total|{n} حالة في المجموع|{n} dossiers au total|{n} casos en total
+{n} individual accounts|{n} حسابات فردية|{n} comptes individuels|{n} cuentas individuales
+{n} new cases|{n} حالة جديدة|{n} nouveaux dossiers|{n} casos nuevos
+{n} rows|{n} صفًا|{n} lignes|{n} filas
+Admins|المشرفون|Administrateurs|Administradores
+Audience|الجمهور|Public|Destinatarios
+Failed deliveries|عمليات تسليم فاشلة|Livraisons échouées|Entregas fallidas
+View template created|تم إنشاء قالب عرض|Modèle de vue créé|Plantilla de vista creada
+View template changed|تم تغيير قالب العرض|Modèle de vue modifié|Plantilla de vista cambiada
+View template shared|تمت مشاركة قالب العرض|Modèle de vue partagé|Plantilla de vista compartida
+View template deleted|تم حذف قالب العرض|Modèle de vue supprimé|Plantilla de vista eliminada
+View template|قالب العرض|Modèle de vue|Plantilla de vista
+Resize column|تغيير حجم العمود|Redimensionner la colonne|Cambiar el tamaño de la columna
+Drag to resize|اسحب لتغيير الحجم|Faites glisser pour redimensionner|Arrastra para cambiar el tamaño
+Switch off|إيقاف|Désactiver|Desactivar
+Switch on|تشغيل|Activer|Activar
+Required record added.|تمت إضافة السجل المطلوب.|Dossier requis ajouté.|Registro obligatorio añadido.
+Required record switched off.|تم إيقاف السجل المطلوب.|Dossier requis désactivé.|Registro obligatorio desactivado.
+Required record switched on.|تم تشغيل السجل المطلوب.|Dossier requis activé.|Registro obligatorio activado.
+Required record removed.|تمت إزالة السجل المطلوب.|Dossier requis retiré.|Registro obligatorio eliminado.
+Photos must be JPEG or PNG.|يجب أن تكون الصور بصيغة JPEG أو PNG.|Les photos doivent être au format JPEG ou PNG.|Las fotos deben ser JPEG o PNG.
+Photos must be JPEG or PNG (.jpg, .jpeg, .png)|يجب أن تكون الصور بصيغة JPEG أو PNG (‎.jpg أو ‎.jpeg أو ‎.png)|Les photos doivent être au format JPEG ou PNG (.jpg, .jpeg, .png)|Las fotos deben ser JPEG o PNG (.jpg, .jpeg, .png)
+We couldn't remove that file. Try again.|تعذّرت إزالة هذا الملف. حاول مرة أخرى.|Impossible de retirer ce fichier. Réessayez.|No pudimos quitar ese archivo. Inténtalo de nuevo.
+The upload did not finish. Upload the file again.|لم يكتمل الرفع. ارفع الملف مرة أخرى.|Le téléversement n'est pas terminé. Téléversez à nouveau le fichier.|La subida no terminó. Sube el archivo de nuevo.
+The stored file does not match the upload. Upload the file again.|الملف المخزّن لا يطابق ما تم رفعه. ارفع الملف مرة أخرى.|Le fichier enregistré ne correspond pas au téléversement. Téléversez à nouveau le fichier.|El archivo guardado no coincide con la subida. Sube el archivo de nuevo.
+That file is already added.|تمت إضافة هذا الملف بالفعل.|Ce fichier est déjà ajouté.|Ese archivo ya está añadido.
+That file does not belong to this case.|هذا الملف لا يخص هذه الحالة.|Ce fichier n'appartient pas à ce dossier.|Ese archivo no pertenece a este caso.
+That file does not fit the required record.|هذا الملف لا يناسب السجل المطلوب.|Ce fichier ne correspond pas au dossier requis.|Ese archivo no encaja con el registro obligatorio.
+Some required records are missing: {list}|بعض السجلات المطلوبة ناقصة: {list}|Certains dossiers requis manquent : {list}|Faltan algunos registros obligatorios: {list}
+Required records|السجلات المطلوبة|Dossiers requis|Registros obligatorios
+Records can't be changed while the case is with Tamaz.|لا يمكن تغيير السجلات أثناء وجود الحالة لدى Tamaz.|Les dossiers ne peuvent pas être modifiés tant que le dossier est chez Tamaz.|Los registros no se pueden cambiar mientras el caso está en Tamaz.
+Complete|مكتمل|Complet|Completo
+Missing|ناقص|Manquant|Falta
+Dismiss|إخفاء|Fermer|Descartar
+3D model (STL)|نموذج ثلاثي الأبعاد (STL)|Modèle 3D (STL)|Modelo 3D (STL)
+Photo|صورة|Photo|Foto
+Off|متوقف|Désactivé|Desactivado
+Waiting on the client|بانتظار العميل|En attente du client|A la espera del cliente
+We couldn't load the required records.|تعذّر تحميل السجلات المطلوبة.|Impossible de charger les dossiers requis.|No pudimos cargar los registros obligatorios.
+What the doctor sees, for example the view or arch|ما يراه الطبيب، مثل الزاوية أو القوس|Ce que voit le médecin, par exemple la vue ou l'arcade|Lo que ve el médico, por ejemplo la vista o la arcada
+Nothing is listed, so every case needs one STL model and one photo.|لا يوجد شيء في القائمة، لذا تحتاج كل حالة إلى نموذج STL واحد وصورة واحدة.|Rien n'est listé, donc chaque dossier a besoin d'un modèle STL et d'une photo.|No hay nada en la lista, así que cada caso necesita un modelo STL y una foto.
+A case cannot be submitted until every record below is uploaded. The client has not said which STL models and photo views are required, so add them here once they do.|لا يمكن إرسال الحالة حتى يتم رفع كل سجل أدناه. لم يحدد العميل نماذج STL وزوايا الصور المطلوبة، لذا أضفها هنا حين يفعل.|Un dossier ne peut pas être envoyé tant que chaque dossier ci-dessous n'est pas téléversé. Le client n'a pas dit quels modèles STL et quelles vues photo sont requis : ajoutez-les ici quand il le fera.|Un caso no se puede enviar hasta que se suba cada registro de abajo. El cliente no ha dicho qué modelos STL y vistas de foto son obligatorios; añádelos aquí cuando lo haga.
+Add the required records and any notes, then continue.|أضف السجلات المطلوبة وأي ملاحظات، ثم تابع.|Ajoutez les dossiers requis et vos notes, puis continuez.|Añade los registros obligatorios y cualquier nota, y continúa.
+3D view of {name}|عرض ثلاثي الأبعاد لـ {name}|Vue 3D de {name}|Vista 3D de {name}
+Add from this patient's photos|إضافة من صور هذا المريض|Ajouter depuis les photos de ce patient|Añadir desde las fotos de este paciente
+Add {n} photos|إضافة {n} صور|Ajouter {n} photos|Añadir {n} fotos
+Ask for a new link|اطلب رابطًا جديدًا|Demander un nouveau lien|Pedir un enlace nuevo
+Back to sign in|العودة إلى تسجيل الدخول|Retour à la connexion|Volver a iniciar sesión
+Change password|تغيير كلمة المرور|Changer le mot de passe|Cambiar la contraseña
+Choose a new password|اختر كلمة مرور جديدة|Choisissez un nouveau mot de passe|Elige una contraseña nueva
+Choose photos|اختر الصور|Choisir des photos|Elegir fotos
+Creating a patient starts their first case.|إنشاء مريض يبدأ أول حالة له.|Créer un patient ouvre son premier dossier.|Crear un paciente inicia su primer caso.
+Current password|كلمة المرور الحالية|Mot de passe actuel|Contraseña actual
+Date the photo was taken|تاريخ التقاط الصورة|Date de la prise de la photo|Fecha en que se tomó la foto
+Date the scan was made|تاريخ إجراء المسح|Date de réalisation du scan|Fecha en que se hizo el escaneo
+Drag to turn the model, scroll to zoom.|اسحب لتدوير النموذج، وقم بالتمرير للتكبير.|Faites glisser pour tourner le modèle, faites défiler pour zoomer.|Arrastra para girar el modelo, desplázate para acercar.
+Edit details|تعديل التفاصيل|Modifier les détails|Editar detalles
+Enter the email of your account and we will send you a link to choose a new password.|أدخل البريد الإلكتروني لحسابك وسنرسل لك رابطًا لاختيار كلمة مرور جديدة.|Saisissez l'email de votre compte et nous vous enverrons un lien pour choisir un nouveau mot de passe.|Escribe el correo de tu cuenta y te enviaremos un enlace para elegir una contraseña nueva.
+Forgot your password?|هل نسيت كلمة المرور؟|Mot de passe oublié ?|¿Olvidaste tu contraseña?
+If that email has an account, a link to choose a new password is on its way. It works once and for an hour.|إذا كان لهذا البريد حساب، فسيصلك رابط لاختيار كلمة مرور جديدة. يعمل مرة واحدة ولمدة ساعة.|Si cet email a un compte, un lien pour choisir un nouveau mot de passe est en route. Il fonctionne une seule fois et pendant une heure.|Si ese correo tiene una cuenta, va en camino un enlace para elegir una contraseña nueva. Funciona una sola vez y durante una hora.
+Jaw not set|لم يُحدَّد الفك|Mâchoire non précisée|Mandíbula sin indicar
+Loading the 3D model|جارٍ تحميل النموذج ثلاثي الأبعاد|Chargement du modèle 3D|Cargando el modelo 3D
+Lower jaw|الفك السفلي|Mâchoire inférieure|Mandíbula inferior
+New password|كلمة المرور الجديدة|Nouveau mot de passe|Contraseña nueva
+Password changed. Other devices were signed out.|تم تغيير كلمة المرور. تم تسجيل الخروج من الأجهزة الأخرى.|Mot de passe changé. Les autres appareils ont été déconnectés.|Contraseña cambiada. Se cerró la sesión en los demás dispositivos.
+Patient details|تفاصيل المريض|Détails du patient|Detalles del paciente
+Photos from this patient's other cases. A copy is added to this case; the original stays where it is.|صور من حالات أخرى لهذا المريض. تُضاف نسخة إلى هذه الحالة، وتبقى الأصلية في مكانها.|Photos des autres dossiers de ce patient. Une copie est ajoutée à ce dossier ; l'original reste en place.|Fotos de otros casos de este paciente. Se añade una copia a este caso; el original se queda donde está.
+Repeat the new password|أعد كتابة كلمة المرور الجديدة|Répétez le nouveau mot de passe|Repite la contraseña nueva
+Send the link|أرسل الرابط|Envoyer le lien|Enviar el enlace
+Taken on|تاريخ الالتقاط|Prise le|Tomada el
+The doctor at your clinic who looks after this patient.|الطبيب في عيادتك الذي يتابع هذا المريض.|Le médecin de votre clinique qui suit ce patient.|El médico de tu clínica que atiende a este paciente.
+This link is not valid any more. Ask for a new one.|لم يعد هذا الرابط صالحًا. اطلب رابطًا جديدًا.|Ce lien n'est plus valable. Demandez-en un nouveau.|Este enlace ya no es válido. Pide uno nuevo.
+This patient has no photos on other cases yet.|ليس لهذا المريض صور في حالات أخرى بعد.|Ce patient n'a pas encore de photos sur d'autres dossiers.|Este paciente aún no tiene fotos en otros casos.
+Uploaded|تم الرفع|Téléversé|Subido
+Upper jaw|الفك العلوي|Mâchoire supérieure|Mandíbula superior
+View in 3D|عرض ثلاثي الأبعاد|Voir en 3D|Ver en 3D
+We couldn't load the photos.|تعذّر تحميل الصور.|Impossible de charger les photos.|No pudimos cargar las fotos.
+We couldn't load this patient's details.|تعذّر تحميل تفاصيل هذا المريض.|Impossible de charger les détails de ce patient.|No pudimos cargar los detalles de este paciente.
+We couldn't show this model. You can still download it.|تعذّر عرض هذا النموذج. ما زال بإمكانك تنزيله.|Impossible d'afficher ce modèle. Vous pouvez toujours le télécharger.|No pudimos mostrar este modelo. Aún puedes descargarlo.
+Which jaw|أي فك|Quelle mâchoire|Qué mandíbula
+You will stay signed in here. Every other device is signed out.|ستبقى مسجّل الدخول هنا. يتم تسجيل الخروج من كل جهاز آخر.|Vous restez connecté ici. Tous les autres appareils sont déconnectés.|Seguirás con la sesión iniciada aquí. Se cierra la sesión en todos los demás dispositivos.
+Your own number for this patient. It can stand in for the name.|رقمك الخاص لهذا المريض. يمكن أن يحل محل الاسم.|Votre propre numéro pour ce patient. Il peut remplacer le nom.|Tu propio número para este paciente. Puede sustituir al nombre.
+Your password is changed. You can sign in with it now.|تم تغيير كلمة المرور. يمكنك تسجيل الدخول بها الآن.|Votre mot de passe est changé. Vous pouvez vous connecter avec.|Tu contraseña ha cambiado. Ya puedes iniciar sesión con ella.
+Use at most 100 characters.|استخدم 100 حرف على الأكثر.|Utilisez au plus 100 caractères.|Usa como máximo 100 caracteres.
+The two passwords do not match.|كلمتا المرور غير متطابقتين.|Les deux mots de passe ne correspondent pas.|Las dos contraseñas no coinciden.
+Enter your current password.|أدخل كلمة المرور الحالية.|Saisissez votre mot de passe actuel.|Escribe tu contraseña actual.
+Please sign in again.|يرجى تسجيل الدخول مرة أخرى.|Veuillez vous reconnecter.|Inicia sesión de nuevo.
+We couldn't send that. Try again.|تعذّر إرسال ذلك. حاول مرة أخرى.|Impossible d'envoyer cela. Réessayez.|No pudimos enviar eso. Inténtalo de nuevo.
+Enter a name or an office ID.|أدخل اسمًا أو رقم مكتب.|Saisissez un nom ou un identifiant de cabinet.|Escribe un nombre o un ID de consulta.
+Enter the patient's name or an office ID.|أدخل اسم المريض أو رقم المكتب.|Saisissez le nom du patient ou un identifiant de cabinet.|Escribe el nombre del paciente o un ID de consulta.
+Check the patient's email.|تحقق من بريد المريض الإلكتروني.|Vérifiez l'email du patient.|Revisa el correo del paciente.
+Check the date of birth.|تحقق من تاريخ الميلاد.|Vérifiez la date de naissance.|Revisa la fecha de nacimiento.
+Gender must be male or female.|يجب أن يكون الجنس ذكرًا أو أنثى.|Le sexe doit être masculin ou féminin.|El género debe ser masculino o femenino.
+Treatment status must be in treatment or completed.|يجب أن تكون حالة العلاج قيد العلاج أو مكتملة.|Le statut du traitement doit être en traitement ou terminé.|El estado del tratamiento debe ser en tratamiento o completado.
+Your current password is not right.|كلمة المرور الحالية غير صحيحة.|Votre mot de passe actuel n'est pas correct.|Tu contraseña actual no es correcta.
+Choose a password you have not been using.|اختر كلمة مرور لم تكن تستخدمها.|Choisissez un mot de passe que vous n'utilisiez pas.|Elige una contraseña que no hayas estado usando.
+Check the date the scan or photo was taken.|تحقق من تاريخ إجراء المسح أو التقاط الصورة.|Vérifiez la date du scan ou de la photo.|Revisa la fecha del escaneo o de la foto.
+The jaw must be upper or lower.|يجب أن يكون الفك علويًا أو سفليًا.|La mâchoire doit être supérieure ou inférieure.|La mandíbula debe ser superior o inferior.
+Only a scan has an upper or lower jaw.|المسح وحده له فك علوي أو سفلي.|Seul un scan a une mâchoire supérieure ou inférieure.|Solo un escaneo tiene mandíbula superior o inferior.
+3D model|نموذج ثلاثي الأبعاد|Modèle 3D|Modelo 3D
+A case you have already sent to Tamaz cannot be deleted.|لا يمكن حذف حالة سبق أن أرسلتها إلى Tamaz.|Un dossier déjà envoyé à Tamaz ne peut pas être supprimé.|Un caso que ya enviaste a Tamaz no se puede eliminar.
+Activity and notes|النشاط والملاحظات|Activité et notes|Actividad y notas
+Add {label} to continue|أضف {label} للمتابعة|Ajoutez {label} pour continuer|Añade {label} para continuar
+Aligner trimming|قص المقوّمات|Découpe des aligneurs|Recorte de los alineadores
+Aligners are delivered to Tamaz|تُسلَّم المقوّمات إلى Tamaz|Les aligneurs sont livrés à Tamaz|Los alineadores se entregan a Tamaz
+Bank transfer|تحويل مصرفي|Virement bancaire|Transferencia bancaria
+Both jaws|كلا الفكين|Les deux mâchoires|Ambas mandíbulas
+Card|بطاقة|Carte|Tarjeta
+Case steps|خطوات الحالة|Étapes du dossier|Pasos del caso
+Case {n} of {name} will be deleted with its files, notes and answers. This cannot be undone.|سيتم حذف الحالة {n} للمريض {name} مع ملفاتها وملاحظاتها وإجاباتها. لا يمكن التراجع عن هذا.|Le dossier {n} de {name} sera supprimé avec ses fichiers, notes et réponses. Cette action est irréversible.|El caso {n} de {name} se eliminará con sus archivos, notas y respuestas. Esto no se puede deshacer.
+Cash|نقدًا|Espèces|Efectivo
+Chat with Tamaz|الدردشة مع Tamaz|Discuter avec Tamaz|Chatear con Tamaz
+Choose a photo|اختر صورة|Choisir une photo|Elegir una foto
+Choose one|اختر واحدًا|Choisissez une option|Elige una opción
+Choose who pays and how to continue|اختر من يدفع وكيف للمتابعة|Choisissez qui paie et comment pour continuer|Elige quién paga y cómo para continuar
+Class {c}|الفئة {c}|Classe {c}|Clase {c}
+Clinic or doctor|العيادة أو الطبيب|Clinique ou médecin|Clínica o médico
+Complete the step before first|أكمل الخطوة التي قبلها أولاً|Terminez d'abord l'étape précédente|Completa primero el paso anterior
+Delete case|حذف الحالة|Supprimer le dossier|Eliminar caso
+Delete this case?|حذف هذه الحالة؟|Supprimer ce dossier ?|¿Eliminar este caso?
+Delivery notes|ملاحظات التسليم|Notes de livraison|Notas de entrega
+Describe the plan in as much detail as you can, in simple sentences. Say which occlusion class you want and any extractions or prosthesis.|صف الخطة بأكبر قدر من التفصيل وبجمل بسيطة. اذكر فئة الإطباق التي تريدها وأي خلع أو تركيبات.|Décrivez le plan avec autant de détails que possible, en phrases simples. Indiquez la classe d'occlusion souhaitée et les extractions ou prothèses éventuelles.|Describe el plan con el mayor detalle posible, en frases sencillas. Indica qué clase de oclusión quieres y las extracciones o prótesis que haya.
+Done|تم|Terminé|Hecho
+Finish the earlier steps to send|أكمل الخطوات السابقة للإرسال|Terminez les étapes précédentes pour envoyer|Termina los pasos anteriores para enviar
+How|كيف|Comment|Cómo
+Impressions (physical)|قوالب (مادية)|Empreintes (physiques)|Impresiones (físicas)
+JPEG or PNG. Each photo has a “Taken on” date, today by default.|JPEG أو PNG. لكل صورة تاريخ “تاريخ الالتقاط”، واليوم افتراضيًا.|JPEG ou PNG. Chaque photo a une date « Prise le », aujourd'hui par défaut.|JPEG o PNG. Cada foto tiene una fecha “Tomada el”, hoy por defecto.
+Locked|مقفلة|Verrouillée|Bloqueado
+Marked|محدد|Marquée|Marcado
+Marked teeth:|الأسنان المحددة:|Dents marquées :|Dientes marcados:
+Make optional|اجعله اختياريًا|Rendre facultatif|Hacer opcional
+Make required|اجعله مطلوبًا|Rendre obligatoire|Hacer obligatorio
+NEW|جديد|NOUVEAU|NUEVO
+No model yet|لا يوجد نموذج بعد|Pas encore de modèle|Aún no hay modelo
+Not marked|غير محدد|Non marquée|Sin marcar
+Not provided|غير مقدّم|Non fourni|No proporcionado
+Not selected|غير محدد|Non sélectionné|Sin seleccionar
+Now optional.|أصبح اختياريًا.|Désormais facultatif.|Ahora es opcional.
+Now required.|أصبح مطلوبًا.|Désormais obligatoire.|Ahora es obligatorio.
+Optional|اختياري|Facultatif|Opcional
+Other 3D model|نموذج ثلاثي الأبعاد آخر|Autre modèle 3D|Otro modelo 3D
+Passive or active aligners|مقوّمات سلبية أو نشطة|Aligneurs passifs ou actifs|Alineadores pasivos o activos
+Payment receipts are made out to the person or company you choose.|تُصدَر إيصالات الدفع باسم الشخص أو الشركة التي تختارها.|Les reçus de paiement sont établis au nom de la personne ou de l'entreprise choisie.|Los recibos de pago se emiten a nombre de la persona o empresa que elijas.
+Please write at least 10 characters|يرجى كتابة 10 أحرف على الأقل|Veuillez écrire au moins 10 caractères|Escribe al menos 10 caracteres
+Replace|استبدال|Remplacer|Reemplazar
+Required records done|السجلات المطلوبة المكتملة|Dossiers requis terminés|Registros obligatorios completados
+Saved|تم الحفظ|Enregistré|Guardado
+Saving…|جارٍ الحفظ…|Enregistrement…|Guardando…
+Saving your changes…|جارٍ حفظ تغييراتك…|Enregistrement de vos modifications…|Guardando tus cambios…
+Select photos|اختيار صور|Sélectionner des photos|Seleccionar fotos
+Sending your case to Tamaz|جارٍ إرسال حالتك إلى Tamaz|Envoi de votre dossier à Tamaz|Enviando tu caso a Tamaz
+Skip for now|تخطَّ الآن|Passer pour l'instant|Omitir por ahora
+Step {n}|الخطوة {n}|Étape {n}|Paso {n}
+Step {n} of {total}|الخطوة {n} من {total}|Étape {n} sur {total}|Paso {n} de {total}
+Taken|التُقطت|Prise le|Tomada
+Tap a tooth to mark it|انقر على سن لتحديده|Touchez une dent pour la marquer|Toca un diente para marcarlo
+The steps can't be changed while the case is with Tamaz.|لا يمكن تغيير الخطوات أثناء وجود الحالة لدى Tamaz.|Les étapes ne peuvent pas être modifiées tant que le dossier est chez Tamaz.|Los pasos no se pueden cambiar mientras el caso está en Tamaz.
+A case that was sent to Tamaz can't be deleted.|لا يمكن حذف حالة أُرسلت إلى Tamaz.|Un dossier envoyé à Tamaz ne peut pas être supprimé.|Un caso enviado a Tamaz no se puede eliminar.
+This step is waiting on the client. Your answers are kept with the case, but they are not sent yet.|هذه الخطوة بانتظار العميل. تُحفظ إجاباتك مع الحالة لكنها لا تُرسل بعد.|Cette étape attend le client. Vos réponses sont conservées avec le dossier, mais pas encore envoyées.|Este paso espera al cliente. Tus respuestas se guardan con el caso, pero aún no se envían.
+To do|مطلوب|À faire|Pendiente
+Upload STL files|رفع ملفات STL|Téléverser des fichiers STL|Subir archivos STL
+Upload failed. Retry|فشل الرفع. أعد المحاولة|Échec du téléversement. Réessayez|Falló la subida. Reintenta
+Uploading {n}%|جارٍ الرفع {n}%|Téléversement {n} %|Subiendo {n}%
+Where they go after that is not decided yet.|وجهتها بعد ذلك لم تُحدَّد بعد.|Leur destination ensuite n'est pas encore décidée.|Adónde van después aún no está decidido.
+Who pays|من يدفع|Qui paie|Quién paga
+Width in mm|العرض بالملّيمتر|Largeur en mm|Ancho en mm
+Width in mm under each tooth|العرض بالملّيمتر تحت كل سن|Largeur en mm sous chaque dent|Ancho en mm bajo cada diente
+Write the treatment plan to continue|اكتب خطة العلاج للمتابعة|Rédigez le plan de traitement pour continuer|Escribe el plan de tratamiento para continuar
+You can go back to a finished step. Later steps check themselves again.|يمكنك العودة إلى خطوة مكتملة. تتحقق الخطوات اللاحقة من نفسها مجددًا.|Vous pouvez revenir à une étape terminée. Les étapes suivantes se revérifient.|Puedes volver a un paso terminado. Los pasos siguientes se vuelven a comprobar.
+{a} of {b} required records done|{a} من {b} سجلات مطلوبة مكتملة|{a} sur {b} dossiers requis terminés|{a} de {b} registros obligatorios hechos
+{n} characters|{n} حرفًا|{n} caractères|{n} caracteres
+We couldn't save your changes.|تعذّر حفظ تغييراتك.|Impossible d'enregistrer vos modifications.|No pudimos guardar tus cambios.
+January|يناير|Janvier|Enero
+February|فبراير|Février|Febrero
+March|مارس|Mars|Marzo
+April|أبريل|Avril|Abril
+May|مايو|Mai|Mayo
+June|يونيو|Juin|Junio
+July|يوليو|Juillet|Julio
+August|أغسطس|Août|Agosto
+September|سبتمبر|Septembre|Septiembre
+October|أكتوبر|Octobre|Octubre
+November|نوفمبر|Novembre|Noviembre
+December|ديسمبر|Décembre|Diciembre
+Check the final class.|تحقق من الفئة النهائية.|Vérifiez la classe finale.|Revisa la clase final.
+Check the teeth marked for extraction.|تحقق من الأسنان المحددة للخلع.|Vérifiez les dents marquées pour extraction.|Revisa los dientes marcados para extracción.
+A width must be from 0 to 50 mm.|يجب أن يكون العرض من 0 إلى 50 ملم.|Une largeur doit être comprise entre 0 et 50 mm.|Un ancho debe estar entre 0 y 50 mm.
+Check the aligner type.|تحقق من نوع المقوّمات.|Vérifiez le type d'aligneurs.|Revisa el tipo de alineadores.
+Check the trimming type.|تحقق من نوع القص.|Vérifiez le type de découpe.|Revisa el tipo de recorte.
+Check the bonding day.|تحقق من يوم التركيب.|Vérifiez le jour du collage.|Revisa el día de la colocación.
+Check the bonding month.|تحقق من شهر التركيب.|Vérifiez le mois du collage.|Revisa el mes de la colocación.
+The plan can be at most 5000 characters.|يمكن أن تصل الخطة إلى 5000 حرف على الأكثر.|Le plan peut faire au plus 5000 caractères.|El plan puede tener como máximo 5000 caracteres.
+Check who pays.|تحقق من الجهة التي تدفع.|Vérifiez qui paie.|Revisa quién paga.
+Check how it is paid.|تحقق من طريقة الدفع.|Vérifiez le mode de paiement.|Revisa cómo se paga.
+The notes can be at most 1000 characters.|يمكن أن تصل الملاحظات إلى 1000 حرف على الأكثر.|Les notes peuvent faire au plus 1000 caractères.|Las notas pueden tener como máximo 1000 caracteres.
+Send this case to Tamaz again?|إرسال هذه الحالة إلى Tamaz مرة أخرى؟|Envoyer à nouveau ce dossier à Tamaz ?|¿Enviar este caso a Tamaz de nuevo?
+Add a 3D model|إضافة نموذج ثلاثي الأبعاد|Ajouter un modèle 3D|Añadir un modelo 3D
+Drop an STL file here, or|أسقط ملف STL هنا، أو|Déposez un fichier STL ici, ou|Suelta aquí un archivo STL, o
+Add any other instructions|أضف أي تعليمات أخرى|Ajoutez d'autres instructions|Añade otras instrucciones
+Add office|إضافة مكتب|Ajouter un bureau|Añadir oficina
+Add your contact number in your profile first|أضف رقم الاتصال في ملفك الشخصي أولاً|Ajoutez d'abord votre numéro de contact dans votre profil|Primero añade tu número de contacto en tu perfil
+Add your details so Tamaz can reach you.|أضف بياناتك ليتمكن فريق Tamaz من التواصل معك.|Ajoutez vos coordonnées pour que Tamaz puisse vous joindre.|Añade tus datos para que Tamaz pueda contactarte.
+Additional instructions|تعليمات إضافية|Instructions supplémentaires|Instrucciones adicionales
+Aligners' trimming type|نوع قص المقوّمات الشفافة|Type de découpe des aligneurs|Tipo de recorte de los alineadores
+Anterior region, facial view|المنطقة الأمامية، المنظر الوجهي|Région antérieure, vue faciale|Región anterior, vista facial
+Arch expansion|توسيع القوس السني|Expansion de l'arcade|Expansión de la arcada
+Attachments amount modification during treatment|تعديل عدد المثبتات أثناء العلاج|Modification du nombre d'attaches pendant le traitement|Modificación del número de attachments durante el tratamiento
+Billing address|عنوان الفوترة|Adresse de facturation|Dirección de facturación
+Clinical preferences|التفضيلات السريرية|Préférences cliniques|Preferencias clínicas
+Clinical preferences for aligners|التفضيلات السريرية للمقوّمات الشفافة|Préférences cliniques pour les aligneurs|Preferencias clínicas para alineadores
+Delete office|حذف المكتب|Supprimer le bureau|Eliminar oficina
+Delete {name}?|حذف {name}؟|Supprimer {name} ?|¿Eliminar {name}?
+Distribute spaces equally around laterals|توزيع المسافات بالتساوي حول القواطع الجانبية|Répartir les espaces de façon égale autour des latérales|Distribuir los espacios por igual alrededor de los laterales
+Do not expand arch width, only establish and maintain arch form|عدم توسيع عرض القوس، بل إنشاء شكل القوس والحفاظ عليه فقط|Ne pas élargir l'arcade, seulement établir et maintenir la forme d'arcade|No expandir el ancho de la arcada, solo establecer y mantener su forma
+Expand arch width between canines, premolars and molars|توسيع عرض القوس بين الأنياب والضواحك والأضراس|Élargir l'arcade entre les canines, prémolaires et molaires|Expandir el ancho de la arcada entre caninos, premolares y molares
+Expand arch width only between canines and premolars|توسيع عرض القوس بين الأنياب والضواحك فقط|Élargir l'arcade seulement entre les canines et les prémolaires|Expandir el ancho de la arcada solo entre caninos y premolares
+Expand arch width only between premolars and molars|توسيع عرض القوس بين الضواحك والأضراس فقط|Élargir l'arcade seulement entre les prémolaires et les molaires|Expandir el ancho de la arcada solo entre premolares y molares
+For example +1-201-8428000|مثال: +1-201-8428000|Par exemple +1-201-8428000|Por ejemplo +1-201-8428000
+Full contact in all front teeth|تلامس كامل في جميع الأسنان الأمامية|Contact complet sur toutes les dents antérieures|Contacto completo en todos los dientes frontales
+IPR on first virtual setup|الاختزال بين الأسنان (IPR) في أول إعداد افتراضي|IPR sur le premier setup virtuel|IPR en el primer setup virtual
+IPR opposite arch|الاختزال بين الأسنان في القوس المقابل|IPR sur l'arcade opposée|IPR en la arcada opuesta
+Laterals are even with incisors|القواطع الجانبية بنفس مستوى القواطع|Les latérales sont au même niveau que les incisives|Los laterales están al mismo nivel que los incisivos
+Laterals are set 0.5 mm higher than incisors|القواطع الجانبية أعلى بمقدار 0.5 مم من القواطع|Les latérales sont placées 0,5 mm plus haut que les incisives|Los laterales se colocan 0,5 mm más arriba que los incisivos
+Leave space distal to the laterals|ترك مسافة خلف القواطع الجانبية|Laisser un espace distal aux latérales|Dejar espacio distal a los laterales
+Maxillary incisors and laterals with 1-2 mm overjet|القواطع العلوية والجانبية مع بروز 1-2 مم|Incisives et latérales maxillaires avec 1-2 mm de surplomb|Incisivos y laterales superiores con 1-2 mm de resalte
+No offices yet.|لا توجد مكاتب بعد.|Aucun bureau pour le moment.|Aún no hay oficinas.
+Occlusion|الإطباق|Occlusion|Oclusión
+Office address|عنوان المكتب|Adresse du bureau|Dirección de la oficina
+Office deleted.|تم حذف المكتب.|Bureau supprimé.|Oficina eliminada.
+Office saved.|تم حفظ المكتب.|Bureau enregistré.|Oficina guardada.
+Open profile|فتح الملف الشخصي|Ouvrir le profil|Abrir perfil
+Palmer|بالمر|Palmer|Palmer
+Passive aligners|مقوّمات سلبية|Aligneurs passifs|Alineadores pasivos
+Permanent or replaceable attachments|مثبتات دائمة أو قابلة للاستبدال|Attaches permanentes ou remplaçables|Attachments permanentes o reemplazables
+Preferences saved.|تم حفظ التفضيلات.|Préférences enregistrées.|Preferencias guardadas.
+Profile not completed. This clinic hasn't added its details yet.|الملف الشخصي غير مكتمل. لم تضف هذه العيادة بياناتها بعد.|Profil incomplet. Cette clinique n'a pas encore ajouté ses coordonnées.|Perfil sin completar. Esta clínica aún no ha añadido sus datos.
+Profile section|قسم الملف الشخصي|Section du profil|Sección del perfil
+Related offices|المكاتب المرتبطة|Bureaux associés|Oficinas relacionadas
+Room {n}|الغرفة {n}|Salle {n}|Sala {n}
+Save preferences|حفظ التفضيلات|Enregistrer les préférences|Guardar preferencias
+Smile arc defined by patient images|قوس الابتسامة محدد بصور المريض|Arc du sourire défini par les photos du patient|Arco de la sonrisa definido por las imágenes del paciente
+Standard (soft and hard tissue border)|قياسي (حد الأنسجة اللينة والصلبة)|Standard (limite des tissus mous et durs)|Estándar (borde de tejido blando y duro)
+Tamaz needs this before you can send a case.|تحتاج Tamaz إلى هذا الرقم قبل أن تتمكن من إرسال حالة.|Tamaz en a besoin avant que vous puissiez envoyer un dossier.|Tamaz lo necesita antes de que puedas enviar un caso.
+Tooth numbering system|نظام ترقيم الأسنان|Système de numérotation des dents|Sistema de numeración dental
+Tooth size discrepancy|عدم تناسق أحجام الأسنان|Discrépance de taille des dents|Discrepancia del tamaño dental
+Treatment with primary attachments only|علاج بالمثبتات الأساسية فقط|Traitement avec attaches primaires uniquement|Tratamiento solo con attachments primarios
+Trimming including 2-3 mm of gingival tissue|قص يشمل 2-3 مم من أنسجة اللثة|Découpe incluant 2-3 mm de tissu gingival|Recorte que incluye 2-3 mm de tejido gingival
+Universal (American)|عالمي (أمريكي)|Universel (américain)|Universal (americano)
+Viola|فيولا|Viola|Viola
+We couldn't load your offices.|تعذّر تحميل مكاتبك.|Nous n'avons pas pu charger vos bureaux.|No pudimos cargar tus oficinas.
+We couldn't load your preferences.|تعذّر تحميل تفضيلاتك.|Nous n'avons pas pu charger vos préférences.|No pudimos cargar tus preferencias.
+{n} of {max} characters|{n} من {max} حرفًا|{n} sur {max} caractères|{n} de {max} caracteres
+{place} will be removed from your profile. This cannot be undone.|ستتم إزالة {place} من ملفك الشخصي. لا يمكن التراجع عن ذلك.|{place} sera retiré de votre profil. Cette action est irréversible.|{place} se quitará de tu perfil. No se puede deshacer.
+Andrews|أندروز|Andrews|Andrews
+Bonding method|طريقة اللصق|Méthode de collage|Método de adhesión
+Bracket placement methodology|منهجية وضع الحاصرات|Méthodologie de positionnement des brackets|Metodología de colocación de brackets
+Class I always|الصنف الأول دائمًا|Classe I toujours|Siempre Clase I
+Clean and/or Pad-Adjusted - produce the best possible Tx plan|لصق نظيف و/أو مع تعديل الوسادة - إنتاج أفضل خطة علاج ممكنة|Collage propre et/ou avec ajustement du pad - produire le meilleur plan de traitement possible|Adhesión limpia y/o con ajuste de pad - producir el mejor plan de tratamiento posible
+Clean bonding only - avoid pad adjustment at all costs|لصق نظيف فقط - تجنب تعديل الوسادة مهما كلّف الأمر|Collage propre uniquement - éviter à tout prix l'ajustement du pad|Solo adhesión limpia - evitar a toda costa el ajuste de pad
+Clinical preferences for brackets|التفضيلات السريرية للحاصرات|Préférences cliniques pour les brackets|Preferencias clínicas para brackets
+Correct plan to minimize interference|تصحيح الخطة لتقليل التداخل|Corriger le plan pour minimiser les interférences|Corregir el plan para minimizar las interferencias
+Customized (indicate height in mm)|مخصص (حدد الارتفاع بالمليمتر)|Personnalisé (indiquer la hauteur en mm)|Personalizado (indica la altura en mm)
+Damon|دامون|Damon|Damon
+Height in mm|الارتفاع بالمليمتر|Hauteur en mm|Altura en mm
+IPR amount indicated in the treatment plan|كمية الاختزال بين الأسنان المحددة في خطة العلاج|Quantité d'IPR indiquée dans le plan de traitement|Cantidad de IPR indicada en el plan de tratamiento
+IPR to maintain class preference|الاختزال بين الأسنان للحفاظ على الصنف المفضل|IPR pour maintenir la classe préférée|IPR para mantener la clase preferida
+Ignore and attempt to reach the best positioning plan|تجاهله ومحاولة الوصول إلى أفضل خطة تموضع|Ignorer et chercher le meilleur plan de positionnement|Ignorarlas e intentar lograr el mejor plan de posicionamiento
+Interference control|التحكم بالتداخل|Contrôle des interférences|Control de interferencias
+Interproximal reduction (IPR)|الاختزال بين الأسنان (IPR)|Réduction interproximale (IPR)|Reducción interproximal (IPR)
+MBT|MBT|MBT|MBT
+Never IPR|عدم إجراء الاختزال بين الأسنان أبدًا|Jamais d'IPR|Nunca IPR
+No Overcorrection - place brackets in the middle of the tooth|بدون تصحيح زائد - وضع الحاصرات في منتصف السن|Pas de surcorrection - placer les brackets au milieu de la dent|Sin sobrecorrección - colocar los brackets en el centro del diente
+Not chosen|لم يتم الاختيار|Non choisi|Sin elegir
+Overcorrect lower cuspids and laterals to the mesial regardless of original rotations|تصحيح زائد للأنياب السفلية والقواطع الجانبية نحو الأنسي بغض النظر عن الدورانات الأصلية|Surcorriger les canines inférieures et les latérales vers le mésial quelles que soient les rotations d'origine|Sobrecorregir los caninos inferiores y los laterales hacia mesial sin importar las rotaciones originales
+Overcorrect upper and lower cuspids more mesial to avoid cuspid offset bends|تصحيح زائد للأنياب العلوية والسفلية نحو الأنسي لتجنب انحناءات إزاحة الأنياب|Surcorriger les canines supérieures et inférieures davantage vers le mésial pour éviter les courbures de décalage|Sobrecorregir los caninos superiores e inferiores más hacia mesial para evitar dobleces de offset
+Overcorrection|التصحيح الزائد|Surcorrection|Sobrecorrección
+Pitts|بيتس|Pitts|Pitts
+Refer to treatment|الرجوع إلى العلاج|Se référer au traitement|Remitirse al tratamiento
+Treatment priority|أولوية العلاج|Priorité du traitement|Prioridad del tratamiento
+Your treatment plan is ready for review|خطة علاجك جاهزة للمراجعة|Votre plan de traitement est prêt à être examiné|Su plan de tratamiento está listo para revisar
+Tamaz has prepared your treatment plan. Check it, then approve it or ask for changes.|أعدّت تماز خطة علاجك. راجعها ثم وافق عليها أو اطلب تعديلات.|Tamaz a préparé votre plan de traitement. Vérifiez-le, puis approuvez-le ou demandez des modifications.|Tamaz ha preparado su plan de tratamiento. Revíselo y luego apruébelo o pida cambios.
+Approve plan|الموافقة على الخطة|Approuver le plan|Aprobar el plan
+Approve this plan?|الموافقة على هذه الخطة؟|Approuver ce plan ?|¿Aprobar este plan?
+Approving lets Tamaz go ahead and make your aligners. You can't undo it.|الموافقة تسمح لتماز بالبدء بتصنيع مقوّماتك. لا يمكن التراجع عنها.|L'approbation permet à Tamaz de fabriquer vos aligneurs. Vous ne pourrez pas l'annuler.|Aprobar permite a Tamaz fabricar sus alineadores. No se puede deshacer.
+Request changes|طلب تعديلات|Demander des modifications|Pedir cambios
+Tell Tamaz what to change (at least 10 characters).|أخبر تماز بما يجب تغييره (10 أحرف على الأقل).|Dites à Tamaz ce qu'il faut changer (10 caractères minimum).|Diga a Tamaz qué cambiar (al menos 10 caracteres).
+Plan approved.|تمت الموافقة على الخطة.|Plan approuvé.|Plan aprobado.
+Your request was sent to Tamaz.|تم إرسال طلبك إلى تماز.|Votre demande a été envoyée à Tamaz.|Su solicitud se envió a Tamaz.
+Too many attempts. Try again later.|محاولات كثيرة جدًا. حاول مرة أخرى لاحقًا.|Trop de tentatives. Réessayez plus tard.|Demasiados intentos. Inténtelo de nuevo más tarde.
+Too many attempts. Try again in 1 minute.|محاولات كثيرة جدًا. حاول مرة أخرى بعد دقيقة.|Trop de tentatives. Réessayez dans 1 minute.|Demasiados intentos. Inténtelo de nuevo en 1 minuto.
+Too many attempts. Try again in {minutes} minutes.|محاولات كثيرة جدًا. حاول مرة أخرى بعد {minutes} دقائق.|Trop de tentatives. Réessayez dans {minutes} minutes.|Demasiados intentos. Inténtelo de nuevo en {minutes} minutos.
+All portals|كل البوابات|Tous les portails|Todos los portales
+Admin portal|بوابة المسؤول|Portail administrateur|Portal de administración
+Clinic portal|بوابة العيادة|Portail clinique|Portal de clínica
+Doctor portal|بوابة الطبيب|Portail médecin|Portal del médico
+Patient portal|بوابة المريض|Portail patient|Portal del paciente
+Portal|البوابة|Portail|Portal
+Grid|الجدول|Grille|Cuadrícula
+Assigned to|مخصص لـ|Attribué à|Asignado a
+All {who}|جميع {who}|Tous les {who}|Todos los {who}
++{n} more|+{n} أخرى|+{n} de plus|+{n} más
+Not assigned|غير مخصص|Non attribué|Sin asignar
+Nobody sees this template yet.|لا أحد يرى هذا القالب حتى الآن.|Personne ne voit encore ce modèle.|Nadie ve todavía esta plantilla.
+More actions|مزيد من الإجراءات|Plus d'actions|Más acciones
