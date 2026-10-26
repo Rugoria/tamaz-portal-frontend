@@ -28,7 +28,6 @@ Case ID|معرّف الحالة|Identifiant du dossier|ID del caso
 Case status|حالة الملف|État du dossier|Estado del caso
 Case progress|تقدم الحالة|Progression du dossier|Progreso del caso
 Your case|حالتك|Votre dossier|Su caso
-Case chat|محادثة الحالة|Discussion du dossier|Chat del caso
 New case|حالة جديدة|Nouveau dossier|Nuevo caso
 First case|الحالة الأولى|Premier dossier|Primer caso
 Latest case|أحدث حالة|Dernier dossier|Último caso
@@ -346,7 +345,6 @@ Start conversation|بدء محادثة|Démarrer une conversation|Iniciar conver
 . The clinic will be told, and the time becomes available to others.|. سيتم إبلاغ العيادة وإتاحة الوقت للآخرين.|. La clinique sera informée et le créneau sera disponible pour d’autres personnes.|. Se avisará a la clínica y el horario quedará disponible para otras personas.
 . They will be told by email and in the portal, and the slot becomes open again.|. سيتم إبلاغ المريض بالبريد الإلكتروني وفي البوابة، وستصبح الفترة متاحة مجدداً.|. Le patient sera informé par e-mail et dans le portail, et le créneau sera de nouveau disponible.|. Se avisará al paciente por correo y en el portal, y la franja volverá a estar disponible.
 3D viewport: teeth model placeholder (|عرض ثلاثي الأبعاد: نموذج أسنان توضيحي (|Vue 3D : modèle dentaire de démonstration (|Vista 3D: modelo dental de ejemplo (
-A chat for one case isn't built. Whether chats belong to cases is waiting on the client. Use Messages for now.|محادثة خاصة بكل حالة غير متاحة بعد. ارتباط المحادثات بالحالات ينتظر قرار العميل. استخدم الرسائل حالياً.|La discussion par dossier n’est pas encore disponible. Le client doit confirmer ce fonctionnement. Utilisez Messages pour le moment.|El chat por caso aún no está disponible. El cliente debe confirmar ese funcionamiento. Utilice Mensajes por ahora.
 Add your first patient.|أضف مريضك الأول.|Ajoutez votre premier patient.|Añada su primer paciente.
 Add your open times so patients can book them.|أضف أوقاتك المتاحة ليتمكن المرضى من حجزها.|Ajoutez vos créneaux disponibles pour que les patients puissent les réserver.|Añada sus horarios disponibles para que los pacientes puedan reservarlos.
 Address line, city, postcode, country|العنوان، المدينة، الرمز البريدي، الدولة|Adresse, ville, code postal, pays|Dirección, ciudad, código postal, país
@@ -368,8 +366,6 @@ Clinics: your account is created by the tamaz team.|للعيادات: يُنشئ
 Completed.|مكتمل.|Terminé.|Completado.
 Conversations between clinics and patients are private and not shown here.|المحادثات بين العيادات والمرضى خاصة ولا تظهر هنا.|Les conversations entre cliniques et patients sont privées et ne sont pas affichées ici.|Las conversaciones entre clínicas y pacientes son privadas y no se muestran aquí.
 Create the first {v0} account.|إنشاء أول حساب من نوع {v0}.|Créer le premier compte {v0}.|Crear la primera cuenta de {v0}.
-Delivery details aren't stored yet.|لا تُحفظ تفاصيل التسليم بعد.|Les détails de livraison ne sont pas encore enregistrés.|Los detalles de entrega aún no se guardan.
-Delivery details aren't stored yet. Aligners are shipped to the company address set in Integration settings.|لا تُحفظ تفاصيل التسليم بعد. تُشحن المقومات إلى عنوان الشركة المحدد في إعدادات التكامل.|Les détails de livraison ne sont pas encore enregistrés. Les gouttières sont expédiées à l’adresse de l’entreprise définie dans les paramètres d’intégration.|Los detalles de entrega aún no se guardan. Los alineadores se envían a la dirección de la empresa indicada en la configuración de integración.
 Delivery problem|مشكلة في التسليم|Problème de livraison|Problema de entrega
 Enter a case ID|أدخل معرّف الحالة|Saisissez un identifiant de dossier|Introduzca un ID de caso
 Enter a new secret to replace it|أدخل سراً جديداً لاستبداله|Saisissez un nouveau secret pour le remplacer|Introduzca un secreto nuevo para sustituirlo
@@ -694,9 +690,7 @@ Owner|المالك|Propriétaire|Propietario
 Pages|الصفحات|Pages|Páginas
 Patient accounts|حسابات المرضى|Comptes patients|Cuentas de pacientes
 Patient name|اسم المريض|Nom du patient|Nombre del paciente
-Patients (clinics and doctors)|المرضى (العيادات والأطباء)|Patients (cliniques et médecins)|Pacientes (clínicas y médicos)
 Patients appear here once a clinic or doctor creates a case.|يظهر المرضى هنا بعد أن تنشئ عيادة أو طبيب حالة.|Les patients apparaissent ici dès qu'une clinique ou un médecin crée un dossier.|Los pacientes aparecen aquí cuando una clínica o un médico crea un caso.
-Cases (clinics and doctors)|الحالات (العيادات والأطباء)|Dossiers (cliniques et médecins)|Casos (clínicas y médicos)
 Pin|تثبيت|Épingler|Fijar
 Pin left|تثبيت لليسار|Épingler à gauche|Fijar a la izquierda
 Unpin|إلغاء التثبيت|Désépingler|Desfijar
@@ -759,7 +753,6 @@ vs {n} days ago|مقارنة بقبل {n} يومًا|par rapport à il y a {n} j
 {n} new cases|{n} حالة جديدة|{n} nouveaux dossiers|{n} casos nuevos
 {n} rows|{n} صفًا|{n} lignes|{n} filas
 Admins|المشرفون|Administrateurs|Administradores
-Audience|الجمهور|Public|Destinatarios
 Failed deliveries|عمليات تسليم فاشلة|Livraisons échouées|Entregas fallidas
 View template created|تم إنشاء قالب عرض|Modèle de vue créé|Plantilla de vista creada
 View template changed|تم تغيير قالب العرض|Modèle de vue modifié|Plantilla de vista cambiada
@@ -865,7 +858,6 @@ Card|بطاقة|Carte|Tarjeta
 Case steps|خطوات الحالة|Étapes du dossier|Pasos del caso
 Case {n} of {name} will be deleted with its files, notes and answers. This cannot be undone.|سيتم حذف الحالة {n} للمريض {name} مع ملفاتها وملاحظاتها وإجاباتها. لا يمكن التراجع عن هذا.|Le dossier {n} de {name} sera supprimé avec ses fichiers, notes et réponses. Cette action est irréversible.|El caso {n} de {name} se eliminará con sus archivos, notas y respuestas. Esto no se puede deshacer.
 Cash|نقدًا|Espèces|Efectivo
-Chat with Tamaz|الدردشة مع Tamaz|Discuter avec Tamaz|Chatear con Tamaz
 Choose a photo|اختر صورة|Choisir une photo|Elegir una foto
 Choose one|اختر واحدًا|Choisissez une option|Elige una opción
 Choose who pays and how to continue|اختر من يدفع وكيف للمتابعة|Choisissez qui paie et comment pour continuer|Elige quién paga y cómo para continuar
@@ -917,7 +909,6 @@ To do|مطلوب|À faire|Pendiente
 Upload STL files|رفع ملفات STL|Téléverser des fichiers STL|Subir archivos STL
 Upload failed. Retry|فشل الرفع. أعد المحاولة|Échec du téléversement. Réessayez|Falló la subida. Reintenta
 Uploading {n}%|جارٍ الرفع {n}%|Téléversement {n} %|Subiendo {n}%
-Where they go after that is not decided yet.|وجهتها بعد ذلك لم تُحدَّد بعد.|Leur destination ensuite n'est pas encore décidée.|Adónde van después aún no está decidido.
 Who pays|من يدفع|Qui paie|Quién paga
 Width in mm|العرض بالملّيمتر|Largeur en mm|Ancho en mm
 Width in mm under each tooth|العرض بالملّيمتر تحت كل سن|Largeur en mm sous chaque dent|Ancho en mm bajo cada diente
@@ -1058,3 +1049,21 @@ All {who}|جميع {who}|Tous les {who}|Todos los {who}
 Not assigned|غير مخصص|Non attribué|Sin asignar
 Nobody sees this template yet.|لا أحد يرى هذا القالب حتى الآن.|Personne ne voit encore ce modèle.|Nadie ve todavía esta plantilla.
 More actions|مزيد من الإجراءات|Plus d'actions|Más acciones
+Another address|عنوان آخر|Une autre adresse|Otra dirección
+Choose an address|اختر عنوانًا|Choisir une adresse|Elegir una dirección
+Choose where Tamaz should send the aligners after they arrive.|اختر الجهة التي ينبغي أن ترسل إليها Tamaz المقوّمات بعد وصولها.|Choisissez où Tamaz doit envoyer les aligneurs après leur arrivée.|Elija adónde debe enviar Tamaz los alineadores cuando lleguen.
+Forward the aligners to|إرسال المقوّمات إلى|Transférer les aligneurs à|Reenviar los alineadores a
+My profile address|عنوان ملفي الشخصي|Adresse de mon profil|Dirección de mi perfil
+Not shared with the manufacturer.|لا تتم مشاركته مع الجهة المصنّعة.|Non communiqué au fabricant.|No se comparte con el fabricante.
+Tamaz then sends them on to the address below.|ثم ترسلها Tamaz إلى العنوان أدناه.|Tamaz les envoie ensuite à l'adresse ci-dessous.|Después, Tamaz los envía a la dirección indicada abajo.
+The sender has not said where to send the aligners on to.|لم يحدد المُرسِل الجهة التي تُرسَل إليها المقوّمات لاحقًا.|L'expéditeur n'a pas indiqué où envoyer ensuite les aligneurs.|El remitente no ha indicado adónde enviar después los alineadores.
+Then send to|ثم أرسِل إلى|Puis envoyer à|Luego enviar a
+We couldn't load the delivery details.|تعذر تحميل تفاصيل التسليم.|Impossible de charger les détails de livraison.|No se pudieron cargar los datos de entrega.
+About this case|حول هذه الحالة|À propos de ce dossier|Sobre este caso
+Attach a case|إرفاق حالة|Joindre un dossier|Adjuntar un caso
+No cases found.|لم يتم العثور على حالات.|Aucun dossier trouvé.|No se encontraron casos.
+Remove the attached case|إزالة الحالة المرفقة|Retirer le dossier joint|Quitar el caso adjunto
+Search by patient name|ابحث باسم المريض|Rechercher par nom du patient|Buscar por nombre del paciente
+We couldn't open the chat. Try again.|تعذر فتح المحادثة. حاول مرة أخرى.|Impossible d'ouvrir la discussion. Réessayez.|No se pudo abrir el chat. Inténtalo de nuevo.
+Message Tamaz|راسل Tamaz|Écrire à Tamaz|Escribir a Tamaz
+Attach this case|إرفاق هذه الحالة|Joindre ce dossier|Adjuntar este caso

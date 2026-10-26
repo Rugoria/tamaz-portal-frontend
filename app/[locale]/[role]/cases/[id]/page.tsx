@@ -18,11 +18,12 @@ import { DeleteDialog, SendDialog } from "@/components/case/steps/CaseDialogs";
 import { DeliveryStep, PaymentStep } from "@/components/case/steps/DeliveryPaymentSteps";
 import { PlanStep } from "@/components/case/steps/PlanStep";
 import { RecordsStep } from "@/components/case/steps/RecordsStep";
+import { CaseChatPanel } from "@/components/case/CaseChatPanel";
 import { PlanReviewPanel } from "@/components/case/PlanReviewPanel";
 import { StepCard, type StepInfo, type StepState } from "@/components/case/steps/StepCard";
 import { EMPTY_DELIVERY, EMPTY_PAYMENT, EMPTY_PLAN, paymentDone, planDone, useWorkflowDraft } from "@/components/case/steps/useWorkflowDraft";
 import { JourneyPanel } from "@/components/features/JourneyPanel";
-import { Button, buttonClass } from "@/components/ui/Button";
+import { Button } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
 import { LoadError, PendingTag, PreviewNote, SkeletonBlock } from "@/components/ui/states";
 import { Icon } from "@/components/shell/Icon";
@@ -347,7 +348,7 @@ export default function StaffCasePage({ params }: { params: Promise<{ role: stri
               {current === 1 && wf.ready && !wf.loadError && (
                 <PlanStep plan={plan} onChange={(p) => wf.update({ plan: p })} disabled={locked} showErrors={!!wf.draft.plan} />
               )}
-              {current === 2 && wf.ready && !wf.loadError && <DeliveryStep delivery={delivery} onChange={(d) => wf.update({ delivery: d })} disabled={locked} />}
+              {current === 2 && wf.ready && !wf.loadError && <DeliveryStep delivery={delivery} forwardTo={wf.draft.forwardTo} onChange={(d) => wf.update({ delivery: d })} onForwardTo={(f) => wf.update({ forwardTo: f })} disabled={locked} />}
               {current === 3 && wf.ready && !wf.loadError && (
                 <PaymentStep payment={payment} onChange={(p) => wf.update({ payment: p })} disabled={locked} showErrors={!!wf.draft.payment} />
               )}
@@ -365,11 +366,11 @@ export default function StaffCasePage({ params }: { params: Promise<{ role: stri
         </div>
       )}
 
-      {SHOW_PENDING && (
-        <button onClick={() => setChat(true)} aria-label={translate("Chat with Tamaz")} className="fixed bottom-5 end-5 z-30 flex h-12 items-center gap-2 rounded-full bg-accent px-5 font-semibold text-white shadow-[0_8px_24px_rgba(11,31,58,.2)]">
-          <Icon name="messages" size={18} /> {translate("Chat with Tamaz")}
-        </button>
-      )}
+      <button onClick={() => setChat(true)} aria-label={translate("Message Tamaz")} className="fixed bottom-5 end-5 z-30 flex h-12 items-center gap-2 rounded-full bg-accent px-5 font-semibold text-white shadow-[0_8px_24px_rgba(11,31,58,.2)]">
+        <Icon name="messages" size={18} /> {translate("Message Tamaz")}
+      </button>
+
+      {chat && <CaseChatPanel role={role === "doctor" ? "DOCTOR" : "CLINIC"} thisCase={{ id: cs.id, patientName: cs.patientFullName, statusLabel: cs.displayStatus }} onClose={() => setChat(false)} />}
 
       {sendOpen && (
         <SendDialog
@@ -388,7 +389,6 @@ export default function StaffCasePage({ params }: { params: Promise<{ role: stri
         />
       )}
       {deleteOpen && <DeleteDialog patient={cs.patientFullName} caseNumber={cs.caseNumber} busy={busy} error={dialogError} onDelete={doDelete} onClose={() => setDeleteOpen(false)} />}
-      {chat && <CaseChat onClose={() => setChat(false)} patient={cs.patientFullName} />}
     </div>
   );
 }
@@ -398,33 +398,4 @@ function journeyDates(history: StatusHistoryDto[] | undefined, dateOnly: (iso: s
   const first = (s: CaseStatus) => history?.find((h) => h.toStatus === s)?.createdAt;
   const d = (iso?: string) => (iso ? dateOnly(iso) : undefined);
   return [d(history?.[0]?.createdAt), d(first("SUBMITTED_EXTERNAL")), d(first("DESIGN_APPROVED")), d(first("PRODUCTION")), d(first("SHIPPED")), d(first("COMPLETED"))];
-}
-
-/** Preview only: a chat tied to one case (an idea from the design, not yet decided). Nothing is sent. */
-function CaseChat({ onClose, patient }: { onClose: () => void; patient: string }) {
-  const translate = useT();
-  return (
-    <div className="fixed inset-0 z-50 flex justify-end" style={{ background: "rgba(11,31,58,.45)" }} onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
-      <aside role="dialog" aria-modal="true" aria-label={translate("Case chat")} className="flex h-full w-full max-w-[420px] flex-col bg-surface shadow-[0_8px_24px_rgba(11,31,58,.18)]">
-        <div className="flex items-center justify-between border-b border-line px-5 py-4">
-          <div>
-            <div className="font-semibold">{translate("Case chat")}</div>
-            <div className="text-[13px] text-muted">{patient}</div>
-          </div>
-          <button onClick={onClose} className="h-11 px-2 text-sm text-muted">
-            {translate("Close")}</button>
-        </div>
-        <div className="flex flex-1 flex-col gap-3 p-5">
-          <PreviewNote>{translate("A chat for one case isn&apos;t built. Whether chats belong to cases is waiting on the client. Use Messages for now.")}</PreviewNote>
-        </div>
-        <div className="border-t border-line p-4">
-          <div className="flex gap-2">
-            <input disabled placeholder={translate("Write a message")} className="h-11 flex-1 rounded-lg border border-line px-3" aria-label={translate("Write a message")} />
-            <button disabled className={buttonClass("primary", "md")}>
-              {translate("Send")}</button>
-          </div>
-        </div>
-      </aside>
-    </div>
-  );
 }

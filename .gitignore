@@ -34,8 +34,11 @@ yarn-error.log*
 .env*
 !.env.example
 
-# Claude Code: personal skills and permissions stay local
+# Claude Code files stay on this computer, never in GitHub
 .claude/
+CLAUDE.md
+AGENTS.md
+docs/
 
 # vercel
 .vercel

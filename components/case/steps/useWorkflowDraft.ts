@@ -8,7 +8,7 @@ import type { WorkflowDeliveryDto, WorkflowDraftDto, WorkflowPaymentDto, Workflo
 export const EMPTY_PLAN: WorkflowPlanDto = { text: "", classes: {}, extraction: [], widths: {}, aligners: "BOTH_PASSIVE", trimming: "STANDARD" };
 export const EMPTY_DELIVERY: WorkflowDeliveryDto = { bondingDay: null, bondingMonth: null, notes: "" };
 export const EMPTY_PAYMENT: WorkflowPaymentDto = { payer: null, means: null };
-const NOTHING: WorkflowDraftDto = { plan: null, delivery: null, payment: null };
+const NOTHING: WorkflowDraftDto = { plan: null, delivery: null, payment: null, forwardTo: null };
 
 export type SaveState = "idle" | "saving" | "saved" | "failed";
 

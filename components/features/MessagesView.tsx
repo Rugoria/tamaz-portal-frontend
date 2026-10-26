@@ -4,6 +4,7 @@ import {useLocalizedFormats} from "@/i18n/formats";
 
 import {useT} from "@/i18n/client";
 
+import Link from "@/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FormEvent } from "react";
 import { mutate as globalMutate } from "swr";
@@ -11,7 +12,7 @@ import { api, ApiError } from "@/lib/api";
 
 import { useApi } from "@/lib/hooks";
 import { ROLE_LABEL } from "@/lib/status";
-import type { ClinicSummary, ConversationDto, MessageDto, Page, PatientSummary, Role, UserDto } from "@/lib/types";
+import type { CaseCardDto, CaseDto, ClinicSummary, ConversationDto, MessageDto, Page, PatientSummary, Role, UserDto } from "@/lib/types";
 import { useDebounced } from "@/lib/useDebounced";
 import { Button } from "@/components/ui/Button";
 import { Dialog, DialogActions } from "@/components/ui/Dialog";
@@ -138,6 +139,59 @@ function NewMessageDialog({ role, onClose, onStarted }: { role: Role; onClose: (
   );
 }
 
+const caseHref = (role: Role, id: string) => `/${role === "ADMIN" ? "admin" : role === "DOCTOR" ? "doctor" : "clinic"}/cases/${id}`;
+
+/** A small card for the case a message is about. It opens the case. */
+function CaseCard({ card, role, mine }: { card: CaseCardDto; role: Role; mine: boolean }) {
+  const translate = useT();
+  return (
+    <Link
+      href={caseHref(role, card.id)}
+      className={`mt-1.5 block rounded-lg border px-3 py-2 text-sm no-underline ${mine ? "border-line bg-surface text-ink" : "border-line bg-bg text-ink"}`}
+    >
+      <div className="text-xs text-muted">{translate("About this case")}</div>
+      <div className="font-medium">{card.patientName}</div>
+      <div className="text-[13px] text-muted">{translate(card.statusLabel)}</div>
+    </Link>
+  );
+}
+
+/** Pick the case a message is about: a clinic or doctor picks among their own cases, the admin among the cases of the person in the conversation. */
+function AttachCaseDialog({ role, accountId, onPick, onClose }: { role: Role; accountId: string | null; onPick: (c: CaseCardDto) => void; onClose: () => void }) {
+  const translate = useT();
+  const [query, setQuery] = useState("");
+  const term = useDebounced(query.trim());
+  const own = useApi<Page<CaseDto>>(role === "ADMIN" ? null : `/cases?size=10${term ? `&search=${encodeURIComponent(term)}` : ""}`);
+  const theirs = useApi<Page<CaseDto>>(role === "ADMIN" && accountId ? `/admin/users/${accountId}/cases?size=10` : null);
+  const loading = own.loading || theirs.loading;
+  const needle = term.toLowerCase();
+  const shown = (role === "ADMIN" ? theirs.data : own.data)?.content.filter((c) => !needle || c.patientFullName.toLowerCase().includes(needle)) ?? [];
+
+  return (
+    <Dialog title={translate("Attach a case")} onClose={onClose}>
+      <Input placeholder={translate("Search by patient name")} value={query} onChange={(e) => setQuery(e.target.value)} aria-label={translate("Search by patient name")} />
+      <div className="max-h-[300px] overflow-y-auto rounded-lg border border-line">
+        {loading && <div className="p-4 text-sm text-muted">{translate("Loading")}</div>}
+        {!loading && shown.length === 0 && <div className="p-4 text-sm text-muted">{translate("No cases found.")}</div>}
+        {shown.map((c) => (
+          <button
+            key={c.id}
+            onClick={() => onPick({ id: c.id, patientName: c.patientFullName, statusLabel: c.displayStatus })}
+            className="flex min-h-12 w-full items-center justify-between border-b border-line bg-surface px-3.5 text-start last:border-b-0 hover:bg-bg"
+          >
+            <span>{c.patientFullName}</span>
+            <span className="text-[13px] text-muted">{translate(c.displayStatus)}</span>
+          </button>
+        ))}
+      </div>
+      <DialogActions>
+        <Button variant="ghost" onClick={onClose}>
+          {translate("Cancel")}</Button>
+      </DialogActions>
+    </Dialog>
+  );
+}
+
 /** Conversations plus the open thread. Shared by every portal; the backend decides who may talk to whom. */
 export function MessagesView({ role, embedded = false }: { role: Role; embedded?: boolean }) {
   const {relative} = useLocalizedFormats();
@@ -145,6 +199,9 @@ export function MessagesView({ role, embedded = false }: { role: Role; embedded?
   const params = useSearchParams();
   const [selected, setSelected] = useState<string | null>(params.get("c"));
   const [dialog, setDialog] = useState(false);
+  // "Message Tamaz about this case" arrives with ?case=<id>: open (or create) the chat with Tamaz and attach that case.
+  const caseParam = params.get("case");
+  const [startError, setStartError] = useState(false);
 
   const streaming = useRealtimeLive();
   const convos = useApi<Page<ConversationDto>>("/chat/conversations?size=50", { refreshInterval: pollMs(30000, streaming) });
@@ -153,6 +210,14 @@ export function MessagesView({ role, embedded = false }: { role: Role; embedded?
   // On a desktop the first conversation opens by itself; on a phone the list shows until one is tapped.
   const current = list.find((c) => c.id === selected) ?? (isDesktop ? (list[0] ?? null) : null);
   const open = current?.id ?? null;
+
+  useEffect(() => {
+    if (!caseParam || params.get("c") || role === "ADMIN" || role === "CUSTOMER") return;
+    api<ConversationDto>("/chat/conversations", { method: "POST", body: { participantId: null } })
+      .then((c) => convos.reload().then(() => setSelected(c.id)))
+      .catch(() => setStartError(true));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [caseParam]);
 
   return (
     <div
@@ -211,9 +276,9 @@ export function MessagesView({ role, embedded = false }: { role: Role; embedded?
       {/* Thread */}
       <div className={`${open ? "flex" : "hidden md:flex"} min-w-0 flex-1 flex-col`}>
         {current ? (
-          <Thread key={current.id} conversation={current} role={role} onBack={() => setSelected(null)} onSent={convos.reload} />
+          <Thread key={current.id} conversation={current} role={role} initialCase={caseParam} onBack={() => setSelected(null)} onSent={convos.reload} />
         ) : (
-          <div className="m-auto px-6 text-center text-muted">{list.length ? translate("Select a conversation.") : translate("Start a conversation with New message.")}</div>
+          <div className="m-auto px-6 text-center text-muted">{startError ? translate("We couldn't open the chat. Try again.") : list.length ? translate("Select a conversation.") : translate("Start a conversation with New message.")}</div>
         )}
       </div>
 
@@ -232,13 +297,34 @@ export function MessagesView({ role, embedded = false }: { role: Role; embedded?
   );
 }
 
-function Thread({ conversation, role, onBack, onSent }: { conversation: ConversationDto; role: Role; onBack: () => void; onSent: () => void }) {
+/**
+ * One open conversation: the messages, the composer and the case attachment. Used by the Messages screen (with a back button on a phone) and by the
+ * side panel on a case page (with a close button, and that case offered as "Attach this case").
+ */
+export function Thread({ conversation, role, initialCase = null, suggestCase = null, onBack, onClose, onSent }: {
+  conversation: ConversationDto;
+  role: Role;
+  initialCase?: string | null;
+  suggestCase?: CaseCardDto | null;
+  onBack?: () => void;
+  onClose?: () => void;
+  onSent?: () => void;
+}) {
   const {relative} = useLocalizedFormats();
   const translate = useT();
   const [pages, setPages] = useState(1);
   const [text, setText] = useState("");
   // Messages typed but not yet confirmed by the server. They show at once, then become real messages (or fail).
-  const [pending, setPending] = useState<{ tempId: string; body: string; createdAt: string; state: "sending" | "failed"; error?: string }[]>([]);
+  const [pending, setPending] = useState<{ tempId: string; body: string; createdAt: string; state: "sending" | "failed"; error?: string; card: CaseCardDto | null }[]>([]);
+  // The case the next message will be about. A customer can't attach one yet, and only a chat with Tamaz can carry one.
+  const canAttach = role !== "CUSTOMER" && conversation.withClient;
+  // undefined = the person has not chosen yet, so a case that arrived with ?case=<id> shows; null = they removed it.
+  const [chosen, setChosen] = useState<CaseCardDto | null | undefined>(undefined);
+  const [picking, setPicking] = useState(false);
+  const preset = useApi<CaseDto>(canAttach && initialCase ? `/cases/${initialCase}` : null);
+  const presetCard: CaseCardDto | null = preset.data ? { id: preset.data.id, patientName: preset.data.patientFullName, statusLabel: preset.data.displayStatus } : null;
+  const attached = chosen === undefined ? presetCard : chosen;
+  const setAttached = setChosen;
   const bottom = useRef<HTMLDivElement>(null);
   const name = convoName(conversation, role);
 
@@ -279,13 +365,13 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
     }
   }
 
-  async function post(tempId: string, body: string) {
+  async function post(tempId: string, body: string, card: CaseCardDto | null) {
     setPending((cur) => cur.map((m) => (m.tempId === tempId ? { ...m, state: "sending", error: undefined } : m)));
     try {
-      await api(`/chat/conversations/${conversation.id}/messages`, { method: "POST", body: { body } });
+      await api(`/chat/conversations/${conversation.id}/messages`, { method: "POST", body: card ? { body, caseId: card.id } : { body } });
       await newest.reload();
       setPending((cur) => cur.filter((m) => m.tempId !== tempId));
-      onSent();
+      onSent?.();
     } catch (err) {
       const error = err instanceof ApiError ? err.message : "Your message wasn't sent.";
       setPending((cur) => cur.map((m) => (m.tempId === tempId ? { ...m, state: "failed", error } : m)));
@@ -297,19 +383,27 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
     const body = text.trim();
     if (!body) return;
     const tempId = `p${Date.now()}${Math.random().toString(36).slice(2, 7)}`;
+    const card = attached;
     setText("");
-    setPending((cur) => [...cur, { tempId, body, createdAt: new Date().toISOString(), state: "sending" }]);
-    void post(tempId, body);
+    setAttached(null);
+    setPending((cur) => [...cur, { tempId, body, createdAt: new Date().toISOString(), state: "sending", card }]);
+    void post(tempId, body, card);
   }
 
   return (
     <>
       <div className="flex min-h-[60px] items-center gap-2.5 border-b border-line bg-surface px-3 py-3 md:px-5">
-        <button onClick={onBack} aria-label={translate("Back to conversations")} className="flex h-11 w-11 items-center justify-center md:hidden">
-          <Icon name="back" />
-        </button>
+        {onBack && (
+          <button onClick={onBack} aria-label={translate("Back to conversations")} className="flex h-11 w-11 items-center justify-center md:hidden">
+            <Icon name="back" />
+          </button>
+        )}
         <span className="text-[17px] font-semibold">{conversation.withClient && role !== "ADMIN" ? translate("tamaz team") : name.name}</span>
         {name.role && <RolePill label={name.role} />}
+        {onClose && (
+          <button onClick={onClose} className="ms-auto h-11 px-2 text-sm text-muted">
+            {translate("Close")}</button>
+        )}
       </div>
 
       <div className="flex flex-1 flex-col gap-3.5 overflow-y-auto px-4 py-5 md:px-7">
@@ -327,6 +421,7 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
               {m.mine ? translate("You") : m.senderRole === "ADMIN" ? translate("tamaz team") : m.senderName} · {relative(m.createdAt)}
             </div>
             <div className={`whitespace-pre-wrap break-words rounded-xl border px-3.5 py-2.5 ${m.mine ? "border-accent bg-accent text-white" : "border-line bg-surface text-ink"}`} dir="auto">{m.body}</div>
+            {m.attachedCase && <CaseCard card={m.attachedCase} role={role} mine={m.mine} />}
             {m.mine && (
               <div className="mt-1 flex items-center justify-end gap-1 text-xs text-muted">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" aria-hidden="true">
@@ -340,6 +435,7 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
           <div key={m.tempId} className="max-w-[85%] self-end md:max-w-[540px]">
             <div className="mb-1 text-end text-xs text-muted">{translate("You · Just now")}</div>
             <div className={`whitespace-pre-wrap break-words rounded-xl border px-3.5 py-2.5 text-white ${m.state === "failed" ? "border-red bg-red" : "border-accent bg-accent opacity-70"}`}>{m.body}</div>
+            {m.card && <CaseCard card={m.card} role={role} mine />}
             <div className={`mt-1 flex flex-wrap items-center justify-end gap-2 text-xs ${m.state === "failed" ? "text-red" : "text-muted"}`} role={m.state === "failed" ? "alert" : undefined}>
               {m.state === "sending" ? (
                 <span className="flex items-center gap-1">
@@ -351,7 +447,7 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
               ) : (
                 <>
                   <span>{m.error ? `${translate(m.error)} ` : ""}{translate("Not sent.")}</span>
-                  <button onClick={() => void post(m.tempId, m.body)} className="min-h-8 font-medium underline">
+                  <button onClick={() => void post(m.tempId, m.body, m.card)} className="min-h-8 font-medium underline">
                     {translate("Retry")}</button>
                   <button onClick={() => setPending((cur) => cur.filter((x) => x.tempId !== m.tempId))} className="min-h-8 underline">
                     {translate("Remove")}</button>
@@ -364,12 +460,44 @@ function Thread({ conversation, role, onBack, onSent }: { conversation: Conversa
       </div>
 
       <form onSubmit={send} className="flex flex-col gap-2 border-t border-line bg-surface px-3 py-3 md:px-5">
+        {attached && (
+          <div className="flex items-center justify-between gap-3 rounded-lg border border-line bg-bg px-3 py-2 text-sm">
+            <span className="min-w-0 truncate">
+              <span className="text-muted">{translate("About this case")}: </span>
+              <span className="font-medium">{attached.patientName}</span>
+            </span>
+            <button type="button" onClick={() => setAttached(null)} aria-label={translate("Remove the attached case")} className="min-h-8 px-1 text-muted">
+              ×
+            </button>
+          </div>
+        )}
+        {canAttach && !attached && (
+          <div className="flex flex-wrap gap-2">
+            {suggestCase && (
+              <Button type="button" variant="ghost" onClick={() => setAttached(suggestCase)} className="px-3 text-sm">
+                {translate("Attach this case")}</Button>
+            )}
+            <Button type="button" variant="ghost" onClick={() => setPicking(true)} className="px-3 text-sm">
+              {translate("Attach a case")}</Button>
+          </div>
+        )}
         <div className="flex gap-2 md:gap-3">
           <Input placeholder={translate("Write a message")} value={text} onChange={(e) => setText(e.target.value)} maxLength={4000} aria-label={translate("Write a message")} className="flex-1" />
           <Button type="submit" variant="primary" disabled={!text.trim()} className="px-5 md:px-[22px]">
             {translate("Send")}</Button>
         </div>
       </form>
+      {picking && (
+        <AttachCaseDialog
+          role={role}
+          accountId={conversation.otherPartyId}
+          onPick={(c) => {
+            setAttached(c);
+            setPicking(false);
+          }}
+          onClose={() => setPicking(false)}
+        />
+      )}
     </>
   );
 }

@@ -11,7 +11,7 @@ import {fileSize} from "@/lib/format";
 import { useApi } from "@/lib/hooks";
 import { SHOW_PENDING } from "@/lib/pending";
 import { CASE_CHIP, JOB_CHIP, PAYMENT_LABEL, ROLE_LABEL } from "@/lib/status";
-import type { ConversationDto, DoctorProfileDto, DownloadUrlDto } from "@/lib/types";
+import type { ConversationDto, DoctorProfileDto, DownloadUrlDto, WorkflowDraftDto } from "@/lib/types";
 import { useCaseBundle } from "@/components/case/useCaseBundle";
 import { Button } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
@@ -30,6 +30,8 @@ function Card({ title, children, pending }: { title: string; children: React.Rea
   );
 }
 
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 function Side({ k, v }: { k: string; v: string }) {
   const translate = useT();
   return (
@@ -47,6 +49,7 @@ export default function AdminCasePage({ params }: { params: Promise<{ id: string
   const router = useRouter();
   const { c, files, comments, reviews, jobs, history } = useCaseBundle(id);
   const profile = useApi<DoctorProfileDto>(c.data?.ownerRole === "DOCTOR" ? `/admin/doctors/${c.data.ownerId}/profile` : null);
+  const steps = useApi<WorkflowDraftDto>(`/cases/${id}/workflow-draft`);
   const [msgError, setMsgError] = useState<string | null>(null);
   const [msgBusy, setMsgBusy] = useState(false);
   const [dlError, setDlError] = useState<string | null>(null);
@@ -67,7 +70,7 @@ export default function AdminCasePage({ params }: { params: Promise<{ id: string
     setMsgError(null);
     try {
       const conv = await api<ConversationDto>("/chat/conversations", { method: "POST", body: { participantId: cs.ownerId } });
-      router.push(`/admin/messages?c=${conv.id}`);
+      router.push(`/admin/messages?c=${conv.id}&case=${cs.id}`);
     } catch (e) {
       setMsgError(e instanceof ApiError ? e.message : "Something went wrong. Try again.");
       setMsgBusy(false);
@@ -143,11 +146,40 @@ export default function AdminCasePage({ params }: { params: Promise<{ id: string
               <Card title={translate("Treatment plan")} pending>
                 <div className="text-sm text-muted">{translate("Treatment plans aren&apos;t stored yet.")}</div>
               </Card>
-              <Card title={translate("Delivery")} pending>
-                <div className="text-sm text-muted">{translate("Delivery details aren&apos;t stored yet. Aligners are shipped to the company address set in Integration settings.")}</div>
-              </Card>
             </>
           )}
+
+          <Card title={translate("Delivery")}>
+            {steps.error ? (
+              <div className="text-sm text-red">{translate("We couldn&apos;t load the delivery details.")}</div>
+            ) : (
+              <>
+                <div className="text-xs text-muted">{translate("Forward the aligners to")}</div>
+                {steps.data?.forwardTo ? (
+                  <div className="text-sm leading-relaxed">
+                    {steps.data.forwardTo.recipient && <div className="font-medium">{steps.data.forwardTo.recipient}</div>}
+                    <div>{steps.data.forwardTo.addressLine}</div>
+                    <div>{[steps.data.forwardTo.city, steps.data.forwardTo.postcode, steps.data.forwardTo.state].filter(Boolean).join(", ")}</div>
+                    {steps.data.forwardTo.country && <div>{steps.data.forwardTo.country}</div>}
+                    {steps.data.forwardTo.phone && <div className="text-muted">{steps.data.forwardTo.phone}</div>}
+                  </div>
+                ) : (
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Chip label={translate("Not provided")} tone="amber" />
+                    <span className="text-sm text-muted">{translate("The sender has not said where to send the aligners on to.")}</span>
+                  </div>
+                )}
+                {steps.data?.delivery && (steps.data.delivery.bondingMonth || steps.data.delivery.notes) && (
+                  <>
+                    <div className="mt-1.5 text-xs text-muted">{translate("Bonding date")}</div>
+                    <div className="text-sm">{steps.data.delivery.bondingMonth ? `${steps.data.delivery.bondingDay ?? ""} ${translate(MONTHS[steps.data.delivery.bondingMonth - 1])}`.trim() : "—"}</div>
+                    {steps.data.delivery.notes && <div className="whitespace-pre-wrap text-sm text-muted">{steps.data.delivery.notes}</div>}
+                  </>
+                )}
+                <div className="text-xs text-muted">{translate("Not shared with the manufacturer.")}</div>
+              </>
+            )}
+          </Card>
 
           <Card title={translate("Notes")}>
             {comments.data?.length === 0 && <div className="text-muted">{translate("No notes.")}</div>}

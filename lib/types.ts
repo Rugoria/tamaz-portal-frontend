@@ -198,6 +198,13 @@ export interface ConversationDto {
   unreadCount: number;
 }
 
+/** The case a message is about: its patient and the simplified status label. */
+export interface CaseCardDto {
+  id: string;
+  patientName: string;
+  statusLabel: string;
+}
+
 export interface MessageDto {
   id: string;
   senderId: string;
@@ -206,6 +213,7 @@ export interface MessageDto {
   mine: boolean;
   body: string;
   createdAt: string;
+  attachedCase: CaseCardDto | null;
 }
 
 export interface NotificationDto {
@@ -422,9 +430,24 @@ export interface WorkflowPaymentDto {
   payer: "SKIP" | "PATIENT" | "CLINIC" | null;
   means: "CASH" | "TRANSFER" | "CARD" | "SKIP" | null;
 }
-/** What a doctor fills in on steps 2 to 4 (pending the client's decision). Any part can be null until it is first saved. */
+/**
+ * Where Tamaz sends the aligners on to once they arrive at Tamaz. A copy of the profile address, an office, or an address typed in
+ * (`source` is PROFILE, OFFICE:<office id> or OTHER). It stays with Tamaz and is never sent to the manufacturer.
+ */
+export interface WorkflowForwardDto {
+  source: string;
+  recipient: string | null;
+  addressLine: string;
+  city: string | null;
+  postcode: string | null;
+  state: string | null;
+  country: string | null;
+  phone: string | null;
+}
+/** What a doctor fills in on steps 2 to 4. Any part can be null until it is first saved. */
 export interface WorkflowDraftDto {
   plan: WorkflowPlanDto | null;
   delivery: WorkflowDeliveryDto | null;
   payment: WorkflowPaymentDto | null;
+  forwardTo: WorkflowForwardDto | null;
 }
