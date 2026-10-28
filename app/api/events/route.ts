@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { BACKEND_URL, TOKEN_COOKIE } from "@/lib/session";
+import { BACKEND_URL, PROXY_HEADERS, TOKEN_COOKIE } from "@/lib/session";
 
 // The live-update stream. It never finishes, so it cannot go through the catch-all /api proxy (that one reads the whole
 // response before sending it): this route hands the backend's body straight to the browser, chunk by chunk, with no buffering.
@@ -13,7 +13,7 @@ export async function GET(req: NextRequest) {
   let upstream: Response;
   try {
     upstream = await fetch(`${BACKEND_URL}/api/events`, {
-      headers: { Authorization: `Bearer ${token}`, Accept: "text/event-stream" },
+      headers: { ...PROXY_HEADERS, Authorization: `Bearer ${token}`, Accept: "text/event-stream" },
       cache: "no-store",
       // When the browser leaves, stop the backend stream too.
       signal: req.signal,

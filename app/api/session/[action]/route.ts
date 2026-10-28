@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { clientIp } from "@/lib/clientIp";
-import { BACKEND_URL, TOKEN_COOKIE, USER_COOKIE } from "@/lib/session";
+import { BACKEND_URL, PROXY_HEADERS, TOKEN_COOKIE, USER_COOKIE } from "@/lib/session";
 import type { LoginResponse } from "@/lib/types";
 
 const BACKEND_PATH: Record<string, string> = {
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ act
   try {
     upstream = await fetch(`${BACKEND_URL}${path}`, {
       method: "POST",
-      headers: { "Content-Type": "application/json", ...(ip ? { "X-Client-IP": ip } : {}), ...(signedIn ? { Authorization: `Bearer ${signedIn}` } : {}) },
+      headers: { ...PROXY_HEADERS, "Content-Type": "application/json", ...(ip ? { "X-Client-IP": ip } : {}), ...(signedIn ? { Authorization: `Bearer ${signedIn}` } : {}) },
       body: await req.text(),
       cache: "no-store",
     });

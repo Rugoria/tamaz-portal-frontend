@@ -42,6 +42,7 @@ npm run dev                     # http://localhost:3000
 | Variable | Purpose |
 |---|---|
 | `BACKEND_URL` | Where the Spring Boot backend runs. Server-side only, never sent to the browser. Set it when you build and when you start |
+| `BACKEND_PROXY_SECRET` | Production only. Sent as `X-Tamaz-Proxy-Secret` on every backend call; nginx in front of the backend refuses calls without it. Server-side only. Leave unset locally |
 | `NEXT_PUBLIC_SHOW_PENDING` | `true` (default) shows the preview-only screens, `false` hides them all (see "Preview-only screens") |
 | `NEXT_DIST_DIR` | Optional. Lets a second dev server run beside the first, for example `NEXT_DIST_DIR=.next-test npx next dev -p 3002` |
 

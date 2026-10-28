@@ -9,6 +9,11 @@ export const USER_COOKIE = "tz_user";
 
 export const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:8080";
 
+// In production nginx in front of the backend refuses any call without this shared secret (Vercel has no fixed addresses
+// to allow-list). Left unset locally, where the backend is called directly.
+const PROXY_SECRET = process.env.BACKEND_PROXY_SECRET;
+export const PROXY_HEADERS: Record<string, string> = PROXY_SECRET ? { "X-Tamaz-Proxy-Secret": PROXY_SECRET } : {};
+
 export async function getSession(): Promise<SessionUser | null> {
   const jar = await cookies();
   const raw = jar.get(USER_COOKIE)?.value;

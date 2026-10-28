@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { clientIp } from "@/lib/clientIp";
-import { BACKEND_URL, TOKEN_COOKIE } from "@/lib/session";
+import { BACKEND_URL, PROXY_HEADERS, TOKEN_COOKIE } from "@/lib/session";
 
 // Forwards /api/* to the Spring Boot backend and adds the login token from the httpOnly cookie.
 async function forward(req: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
   const { path } = await params;
   const url = `${BACKEND_URL}/api/${path.map(encodeURIComponent).join("/")}${req.nextUrl.search}`;
 
-  const headers: Record<string, string> = {};
+  const headers: Record<string, string> = { ...PROXY_HEADERS };
   const contentType = req.headers.get("content-type");
   if (contentType) headers["Content-Type"] = contentType;
   const accept = req.headers.get("accept");
