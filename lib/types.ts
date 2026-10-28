@@ -231,6 +231,39 @@ export interface NotificationDto {
   createdAt: string;
 }
 
+/** What sign-up answers while the email is still to be confirmed: no sign-in yet, a code was emailed. */
+export interface VerificationRequired {
+  verificationRequired: true;
+  email: string;
+}
+
+export type ApprovalStatus = "PENDING" | "APPROVED" | "REJECTED";
+
+/** Whether this account may work yet (a doctor or clinic waits for the admin). */
+export interface MeStatusDto {
+  approvalStatus: ApprovalStatus;
+  reason: string | null;
+}
+
+/** A doctor or clinic that signed up, as the admin reviews it. */
+export interface ApplicantDto {
+  id: string;
+  email: string;
+  fullName: string;
+  role: Role;
+  status: ApprovalStatus;
+  appliedAt: string;
+  decidedAt: string | null;
+  reason: string | null;
+  clinicName: string | null;
+  contactNumber: string | null;
+  addressLine: string | null;
+  city: string | null;
+  postcode: string | null;
+  state: string | null;
+  country: string | null;
+}
+
 export interface UserDto {
   id: string;
   email: string;

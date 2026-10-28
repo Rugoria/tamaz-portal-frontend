@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import { requireRole } from "@/lib/session";
 import { SidebarShell, type NavGroup } from "@/components/shell/Sidebar";
+import { ApprovalGate } from "@/components/auth/ApprovalGate";
 import { RealtimeProvider } from "@/components/realtime/RealtimeProvider";
 import { ToastProvider } from "@/components/ui/Toast";
 
@@ -27,7 +28,7 @@ export default async function StaffLayout({ children, params }: { children: Reac
     <ToastProvider>
       <RealtimeProvider />
       <SidebarShell groups={[{ items }]} user={user}>
-        {children}
+        <ApprovalGate>{children}</ApprovalGate>
       </SidebarShell>
     </ToastProvider>
   );

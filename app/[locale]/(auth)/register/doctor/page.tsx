@@ -7,9 +7,10 @@ import { useRouter } from "@/i18n/navigation";
 import { useState, type FormEvent } from "react";
 import { ApiError, friendlyError, sessionCall } from "@/lib/api";
 import { homeFor } from "@/lib/routes";
-import type { SessionUser } from "@/lib/types";
+import type { SessionUser, VerificationRequired } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
 import { Field, Input } from "@/components/ui/Field";
+import { VerifyEmail } from "@/components/auth/VerifyEmail";
 
 type Values = {
   email: string;
@@ -47,6 +48,8 @@ export default function DoctorRegistrationPage() {
   const [v, setV] = useState<Values>(EMPTY);
   const [errors, setErrors] = useState<Partial<Record<keyof Values | "form", string>>>({});
   const [busy, setBusy] = useState(false);
+  // Set once the account is made and the code is emailed.
+  const [confirming, setConfirming] = useState<string | null>(null);
 
   const set = (k: keyof Values) => (e: { target: { value: string } }) => setV((cur) => ({ ...cur, [k]: e.target.value }));
 
@@ -63,8 +66,13 @@ export default function DoctorRegistrationPage() {
     setBusy(true);
     try {
       const trimmed = Object.fromEntries(Object.entries(v).map(([k, val]) => [k, k === "password" ? val : val.trim()]));
-      const user = await sessionCall<SessionUser>("register-doctor", trimmed);
-      router.push(homeFor(user.role));
+      const result = await sessionCall<SessionUser | VerificationRequired>("register-doctor", trimmed);
+      if ("verificationRequired" in result) {
+        setConfirming(result.email);
+        setBusy(false);
+        return;
+      }
+      router.push(homeFor(result.role));
       router.refresh();
     } catch (err) {
       if (err instanceof ApiError && err.status === 409) setErrors({ email: "That email's already in use." });
@@ -85,6 +93,8 @@ export default function DoctorRegistrationPage() {
       />
     </Field>
   );
+
+  if (confirming) return <VerifyEmail email={confirming} onUseOther={() => { setConfirming(null); setV((cur) => ({ ...cur, password: "" })); }} />;
 
   return (
     <form onSubmit={submit} noValidate className="mt-7 flex w-full max-w-[720px] flex-col gap-4">

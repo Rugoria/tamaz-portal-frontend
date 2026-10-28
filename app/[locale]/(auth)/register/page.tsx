@@ -7,9 +7,10 @@ import { useRouter } from "@/i18n/navigation";
 import { useState, type FormEvent } from "react";
 import { ApiError, friendlyError, sessionCall } from "@/lib/api";
 import { homeFor } from "@/lib/routes";
-import type { SessionUser } from "@/lib/types";
+import type { SessionUser, VerificationRequired } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
 import { Field, Input } from "@/components/ui/Field";
+import { VerifyEmail } from "@/components/auth/VerifyEmail";
 
 export default function PatientSignUpPage() {
   const translate = useT();
@@ -19,6 +20,8 @@ export default function PatientSignUpPage() {
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState<{ fullName?: string; email?: string; password?: string; form?: string }>({});
   const [busy, setBusy] = useState(false);
+  // Set once the account is made and the code is emailed.
+  const [confirming, setConfirming] = useState<string | null>(null);
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -31,8 +34,13 @@ export default function PatientSignUpPage() {
 
     setBusy(true);
     try {
-      const user = await sessionCall<SessionUser>("register", { fullName: fullName.trim(), email: email.trim(), password });
-      router.push(homeFor(user.role));
+      const result = await sessionCall<SessionUser | VerificationRequired>("register", { fullName: fullName.trim(), email: email.trim(), password });
+      if ("verificationRequired" in result) {
+        setConfirming(result.email);
+        setBusy(false);
+        return;
+      }
+      router.push(homeFor(result.role));
       router.refresh();
     } catch (err) {
       if (err instanceof ApiError && err.status === 409) setErrors({ email: "That email's already in use." });
@@ -40,6 +48,8 @@ export default function PatientSignUpPage() {
       setBusy(false);
     }
   }
+
+  if (confirming) return <VerifyEmail email={confirming} onUseOther={() => { setConfirming(null); setPassword(""); }} />;
 
   return (
     <form onSubmit={submit} noValidate className="mt-8 flex w-full max-w-[420px] flex-col gap-4 rounded-xl border border-line bg-surface p-6 sm:p-8">

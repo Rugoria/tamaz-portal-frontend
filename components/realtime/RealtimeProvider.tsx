@@ -12,7 +12,8 @@ function matches(type: RealtimeMessage["type"], key: string): boolean {
   if (STATIC_PREFIXES.some((p) => key.startsWith(p))) return false;
   switch (type) {
     case "notification":
-      return key.startsWith("/notifications");
+      // An approval decision or a new application arrives as a notification: the waiting screen and the admin's badge and list follow it.
+      return key.startsWith("/notifications") || key === "/me/status" || key.startsWith("/admin/approvals");
     case "chat":
       return key.startsWith("/chat");
     case "appointment":

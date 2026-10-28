@@ -8,6 +8,9 @@ const BACKEND_PATH: Record<string, string> = {
   register: "/api/auth/register",
   "change-password": "/api/me/password",
   "register-doctor": "/api/auth/register/doctor",
+  "register-clinic": "/api/auth/register/clinic",
+  "verify-email": "/api/auth/verify-email",
+  "resend-code": "/api/auth/resend-code",
 };
 
 // The JWT lasts 60 minutes on the backend; the cookie matches.
@@ -46,15 +49,31 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ act
     // Pass the backend's message through. A failed login is a 401 or 403 there; show it as a plain 401.
     let message = "Something went wrong. Try again.";
     let retryAfterSeconds: number | undefined;
+    let code: string | undefined;
+    let email: string | undefined;
+    let reason: string | undefined;
     try {
       const data = await upstream.json();
       if (data && typeof data.message === "string") message = data.message;
       if (data && typeof data.retryAfterSeconds === "number") retryAfterSeconds = data.retryAfterSeconds;
+      if (data && (data.code === "EMAIL_NOT_VERIFIED" || data.code === "ACCOUNT_REJECTED")) {
+        code = data.code;
+        if (typeof data.email === "string") email = data.email;
+        if (typeof data.reason === "string") reason = data.reason;
+      }
     } catch {
       /* keep the generic message */
     }
+    // The password was right, but the address was never confirmed (the page moves on to the code screen) or the application was rejected (the page says so).
+    if (code) return NextResponse.json({ message, code, ...(email ? { email } : {}), ...(reason ? { reason } : {}) }, { status: 403 });
     if (action === "login" && (upstream.status === 401 || upstream.status === 403)) message = "Invalid email or password.";
     return NextResponse.json({ message, ...(retryAfterSeconds ? { retryAfterSeconds } : {}) }, { status: upstream.status });
+  }
+
+  // Sign-up with the email still to be confirmed (202): no token, no cookie. A new code was asked for (202, empty): nothing to read.
+  if (upstream.status === 202) {
+    const text = await upstream.text();
+    return NextResponse.json(text ? JSON.parse(text) : { ok: true }, { status: 202 });
   }
 
   const data = (await upstream.json()) as LoginResponse;

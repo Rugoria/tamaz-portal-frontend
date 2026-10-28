@@ -1067,3 +1067,40 @@ Search by patient name|ابحث باسم المريض|Rechercher par nom du pati
 We couldn't open the chat. Try again.|تعذر فتح المحادثة. حاول مرة أخرى.|Impossible d'ouvrir la discussion. Réessayez.|No se pudo abrir el chat. Inténtalo de nuevo.
 Message Tamaz|راسل Tamaz|Écrire à Tamaz|Escribir a Tamaz
 Attach this case|إرفاق هذه الحالة|Joindre ce dossier|Adjuntar este caso
+6-digit code|رمز من 6 أرقام|Code à 6 chiffres|Código de 6 dígitos
+Confirm your email|أكّد بريدك الإلكتروني|Confirmez votre e-mail|Confirma tu correo electrónico
+Didn't get it? Check your spam folder, or ask for a new code.|لم يصلك؟ تحقق من مجلد الرسائل غير المرغوب فيها، أو اطلب رمزًا جديدًا.|Rien reçu ? Vérifiez vos courriers indésirables ou demandez un nouveau code.|¿No te llegó? Revisa la carpeta de spam o pide un código nuevo.
+Send a new code|إرسال رمز جديد|Envoyer un nouveau code|Enviar un código nuevo
+Use a different email|استخدام بريد إلكتروني آخر|Utiliser un autre e-mail|Usar otro correo electrónico
+We sent a 6-digit code to {email}. Enter it below to finish.|أرسلنا رمزًا من 6 أرقام إلى {email}. أدخله أدناه لإكمال التسجيل.|Nous avons envoyé un code à 6 chiffres à {email}. Saisissez-le ci-dessous pour terminer.|Enviamos un código de 6 dígitos a {email}. Introdúcelo abajo para terminar.
+You can ask for a new code in {seconds} seconds.|يمكنك طلب رمز جديد بعد {seconds} ثانية.|Vous pourrez demander un nouveau code dans {seconds} secondes.|Podrás pedir un código nuevo en {seconds} segundos.
+Enter the 6-digit code.|أدخل الرمز المكوّن من 6 أرقام.|Saisissez le code à 6 chiffres.|Introduce el código de 6 dígitos.
+We sent you a new code.|أرسلنا إليك رمزًا جديدًا.|Nous vous avons envoyé un nouveau code.|Te enviamos un código nuevo.
+That code is not right or has expired. Ask for a new one.|الرمز غير صحيح أو انتهت صلاحيته. اطلب رمزًا جديدًا.|Ce code n'est pas correct ou a expiré. Demandez-en un nouveau.|Ese código no es correcto o ha caducado. Pide uno nuevo.
+Approvals|الموافقات|Approbations|Aprobaciones
+Doctors and clinics are approved by the tamaz team before they can start.|يعتمد فريق tamaz الأطباء والعيادات قبل أن يتمكنوا من البدء.|L'équipe tamaz approuve les médecins et les cliniques avant qu'ils puissent commencer.|El equipo de tamaz aprueba a los médicos y las clínicas antes de que puedan empezar.
+Doctors and clinics that signed up and confirmed their email wait here until you decide.|يبقى الأطباء والعيادات الذين سجّلوا وأكّدوا بريدهم الإلكتروني هنا حتى تقرر.|Les médecins et cliniques inscrits qui ont confirmé leur e-mail attendent ici votre décision.|Los médicos y las clínicas que se registraron y confirmaron su correo esperan aquí hasta que usted decida.
+I'm a clinic, register|أنا عيادة، سجّلوني|Je suis une clinique, m'inscrire|Soy una clínica, registrarme
+Reason|السبب|Motif|Motivo
+Reason (optional)|السبب (اختياري)|Motif (facultatif)|Motivo (opcional)
+Register your clinic|سجّل عيادتك|Inscrivez votre clinique|Registra tu clínica
+Reject|رفض|Rejeter|Rechazar
+Reject this application?|هل ترفض هذا الطلب؟|Rejeter cette demande ?|¿Rechazar esta solicitud?
+Rejected|مرفوض|Rejeté|Rechazado
+Signed up|سجّل|Inscrit|Registrado
+The tamaz team approves every new clinic before it can start. We will email you when it is done.|يعتمد فريق tamaz كل عيادة جديدة قبل أن تبدأ. سنراسلك عبر البريد الإلكتروني عند الانتهاء.|L'équipe tamaz approuve chaque nouvelle clinique avant qu'elle puisse commencer. Nous vous écrirons dès que ce sera fait.|El equipo de tamaz aprueba cada clínica nueva antes de que pueda empezar. Te escribiremos por correo cuando esté listo.
+The tamaz team is checking your details. We will email you as soon as your account is approved. You do not need to do anything.|يتحقق فريق tamaz من بياناتك. سنراسلك عبر البريد الإلكتروني فور اعتماد حسابك. لا تحتاج إلى فعل أي شيء.|L'équipe tamaz vérifie vos informations. Nous vous écrirons dès que votre compte sera approuvé. Vous n'avez rien à faire.|El equipo de tamaz está revisando tus datos. Te escribiremos por correo en cuanto se apruebe tu cuenta. No tienes que hacer nada.
+Waiting|قيد الانتظار|En attente|En espera
+Waiting for approval|بانتظار الموافقة|En attente d'approbation|Pendiente de aprobación
+We couldn't load the applications.|تعذر تحميل الطلبات.|Impossible de charger les demandes.|No se pudieron cargar las solicitudes.
+You are welcome to apply again with corrected details.|يمكنك التقديم مرة أخرى ببيانات مصحّحة.|Vous pouvez refaire une demande avec des informations corrigées.|Puedes volver a solicitarlo con los datos corregidos.
+Your account is waiting for approval|حسابك بانتظار الموافقة|Votre compte est en attente d'approbation|Tu cuenta está pendiente de aprobación
+Your account is waiting for approval.|حسابك بانتظار الموافقة.|Votre compte est en attente d'approbation.|Tu cuenta está pendiente de aprobación.
+Your application was not approved.|لم تتم الموافقة على طلبك.|Votre demande n'a pas été approuvée.|Tu solicitud no fue aprobada.
+{name} will be told by email. You can add a reason; it is included in the email.|سيتم إبلاغ {name} عبر البريد الإلكتروني. يمكنك إضافة سبب وسيُدرج في الرسالة.|{name} sera prévenu par e-mail. Vous pouvez ajouter un motif; il figurera dans l'e-mail.|{name} recibirá un aviso por correo. Puedes añadir un motivo; se incluye en el correo.
+Account approved.|تم اعتماد الحساب.|Compte approuvé.|Cuenta aprobada.
+Application rejected.|تم رفض الطلب.|Demande rejetée.|Solicitud rechazada.
+No one is waiting for approval.|لا أحد بانتظار الموافقة.|Personne n'attend d'approbation.|Nadie está pendiente de aprobación.
+No rejected applications.|لا توجد طلبات مرفوضة.|Aucune demande rejetée.|No hay solicitudes rechazadas.
+This application has already been decided.|تم اتخاذ قرار بشأن هذا الطلب بالفعل.|Une décision a déjà été prise pour cette demande.|Ya se ha decidido sobre esta solicitud.
+The reason can be at most 500 characters.|يمكن أن يصل السبب إلى 500 حرف كحد أقصى.|Le motif peut contenir au plus 500 caractères.|El motivo puede tener como máximo 500 caracteres.

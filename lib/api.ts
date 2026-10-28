@@ -6,11 +6,25 @@ export class ApiError extends Error {
   status: number;
   /** Set on a 429: how long until the limit lifts. */
   retryAfterSeconds?: number;
-  constructor(status: number, message: string, retryAfterSeconds?: number) {
+  /** Set when the backend names the problem, for example EMAIL_NOT_VERIFIED. */
+  code?: string;
+  /** The admin's reason, on ACCOUNT_REJECTED. */
+  reason?: string;
+  constructor(status: number, message: string, retryAfterSeconds?: number, code?: string, reason?: string) {
     super(message);
     this.status = status;
     this.retryAfterSeconds = retryAfterSeconds;
+    this.code = code;
+    this.reason = reason;
   }
+}
+
+function reasonOf(data: unknown): string | undefined {
+  return data && typeof data === "object" && "reason" in data && typeof (data as { reason: unknown }).reason === "string" ? (data as { reason: string }).reason : undefined;
+}
+
+function codeOf(data: unknown): string | undefined {
+  return data && typeof data === "object" && "code" in data && typeof (data as { code: unknown }).code === "string" ? (data as { code: string }).code : undefined;
 }
 
 function retryAfterOf(data: unknown): number | undefined {
@@ -63,7 +77,7 @@ export async function api<T>(path: string, init: { method?: string; body?: unkno
 }
 
 /** Cookie-setting calls (sign in, sign up) go through /api/session/*, not the plain proxy. */
-export async function sessionCall<T>(action: "login" | "register" | "register-doctor" | "change-password", body: unknown): Promise<T> {
+export async function sessionCall<T>(action: "login" | "register" | "register-doctor" | "register-clinic" | "change-password" | "verify-email" | "resend-code", body: unknown): Promise<T> {
   const res = await fetch(`/api/session/${action}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -75,7 +89,7 @@ export async function sessionCall<T>(action: "login" | "register" | "register-do
       data && typeof data === "object" && "message" in data && typeof (data as { message: unknown }).message === "string"
         ? (data as { message: string }).message
         : "Something went wrong. Try again.";
-    throw new ApiError(res.status, message, retryAfterOf(data));
+    throw new ApiError(res.status, message, retryAfterOf(data), codeOf(data), reasonOf(data));
   }
   return data as T;
 }

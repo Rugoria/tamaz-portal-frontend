@@ -7,6 +7,7 @@ import { usePathname } from "@/i18n/navigation";
 import { useEffect, useState, type ReactNode } from "react";
 import { signOut } from "@/lib/api";
 import { useUnread } from "@/lib/unread";
+import { useApi } from "@/lib/hooks";
 import { accountFor } from "@/lib/routes";
 import type { SessionUser } from "@/lib/types";
 import { Icon, type ICONS } from "./Icon";
@@ -21,11 +22,25 @@ export interface NavItem {
   dot?: "notifications" | "messages";
   /** Exact match only (for the Home / Overview links). */
   exact?: boolean;
+  /** Shows how many applications wait for the admin's decision. */
+  count?: "approvals";
 }
 
 export interface NavGroup {
   heading?: string;
   items: NavItem[];
+}
+
+/** The number of doctors and clinics waiting for the admin; nothing is shown when no one is. */
+function ApprovalsCount() {
+  const translate = useT();
+  const { data } = useApi<{ pending: number }>("/admin/approvals/count", { refreshInterval: 60000 });
+  if (!data || data.pending === 0) return null;
+  return (
+    <span className="flex h-[22px] min-w-[22px] items-center justify-center rounded-full bg-accent px-1.5 text-xs font-semibold text-white" aria-label={translate("Waiting for approval")}>
+      {data.pending}
+    </span>
+  );
 }
 
 function NavList({ groups, onNavigate }: { groups: NavGroup[]; onNavigate?: () => void }) {
@@ -51,6 +66,7 @@ function NavList({ groups, onNavigate }: { groups: NavGroup[]; onNavigate?: () =
                 {i.icon && <Icon name={i.icon} />}
                 <span className="flex-1">{translate(i.label)}</span>
                 {hasDot && <span className="h-2 w-2 rounded-full bg-accent" aria-label={translate("Unread")} />}
+                {i.count === "approvals" && <ApprovalsCount />}
               </Link>
             );
           })}
