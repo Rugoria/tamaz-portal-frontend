@@ -58,9 +58,10 @@ export interface PatientSummary {
   patientKey: string;
   name: string;
   caseCount: number;
-  latestCaseId: string;
-  latestStatus: CaseStatus;
-  latestDisplayStatus: string;
+  /** Null when the patient has no cases (the last one was deleted). */
+  latestCaseId: string | null;
+  latestStatus: CaseStatus | null;
+  latestDisplayStatus: string | null;
   needsAction: boolean;
   linked: boolean;
   linkedCustomerId: string | null;
@@ -428,8 +429,9 @@ export interface AdminPatientRow {
   ownerName: string;
   ownerRole: Role;
   caseCount: number;
-  latestCaseId: string;
-  latestStatus: CaseStatus;
+  /** Null when the patient has no cases (the last one was deleted). */
+  latestCaseId: string | null;
+  latestStatus: CaseStatus | null;
   needsAction: boolean;
   linked: boolean;
   lastUpdatedAt: string;

@@ -72,7 +72,11 @@ export function useGridSpec(grid: string, base = "/clinic"): GridSpec {
     </div>
   );
   const payChip = (p: CaseDto["paymentStatus"]) => (p === "NOT_DUE" ? <span className="text-muted">{t("None")}</span> : <Chip label={p === "PAID" ? "Paid" : "Payment due"} tone={p === "PAID" ? "aqua" : "amber"} />);
-  const caseLabel = (v: unknown) => t(CHIPS[CASE_CHIP[v as CaseStatus]]?.[0] ?? String(v));
+  const caseLabel = (v: unknown) => t(v == null ? "No cases" : CHIPS[CASE_CHIP[v as CaseStatus]]?.[0] ?? String(v));
+  // A patient whose cases were all deleted has no latest case: no status, and the row opens the owner (admin) or the patient (clinic, doctor).
+  const latestChip = (s: CaseStatus | null) => (s ? <Chip status={CASE_CHIP[s]} /> : <Chip label="No cases" />);
+  const adminPatientHref = (r: AdminPatientRow) => (r.latestCaseId ? `/admin/cases/${r.latestCaseId}` : `/admin/accounts/${r.ownerId}`);
+  const proPatientHref = (r: PatientSummary) => (r.latestCaseId ? `${base}/cases/${r.latestCaseId}` : `${base}/patients?p=${encodeURIComponent(r.patientKey)}`);
   const payLabel = (v: unknown) => t(PAYMENT.find((o) => o.value === v)?.label ?? String(v));
   const linkChip = (linked: boolean) => <Chip label={linked ? "Linked" : "Not linked"} tone={linked ? "aqua" : "neutral"} />;
   const accountLabel = (v: unknown) => t(v === "active" ? "Active" : "Disabled");
@@ -118,15 +122,15 @@ export function useGridSpec(grid: string, base = "/clinic"): GridSpec {
     }
     case "ADMIN_PATIENTS": {
       const defs: ColumnDef<AdminPatientRow>[] = [
-        { key: "patient", label: "Patient", type: "TEXT", width: 1.2, value: (r) => r.name, render: (r) => <Link href={`/admin/cases/${r.latestCaseId}`} className="font-semibold text-ink no-underline">{r.name}</Link> },
+        { key: "patient", label: "Patient", type: "TEXT", width: 1.2, value: (r) => r.name, render: (r) => <Link href={adminPatientHref(r)} className="font-semibold text-ink no-underline">{r.name}</Link> },
         { key: "owner", label: "Owner", type: "TEXT", groupable: true, width: 1.4, value: (r) => r.ownerName, render: (r) => sentBy(r.ownerName, r.ownerRole) },
         { key: "cases", label: "Cases", type: "NUMBER", width: 0.7, value: (r) => r.caseCount, render: (r) => r.caseCount },
-        { key: "latestStatus", label: "Latest status", type: "STATUS", groupable: true, options: caseOptions(), groupLabel: caseLabel, width: 1.2, value: (r) => r.latestStatus, render: (r) => <Chip status={CASE_CHIP[r.latestStatus]} /> },
+        { key: "latestStatus", label: "Latest status", type: "STATUS", groupable: true, options: caseOptions(), groupLabel: caseLabel, width: 1.2, value: (r) => r.latestStatus, render: (r) => latestChip(r.latestStatus) },
         { key: "needsAction", label: "Needs action", type: "BOOLEAN", groupable: true, groupLabel: groupYesNo, width: 0.9, value: (r) => r.needsAction, render: (r) => (r.needsAction ? <Chip label="Needs action" tone="red" /> : <span className="text-muted">{yesNo(false)}</span>) },
         { key: "updated", label: "Last updated", type: "DATE", value: (r) => r.lastUpdatedAt, render: (r) => date(r.lastUpdatedAt) },
         { key: "patientAccount", label: "Patient account", type: "BOOLEAN", groupable: true, groupLabel: (v) => (v ? t("Linked") : t("Not linked")), value: (r) => r.linked, render: (r) => linkChip(r.linked) },
       ];
-      return { path: "/admin/patients", defs, rowKey: (r: AdminPatientRow) => `${r.ownerId}:${r.patientKey}`, rowHref: (r: AdminPatientRow) => `/admin/cases/${r.latestCaseId}`, builtIn: builtInConfig(defs, [{ key: "updated", dir: "desc" }]) };
+      return { path: "/admin/patients", defs, rowKey: (r: AdminPatientRow) => `${r.ownerId}:${r.patientKey}`, rowHref: adminPatientHref, builtIn: builtInConfig(defs, [{ key: "updated", dir: "desc" }]) };
     }
     case "ADMIN_PATIENT_ACCOUNTS":
       return userSpec("/admin/customers");
@@ -136,14 +140,14 @@ export function useGridSpec(grid: string, base = "/clinic"): GridSpec {
       return userSpec("/admin/doctors");
     case "PRO_PATIENTS": {
       const defs: ColumnDef<PatientSummary>[] = [
-        { key: "patient", label: "Patient", type: "TEXT", width: 1.4, value: (r) => r.name, render: (r) => <Link href={`${base}/cases/${r.latestCaseId}`} className="font-semibold text-ink no-underline">{r.name}</Link> },
+        { key: "patient", label: "Patient", type: "TEXT", width: 1.4, value: (r) => r.name, render: (r) => <Link href={proPatientHref(r)} className="font-semibold text-ink no-underline">{r.name}</Link> },
         { key: "cases", label: "Cases", type: "NUMBER", width: 0.7, value: (r) => r.caseCount, render: (r) => r.caseCount },
-        { key: "latestStatus", label: "Latest status", type: "STATUS", groupable: true, options: caseOptions(), groupLabel: caseLabel, width: 1.2, value: (r) => r.latestStatus, render: (r) => <Chip status={CASE_CHIP[r.latestStatus]} /> },
+        { key: "latestStatus", label: "Latest status", type: "STATUS", groupable: true, options: caseOptions(), groupLabel: caseLabel, width: 1.2, value: (r) => r.latestStatus, render: (r) => latestChip(r.latestStatus) },
         { key: "needsAction", label: "Needs action", type: "BOOLEAN", groupable: true, groupLabel: groupYesNo, width: 0.9, value: (r) => r.needsAction, render: (r) => (r.needsAction ? <span className="inline-flex items-center gap-1.5 font-medium text-red"><span className="h-2 w-2 rounded-full bg-red" />{t("Needs action")}</span> : <span className="text-muted">{yesNo(false)}</span>) },
         { key: "updated", label: "Last updated", type: "DATE", value: (r) => r.lastUpdatedAt, render: (r) => date(r.lastUpdatedAt) },
         { key: "patientAccount", label: "Patient account", type: "BOOLEAN", groupable: true, groupLabel: (v) => (v ? t("Linked") : t("Not linked")), value: (r) => r.linked, render: (r) => linkChip(r.linked) },
       ];
-      return { path: "/patients", defs, rowKey: (r: PatientSummary) => r.patientKey, rowHref: (r: PatientSummary) => `${base}/cases/${r.latestCaseId}`, builtIn: builtInConfig(defs, [{ key: "updated", dir: "desc" }]) };
+      return { path: "/patients", defs, rowKey: (r: PatientSummary) => r.patientKey, rowHref: proPatientHref, builtIn: builtInConfig(defs, [{ key: "updated", dir: "desc" }]) };
     }
     case "PRO_CASES": {
       const defs: ColumnDef<CaseDto>[] = [

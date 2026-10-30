@@ -152,7 +152,7 @@ export default function PatientsPage({ params }: { params: Promise<{ role: strin
                     >
                       <span className="h-2 w-2 flex-none rounded-full" style={{ background: p.needsAction ? "var(--red)" : "transparent" }} aria-label={p.needsAction ? translate("Needs action") : undefined} />
                       <span className="min-w-0 flex-1 truncate font-medium">{surnameFirst(p.name)}</span>
-                      <Chip status={CASE_CHIP[p.latestStatus]} />
+                      {p.latestStatus ? <Chip status={CASE_CHIP[p.latestStatus]} /> : <Chip label="No cases" />}
                     </button>
                   </div>
                 );
